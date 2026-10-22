@@ -1,0 +1,92 @@
+---
+title: 'STAT 231: Practice Set 5'
+subtitle: "due by 9:00 PM on Friday, 10/23"
+author: "Parker Smith"
+format: pdf
+---
+
+# Instructions 
+
+Practice set assignments are designed to help you further ingest and practice the material covered in class over the past week(s).
+
+You may work through these problems with peers, but all work must be completed by you (see the Honor Code in the syllabus) and you must indicate who you discussed the assignment with (if anyone).  
+
+Even then, the best approach here is to try the problems on your own before discussing them with peers, and then write your final solutions yourself.
+
+## GitHub workflow  
+
+1. Before editing this file, verify you are working on the copy saved in YOUR repo for the course
+2. Before editing this file, make an initial commit of the file to your repo to add your copy of the problem set.
+3. Change your name at the top of the file and get started!
+4. You should save and commit the .qmd file each time you’ve finished a question, if not more often.
+5. You should occasionally push the updated version of the .qmd file back onto GitHub. 
+6. When you are done with the assignment, knit to pdf, and commit and push both the .qmd and PDF to GitHub 
+
+## Gradescope upload
+
+For each question, allocate all pages associated with the specific question. If your work for a question runs onto a page that you did not select, you may not get credit for the work. If you do not allocate any pages when you upload your PDF, you may get a zero for the assignment.
+
+# Academic Integrity 
+
+If you worked with others or used resources outside of provided course material (notes, textbook, etc) to complete this assignment, please acknowledge them below using a bulleted list. 
+
+*If you discussed this assignment with any of your peers, please list who here:*
+
+Name(s) and corresponding problem(s)
+
+*
+
+*If you used resources outside the provided course material (notes, textbook, etc.) including generative AI, please list here:*
+
+Source(s) (including prompt if a generative AI source) and corresponding problem(s)
+
+* 
+
+
+```{r}
+#| label: setup
+#| include: false
+
+knitr::opts_chunk$set(
+  tidy=FALSE,     # display code as typed
+  size="small",   # slightly smaller font for code
+  message=FALSE)   
+
+# Load packages here 
+
+```
+
+\newpage
+# 1. Map from lab 
+
+Reproduce the map you created for lab09_spatial-data (and finish it, if you didn't in class). Be sure you have an informative title, subtitle, caption, and legend labels (as applicable) to provide context. Reply to the ["Practice Set 5: Our Maps!" GitHub Discussion](https://github.com/orgs/acstat231-f26/discussions/9) with an image of your map and 1-2 sentences summarizing the *main message conveyed*. 
+
+NOTE: you do NOT need to say what colors are representing what feature (e.g, NOT: "In this map, I've colored the countries by GDP, with green representing low values and red representing high values") -- this is obvious to the viewer, assuming there's an appropriate legend, title, etc.. Rather, what *information* do you extract from the visualization? (e.g., "The percent change in GDP per capita between 1957-2007 varies greatly across countries in Central America. Panama and Costa Rica stand out as having GDPs per capita that increased by over 200% across those 50 years while Nicaragua's GDP per capita, in contrast, decreased by a small percentage during that same time span.")
+
+> RESPONSE:
+
+```{r}
+#| label: map-from-lab
+
+
+```
+
+\newpage
+# 2. Mapping spatial data at a different level
+
+Create a map at the world, country, or county level based on the choices provided in lab09-spatial-data, that is at a DIFFERENT level than the map you created for the lab (and included above). For instance, if you created a map of US counties for the lab, then choose a country or world map to create here.
+
+Note: While I recommend using one of the datasets provided in the lab so you don't spend a lot of time searching for data, you are not strictly required to use one of those datasets.  
+
+Describe one challenge you encountered (if any) while creating this map.
+
+> RESPONSE: 
+
+```{r}
+#| label: other-level-map
+
+```
+
+
+
+
