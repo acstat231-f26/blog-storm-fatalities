@@ -1,0 +1,43 @@
+---
+title: "Storm Wrangle"
+author: ""
+date: "2026-10-25"
+format: pdf
+---
+```{r}
+#| include: false
+ 
+knitr::opts_chunk$set(
+  eval = TRUE
+  , message = FALSE
+)
+
+# improve digit and NA display 
+options(scipen = 1, knitr.kable.NA = '')
+
+# load packages
+library(tidyverse)
+library(kableExtra)
+library(lubridate)
+library(dplyr)
+library(hms)
+```
+
+There are 77 files for each dataframe, so I needed to figure out a way to make a vector for them. That way read_csv could read all 77 and put them together already: https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/list.files. 
+
+```{r}
+list.files("../raw_data")
+
+details_files <- list.files("../raw_data", pattern = "^details.*\\.csv$", full.names = TRUE)
+length(details_files)
+
+fatal_files <- list.files("../raw_data", pattern = "^fatal.*\\.csv$", full.names = TRUE)
+length(details_files)
+
+details_data <- read_csv(details_files)
+
+fatal_data <- read_csv(fatal_files)
+
+storm_data <- left_join(details_data, fatal_data, join_by(EVENT_ID))
+```
+
