@@ -39,5 +39,7 @@ details_data <- read_csv(details_files)
 fatal_data <- read_csv(fatal_files)
 
 storm_data <- left_join(details_data, fatal_data, join_by(EVENT_ID))
+
+storm_fatal_data <- left_join(fatal_data, details_data, join_by(EVENT_ID))
 ```
 
