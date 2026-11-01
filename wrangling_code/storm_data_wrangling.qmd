@@ -21,6 +21,8 @@ library(kableExtra)
 library(lubridate)
 library(dplyr)
 library(hms)
+library(readr)
+library(sf)
 ```
 
 There are 77 files for each dataframe, so I needed to figure out a way to make a vector for them. That way read_csv could read all 77 and put them together already: https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/list.files. 
@@ -41,5 +43,27 @@ fatal_data <- read_csv(fatal_files)
 storm_data <- left_join(details_data, fatal_data, join_by(EVENT_ID))
 
 storm_fatal_data <- left_join(fatal_data, details_data, join_by(EVENT_ID))
+```
+```{r}
+#save this data as csv files in our folder
+write_csv(storm_fatal_data, "C:/Users/Marie Wheeler/Documents/stat231/marriage_mammoths/data/storm_fatal_combined.csv")
+```
+
+```{r}
+#shortening dataset
+storm_fatal_format <- storm_fatal_data |>
+  select(!c(FAT_YEARMONTH, FAT_DAY, FAT_TIME, BEGIN_YEARMONTH, BEGIN_DAY, BEGIN_TIME, END_YEARMONTH, END_DAY, END_TIME, SOURCE, CZ_TYPE, WFO, CATEGORY, BEGIN_DATE_TIME, END_DATE_TIME))
+
+#trying geospatial data
+data_geo_start <- storm_fatal_format |>
+  drop_na(BEGIN_LON) |>
+  drop_na(BEGIN_LAT) |>
+  st_as_sf(coords=c("BEGIN_LON","BEGIN_LAT"),crs=4326)
+
+data_geo_end <- storm_fatal_format |>
+  drop_na(END_LON) |>
+  drop_na(END_LAT) |>
+  st_as_sf(coords=c("END_LON","END_LAT"),crs=4326)
+
 ```
 
