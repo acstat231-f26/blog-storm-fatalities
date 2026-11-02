@@ -23,6 +23,8 @@ library(dplyr)
 library(hms)
 library(readr)
 library(sf)
+library(tmap)
+library(viridis)
 ```
 
 There are 77 files for each dataframe, so I needed to figure out a way to make a vector for them. That way read_csv could read all 77 and put them together already: https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/list.files. 
@@ -64,6 +66,22 @@ data_geo_end <- storm_fatal_format |>
   drop_na(END_LON) |>
   drop_na(END_LAT) |>
   st_as_sf(coords=c("END_LON","END_LAT"),crs=4326)
+
+```
+
+```{r}
+#adding to state data
+#need to sum up things we are interested in
+us_states <- maps::map("state"
+                    , plot = FALSE, fill = TRUE) |>
+  st_as_sf() 
+
+states_df <- us_states |>
+  rename(STATE = ID)
+
+storm_fatal_states <- storm_fatal_format |>
+  mutate(STATE = str_to_lower(STATE)) |>
+  left_join(states_df, by = "STATE")
 
 ```
 
