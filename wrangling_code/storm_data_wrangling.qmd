@@ -45,24 +45,28 @@ fatal_data <- read_csv(fatal_files)
 storm_fatal_data <- left_join(fatal_data, details_data, join_by(EVENT_ID))
 ```
 
+
+
 ```{r}
-#shortening dataset
+#shortening dataset columns
 storm_fatal_format <- storm_fatal_data |>
   select(!c(FAT_YEARMONTH, FAT_DAY, FAT_TIME, BEGIN_YEARMONTH, BEGIN_DAY, BEGIN_TIME, END_YEARMONTH, END_DAY, END_TIME, SOURCE, CZ_TYPE, WFO, CATEGORY, BEGIN_DATE_TIME, END_DATE_TIME))
 
+#use this code for making graphs and other non spatial visualizations
+write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
+```
+
+```{r}
 #trying geospatial data
 data_geo_start <- storm_fatal_format |>
   drop_na(BEGIN_LON) |>
   drop_na(BEGIN_LAT) |>
   st_as_sf(coords=c("BEGIN_LON","BEGIN_LAT"),crs=4326)
 
-
+#use this dataset for making maps
+write_csv(data_geo_start, "../data/FINAL_wrangled_storm.csv")
 ```
 
-```{r}
-#save this data as csv files in our folder
-write_csv(data_geo_start, "C:/Users/Marie Wheeler/Documents/stat231/marriage_mammoths/data/FINAL_wrangled _storm.csv")
-```
 
 
 ```{r}
