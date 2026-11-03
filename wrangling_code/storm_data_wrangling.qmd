@@ -23,7 +23,7 @@ library(dplyr)
 library(hms)
 library(readr)
 library(sf)
-library(tmap)
+#library(tmap)
 library(viridis)
 ```
 
@@ -46,10 +46,6 @@ storm_data <- left_join(details_data, fatal_data, join_by(EVENT_ID))
 
 storm_fatal_data <- left_join(fatal_data, details_data, join_by(EVENT_ID))
 ```
-```{r}
-#save this data as csv files in our folder
-write_csv(storm_fatal_data, "C:/Users/Marie Wheeler/Documents/stat231/marriage_mammoths/data/storm_fatal_combined.csv")
-```
 
 ```{r}
 #shortening dataset
@@ -62,16 +58,18 @@ data_geo_start <- storm_fatal_format |>
   drop_na(BEGIN_LAT) |>
   st_as_sf(coords=c("BEGIN_LON","BEGIN_LAT"),crs=4326)
 
-data_geo_end <- storm_fatal_format |>
-  drop_na(END_LON) |>
-  drop_na(END_LAT) |>
-  st_as_sf(coords=c("END_LON","END_LAT"),crs=4326)
 
 ```
 
 ```{r}
+#save this data as csv files in our folder
+write_csv(data_geo_start, "C:/Users/Marie Wheeler/Documents/stat231/marriage_mammoths/data/FINAL_wrangled _storm.csv")
+```
+
+
+```{r}
 #adding to state data
-#need to sum up things we are interested in
+#need to sum up things we are interested in 
 us_states <- maps::map("state"
                     , plot = FALSE, fill = TRUE) |>
   st_as_sf() 
