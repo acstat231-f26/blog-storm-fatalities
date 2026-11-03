@@ -1,47 +1,61 @@
-#download.file("https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1950_c20260323.csv.gz",
-#              destfile = paste0("details", 1950, ".csv.gz"))
-#R.utils::gunzip("raw_data/StormEvents_details-ftp_v1.0_d1950_c20260323.csv.gz")
-#details1950 <- read.csv("raw_data/StormEvents_details-ftp_v1.0_d1950_c20260323.csv", header = TRUE)
+# ------------------------------------------------------------------------------
+# Scrape CSV files from NOAA website
+# Author: Max Sugarman
+# Date modified: 11/3/26
+# ------------------------------------------------------------------------------
+
+library(tidyverse)
+library(rvest)
+library(robotstxt)
 
 
+#url we are using
+storm_url <- "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
 
-#*ask about the irregular ending dates*
+#collecting all links from the page
+file_hrefs <- storm_url |>
+  read_html() |> 
+  html_elements("tbody > tr > td > a") |>
+  html_attr("href")
 
+#formatting files names as a tibble for wrangling
+files_df <- tibble(url = file_hrefs) 
+
+
+#filtering for just the "details" files 
+#also adding the "https..." part to the url so download.file() works
+details_df <- files_df |>
+  filter(str_detect(url, "StormEvents_details-ftp_v1.0")) |>
+  mutate(url = paste0(storm_url, url))
+
+#formatting as character string for download.file()
+details <- details_df$url
+
+
+#same thing for "fatalities"
+fatalities_df <- files_df |>
+  filter(str_detect(url, "StormEvents_fatalities-ftp_v1.0")) |>
+  mutate(url = paste0(storm_url, url))
+
+fatalities <- fatalities_df$url
+
+
+#setting destination file names
+#data is from 1950 to 2026
 year <- 1950:2026
-filenames_dest <- paste0("raw_data/details", year, ".csv.gz")
-urlnames_dest <- paste0("https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d", year, "_c20260323.csv.gz") |>
-  replace(35, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1984_c20260527.csv.gz") |>
-  replace(68, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20260519.csv.gz") |>
-  replace(73, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20260625.csv.gz") |>
-  replace(75, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz") |>
-  replace(76, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz") |>
-  replace(77, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2026_c20260918.csv.gz")
-
+filenames_details <- paste0("raw_data/details", year, ".csv.gz")
 filenames_fatal <- paste0("raw_data/fatalities", year, ".csv.gz")
-urlnames_fatal <- paste0("https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d", year, "_c20260323.csv.gz") |>
-  replace(35, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d1984_c20260527.csv.gz") |>
-  replace(68, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d2017_c20260519.csv.gz") |>
-  replace(73, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d2022_c20260625.csv.gz") |>
-  replace(75, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d2024_c20260728.csv.gz") |>
-  replace(76, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d2025_c20260819.csv.gz") |>
-  replace(77, "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_fatalities-ftp_v1.0_d2026_c20260918.csv.gz")
 
 
-#as_tibble(filenames_dest) |>
-#print(n=77)
-#as_tibble(urlname_dest)
-
-#filenames10 <- filenames_dest[c(1:10)]
-#urlnames10 <- urlnames_dest[c(1:10)]
-
+#download and unzip all csv files
 n=length(year)
 
-download.file(url = urlnames_dest, destfile = filenames_dest)
+download.file(url = details, destfile = filenames_details)
 for(i in 1:n) {
-  R.utils::gunzip(filenames_dest[i])
+  R.utils::gunzip(filenames_details[i])
 }
 
-download.file(url = urlnames_fatal, destfile = filenames_fatal)
+download.file(url = fatalities, destfile = filenames_fatal)
 for(i in 1:n) {
   R.utils::gunzip(filenames_fatal[i])
 }
