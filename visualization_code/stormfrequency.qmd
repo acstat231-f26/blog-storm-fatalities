@@ -30,5 +30,39 @@ library(viridis)
 
 ```{r}
 
+fatalstormdata <- read.csv("../data/FINAL_wrangled_storm.csv")
+
 ```
+
+```{r}
+
+
+stormsimple <- fatalstormdata |>
+  count(EVENT_TYPE, sort = TRUE)
+
+g <- ggplot(data = stormsimple, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
+  geom_bar(stat = "identity", aes(color = EVENT_TYPE, fill = EVENT_TYPE)) +
+  coord_flip() +
+  guides(color = "none", 
+         fill = "none")
+
+g
+```
+
+```{r}
+
+storm <- fatalstormdata |>
+  select(YEAR, EVENT_TYPE) |>
+  unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
+  count(storm) |>
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") 
+
+g2 <- ggplot(storm, aes(x = EVENT_TYPE, y = n)) +
+  geom_bar(stat = "identity")
+
+g2
+
+
+```
+
 
