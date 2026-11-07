@@ -4,8 +4,39 @@ format: html
 editor: visual
 ---
 
+```{r}
+library(readr)
+library(dplyr)
+library(stringr)
+```
+
+Resources I used:
+
 
 ```{r}
+storms <- read_csv("../data/FINAL_wrangled_storm.csv")
+```
+```{r}
+#wrangling for damage visualizations
 
+si2num <- function(storms)
+{
+  conv <- paste0("e", c(seq(-24 ,-3, by=3), -2, -1, seq(3, 24, by=3),3))
+  names(conv) <- c("y","z","a","f","p","n","µ","m","c","d","K","M","G","T","P","E","Z","Y","k")
+  
+  xout <- str_replace_all(storms, conv)
+  xout <- as.numeric(xout)
+  
+  return(xout)
+}
+
+damages <- storms |>
+  group_by(EVENT_TYPE, STATE, YEAR) |>
+  summarize(
+    total_property = sum(DAMAGE_PROPERTY),
+    total_crops = sum(DAMAGE_CROPS),
+    per_month_property = total_property/12,
+    per_month_crops = total_crops/12
+  )
 ```
 
