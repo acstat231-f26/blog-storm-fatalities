@@ -25,6 +25,8 @@ library(readr)
 library(sf)
 #library(tmap)
 library(viridis)
+library(gganimate)
+library(gifski)
 ```
 
 
@@ -51,18 +53,44 @@ g
 
 ```{r}
 
-storm <- fatalstormdata |>
+storm0 <- fatalstormdata |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
-  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") 
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
 
-g2 <- ggplot(storm, aes(x = EVENT_TYPE, y = n)) +
-  geom_bar(stat = "identity")
+stormgif <- storm0 |>
+  mutate(YEAR = as.integer(storm0$YEAR))
 
-g2
+g2 <- ggplot(stormgif, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  guides(fill = "none", color = "none") +
+  transition_time(YEAR) +
+  labs(title = "Number of fatal storms by type from 1950-2026",
+       subtitle = "Year: {frame_time}",
+       x = " ",
+       y = "Number of events") +
+  ease_aes("linear")
 
+animate(g2)
 
 ```
 
+```{r}
 
+stormidk <- stormgif |>
+  mutate(lesstypes = fct_collapse(EVENT_TYPE,
+                                  Floods = c("Flood", "Flash Flood"),
+                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
+                                  Lightning = c("Lightning", "Marine Lightning")))
+  
+
+g3 <- ggplot(stormidk, aes(x = YEAR, y = n, fill = lesstypes)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_viridis(discrete = TRUE, begin = 0.2, end = 1, option = "A")
+
+g3
+
+
+```
