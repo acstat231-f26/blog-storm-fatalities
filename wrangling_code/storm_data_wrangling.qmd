@@ -85,3 +85,79 @@ storm_fatal_states <- storm_fatal_format |>
 
 ```
 
+```{r}
+#wrangling for damage visualizations
+
+damages_numeric <- storms |>
+ separate(DAMAGE_PROPERTY,into = c("value","modifier"),
+           sep = "(?<=[\\d])(?=[^\\d.])") |>
+  mutate(modifier = case_when(
+                              modifier == "M" ~ 1000000,
+                              modifier == "K" ~ 1000,
+                              TRUE ~ 1),
+         result_property= as.numeric(value) * modifier) |>
+  separate(DAMAGE_CROPS,into = c("value","modifier"),
+           sep = "(?<=[\\d])(?=[^\\d.])") |>
+  mutate(modifier = case_when(
+                              modifier == "M" ~ 1000000,
+                              modifier == "K" ~ 1000,
+                              TRUE ~ 1),
+         result_crops= as.numeric(value) * modifier)
+
+
+
+damages <- damages_numeric |>
+  group_by(EVENT_TYPE, STATE, YEAR) |>
+  summarize(
+    total_property = sum(result_property),
+    total_crops = sum(result_crops),
+    per_month_property = total_property/12,
+    per_month_crops = total_crops/12
+  )
+
+write_csv(damages, "../data/damages.csv")
+```
+
+
+```{r}
+#wrangling for storm type
+
+storm_type_state <- storms |>
+  group_by(EVENT_TYPE, STATE, YEAR) |>
+  summarize(
+    N = n()
+  )
+
+storm_type_per_year <- storms |>
+  group_by(EVENT_TYPE, YEAR) |>
+  summarize(
+    N = n()
+  )
+
+write_csv(storm_type_state, "../data/storm_type_state.csv")
+write_csv(storm_type_per_year, "../data/storm_type_year.csv")
+```
+
+```{r}
+#tornado info
+
+tornado_state <- storms |>
+  filter(EVENT_TYPE == "Tornado") |>
+  group_by(STATE, YEAR) |>
+  summarize(
+    length = mean(TOR_LENGTH), 
+    width = mean(TOR_WIDTH),
+  )
+
+tornado_year <- storms |>
+  filter(EVENT_TYPE == "Tornado") |>
+  group_by(YEAR) |>
+  summarize(
+    length = mean(TOR_LENGTH),
+    width = mean(TOR_WIDTH)
+  )
+
+write_csv(tornado_state, "../data/tornado_state.csv")
+write_csv(tornado_year, "../data/tornado_year.csv")
+```
+

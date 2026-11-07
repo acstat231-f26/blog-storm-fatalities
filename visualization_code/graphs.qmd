@@ -19,7 +19,6 @@ storms <- read_csv("../data/FINAL_wrangled_storm.csv")
 ```
 ```{r}
 #wrangling for damage visualizations
-#need to convert K and M to actual numbers
 
 damages_numeric <- storms |>
  separate(DAMAGE_PROPERTY,into = c("value","modifier"),
@@ -47,6 +46,9 @@ damages <- damages_numeric |>
     per_month_property = total_property/12,
     per_month_crops = total_crops/12
   )
+
+write_csv(damages, "../data/damages.csv")
+
 ```
 
 ```{r}
@@ -63,6 +65,11 @@ storm_type_per_year <- storms |>
   summarize(
     N = n()
   )
+
+write_csv(storm_type_state, "../data/storm_type_state.csv")
+write_csv(storm_type_per_year, "../data/storm_type_year.csv")
+
+
 ```
 
 ```{r}
@@ -83,5 +90,10 @@ tornado_year <- storms |>
     length = mean(TOR_LENGTH),
     width = mean(TOR_WIDTH)
   )
+
+write_csv(tornado_state, "../data/tornado_state.csv")
+write_csv(tornado_year, "../data/tornado_year.csv")
+
+
 ```
 
