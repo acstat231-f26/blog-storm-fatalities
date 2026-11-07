@@ -12,7 +12,7 @@ library(tidyr)
 ```
 
 Resources I used:
-
+https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
 
 ```{r}
 storms <- read_csv("../data/FINAL_wrangled_storm.csv")
@@ -28,14 +28,22 @@ damages_numeric <- storms |>
                               modifier == "M" ~ 1000000,
                               modifier == "K" ~ 1000,
                               TRUE ~ 1),
-         result_property= as.numeric(value) * modifier)
+         result_property= as.numeric(value) * modifier) |>
+  separate(DAMAGE_CROPS,into = c("value","modifier"),
+           sep = "(?<=[\\d])(?=[^\\d.])") |>
+  mutate(modifier = case_when(
+                              modifier == "M" ~ 1000000,
+                              modifier == "K" ~ 1000,
+                              TRUE ~ 1),
+         result_crops= as.numeric(value) * modifier)
 
 
-damages <- storms |>
+
+damages <- damages_numeric |>
   group_by(EVENT_TYPE, STATE, YEAR) |>
   summarize(
-    total_property = sum(DAMAGE_PROPERTY),
-    total_crops = sum(DAMAGE_CROPS),
+    total_property = sum(result_property),
+    total_crops = sum(result_crops),
     per_month_property = total_property/12,
     per_month_crops = total_crops/12
   )
