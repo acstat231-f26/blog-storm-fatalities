@@ -1,0 +1,58 @@
+---
+title: "Map Visualization"
+author: "Parker Smith"
+date: "2026-10-15"
+format: pdf
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+knitr::opts_chunk$set(
+  tidy = FALSE, 
+  size = "small",
+  fig.width = 5, fig.height = 3) 
+
+options(scipen = 1, knitr.kable.NA = '')
+
+# load packages
+library(maps)
+library(ggplot2)
+library(viridis)
+library(sf)
+library(leaflet)
+library(ggspatial)
+library(readr)
+library(tidyr)
+library(stringr)
+library(dplyr)
+library(tibble)
+library(fivethirtyeight)
+library(usmap)
+```
+
+```{r}
+storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", "Lightning", "Thunderstorm Wind", "Flash Flood")) |>
+  st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326) |>
+  arrange(desc(deaths))
+
+us_states1 <- us_map()
+
+ggplot() +
+  geom_sf(data = us_states1) + 
+  geom_sf(data = storms, aes(size = deaths, color = EVENT_TYPE)) 
+```
+```{r}
+storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> filter(contiguous_us) |> filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", "Lightning", "Thunderstorm Wind", "Flash Flood")) |> 
+  st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326) |>
+  arrange(desc(deaths))
+
+us_states2 <- maps::map("state",
+                     plot = FALSE, fill = TRUE) |> st_as_sf()
+
+ggplot() +
+  geom_sf(data = us_states2) + 
+  geom_sf(data = storms, aes(size = deaths, color = EVENT_TYPE)) + theme_void()
+```
+

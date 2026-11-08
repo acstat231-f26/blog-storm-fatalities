@@ -11,12 +11,12 @@ library(stringr)
 library(tidyr)
 ```
 
-Resources I used:
-https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
+Resources I used: https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
 
 ```{r}
 storms <- read_csv("../data/FINAL_wrangled_storm.csv")
 ```
+
 ```{r}
 #wrangling for damage visualizations
 
@@ -96,4 +96,3 @@ write_csv(tornado_year, "../data/tornado_year.csv")
 
 
 ```
-
