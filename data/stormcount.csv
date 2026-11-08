@@ -1,0 +1,283 @@
+YEAR,EVENT_TYPE,n
+1950,Tornado,11
+1951,Tornado,11
+1952,Tornado,10
+1953,Tornado,21
+1954,Tornado,14
+1955,Tornado,13
+1956,Tornado,8
+1957,Tornado,21
+1958,Tornado,13
+1959,Tornado,10
+1960,Tornado,8
+1961,Tornado,14
+1962,Tornado,7
+1963,Tornado,9
+1964,Tornado,7
+1965,Tornado,17
+1966,Tornado,6
+1967,Tornado,14
+1968,Tornado,12
+1969,Tornado,5
+1970,Tornado,15
+1971,Tornado,15
+1972,Tornado,9
+1973,Tornado,22
+1974,Tornado,45
+1975,Tornado,15
+1976,Tornado,20
+1977,Tornado,11
+1978,Tornado,9
+1979,Tornado,11
+1980,Tornado,16
+1981,Tornado,10
+1982,Tornado,23
+1983,Thunderstorm Wind,3
+1983,Tornado,21
+1984,Thunderstorm Wind,21
+1984,Tornado,21
+1985,Thunderstorm Wind,10
+1985,Tornado,6
+1986,Thunderstorm Wind,17
+1986,Tornado,8
+1987,Thunderstorm Wind,19
+1987,Tornado,8
+1988,Thunderstorm Wind,15
+1988,Tornado,12
+1989,Thunderstorm Wind,22
+1989,Tornado,5
+1990,Thunderstorm Wind,21
+1990,Tornado,14
+1991,Thunderstorm Wind,21
+1991,Tornado,11
+1992,Hail,1
+1992,Thunderstorm Wind,8
+1992,Tornado,11
+1993,Tornado,1
+1994,Tornado,6
+1995,Tornado,5
+1996,Hail,1
+1996,Thunderstorm Wind,18
+1996,Tornado,14
+1997,Thunderstorm Wind,29
+1997,Tornado,23
+1998,Hail,1
+1998,Thunderstorm Wind,32
+1998,Tornado,35
+1999,Thunderstorm Wind,26
+1999,Tornado,34
+2000,Hail,2
+2000,Thunderstorm Wind,23
+2000,Tornado,14
+2001,Hail,1
+2001,Thunderstorm Wind,17
+2001,Tornado,19
+2002,Thunderstorm Wind,14
+2002,Tornado,28
+2003,Flash Flood,1
+2003,Hail,2
+2003,Heavy Rain,1
+2003,Lightning,1
+2003,Thunderstorm Wind,12
+2003,Tornado,20
+2004,Thunderstorm Wind,15
+2004,Tornado,19
+2005,Flash Flood,19
+2005,Flood,9
+2005,Funnel Cloud,1
+2005,Hail,3
+2005,Heavy Rain,1
+2005,Marine Thunderstorm Wind,1
+2005,Thunderstorm Wind,13
+2005,Tornado,10
+2006,Flash Flood,10
+2006,Flood,8
+2006,Hail,2
+2006,Lightning,2
+2006,Marine Strong Wind,1
+2006,Marine Thunderstorm Wind,1
+2006,Thunderstorm Wind,12
+2006,Tornado,25
+2007,Flash Flood,47
+2007,Flood,19
+2007,Heavy Rain,7
+2007,Lightning,48
+2007,Marine Strong Wind,3
+2007,Marine Thunderstorm Wind,2
+2007,Thunderstorm Wind,14
+2007,Tornado,26
+2008,Dust Devil,1
+2008,Flash Flood,51
+2008,Flood,24
+2008,Hail,2
+2008,Heavy Rain,7
+2008,Lightning,27
+2008,Marine High Wind,1
+2008,Marine Strong Wind,4
+2008,Marine Thunderstorm Wind,2
+2008,Thunderstorm Wind,27
+2008,Tornado,51
+2009,Flash Flood,28
+2009,Flood,24
+2009,Heavy Rain,12
+2009,Lightning,37
+2009,Marine High Wind,1
+2009,Marine Strong Wind,2
+2009,Marine Thunderstorm Wind,1
+2009,Thunderstorm Wind,24
+2009,Tornado,13
+2010,Flash Flood,53
+2010,Flood,22
+2010,Heavy Rain,8
+2010,Lightning,32
+2010,Marine Strong Wind,2
+2010,Thunderstorm Wind,20
+2010,Tornado,25
+2011,Flash Flood,42
+2011,Flood,47
+2011,Hail,2
+2011,Heavy Rain,6
+2011,Lightning,29
+2011,Marine Strong Wind,2
+2011,Marine Thunderstorm Wind,2
+2011,Thunderstorm Wind,52
+2011,Tornado,87
+2012,Debris Flow,1
+2012,Flash Flood,18
+2012,Flood,12
+2012,Heavy Rain,9
+2012,Lightning,32
+2012,Marine Strong Wind,3
+2012,Marine Thunderstorm Wind,1
+2012,Thunderstorm Wind,47
+2012,Tornado,28
+2013,Debris Flow,1
+2013,Flash Flood,39
+2013,Flood,20
+2013,Heavy Rain,15
+2013,Lightning,23
+2013,Marine High Wind,1
+2013,Marine Strong Wind,4
+2013,Thunderstorm Wind,20
+2013,Tornado,14
+2014,Debris Flow,2
+2014,Dust Devil,1
+2014,Flash Flood,29
+2014,Flood,7
+2014,Hail,1
+2014,Heavy Rain,9
+2014,Lightning,25
+2014,Marine High Wind,1
+2014,Marine Strong Wind,3
+2014,Marine Thunderstorm Wind,1
+2014,Thunderstorm Wind,29
+2014,Tornado,18
+2015,Debris Flow,2
+2015,Flash Flood,90
+2015,Flood,42
+2015,Heavy Rain,13
+2015,Lightning,27
+2015,Marine High Wind,1
+2015,Marine Strong Wind,3
+2015,Marine Thunderstorm Wind,3
+2015,Thunderstorm Wind,33
+2015,Tornado,15
+2016,Flash Flood,52
+2016,Flood,28
+2016,Heavy Rain,6
+2016,Lightning,41
+2016,Marine Strong Wind,7
+2016,Marine Thunderstorm Wind,1
+2016,Thunderstorm Wind,22
+2016,Tornado,11
+2017,Flash Flood,39
+2017,Flood,18
+2017,Hail,2
+2017,Heavy Rain,5
+2017,Lightning,21
+2017,Marine Strong Wind,1
+2017,Marine Thunderstorm Wind,1
+2017,Thunderstorm Wind,31
+2017,Tornado,18
+2017,Waterspout,1
+2018,Debris Flow,3
+2018,Flash Flood,43
+2018,Flood,26
+2018,Heavy Rain,8
+2018,Lightning,22
+2018,Marine Strong Wind,4
+2018,Marine Thunderstorm Wind,1
+2018,Thunderstorm Wind,26
+2018,Tornado,11
+2019,Debris Flow,2
+2019,Flash Flood,33
+2019,Flood,44
+2019,Hail,1
+2019,Heavy Rain,6
+2019,Lightning,19
+2019,Marine Strong Wind,1
+2019,Marine Thunderstorm Wind,2
+2019,Thunderstorm Wind,36
+2019,Tornado,16
+2020,Debris Flow,1
+2020,Flash Flood,27
+2020,Flood,16
+2020,Hail,1
+2020,Heavy Rain,2
+2020,Lightning,19
+2020,Marine Thunderstorm Wind,1
+2020,Thunderstorm Wind,37
+2020,Tornado,27
+2021,Debris Flow,2
+2021,Flash Flood,78
+2021,Flood,12
+2021,Hail,1
+2021,Heavy Rain,5
+2021,Lightning,16
+2021,Marine Strong Wind,1
+2021,Marine Thunderstorm Wind,3
+2021,Thunderstorm Wind,27
+2021,Tornado,24
+2022,Debris Flow,2
+2022,Flash Flood,31
+2022,Flood,14
+2022,Hail,2
+2022,Heavy Rain,3
+2022,Lightning,17
+2022,Marine Strong Wind,2
+2022,Thunderstorm Wind,34
+2022,Tornado,15
+2023,Debris Flow,1
+2023,Flash Flood,27
+2023,Flood,31
+2023,Hail,1
+2023,Heavy Rain,3
+2023,Lightning,15
+2023,Marine Lightning,1
+2023,Marine Thunderstorm Wind,1
+2023,Thunderstorm Wind,28
+2023,Tornado,33
+2024,Debris Flow,3
+2024,Dust Devil,1
+2024,Flash Flood,48
+2024,Flood,28
+2024,Heavy Rain,2
+2024,Lightning,16
+2024,Marine Strong Wind,2
+2024,Thunderstorm Wind,44
+2024,Tornado,30
+2025,Debris Flow,1
+2025,Flash Flood,62
+2025,Flood,16
+2025,Heavy Rain,3
+2025,Lightning,21
+2025,Marine Strong Wind,2
+2025,Thunderstorm Wind,31
+2025,Tornado,25
+2026,Flash Flood,7
+2026,Flood,11
+2026,Heavy Rain,4
+2026,Lightning,2
+2026,Marine Strong Wind,1
+2026,Thunderstorm Wind,12
+2026,Tornado,8

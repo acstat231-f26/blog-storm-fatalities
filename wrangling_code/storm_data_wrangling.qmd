@@ -169,3 +169,17 @@ write_csv(tornado_state, "../data/tornado_state.csv")
 write_csv(tornado_year, "../data/tornado_year.csv")
 ```
 
+```{r}
+#dataset with count of each type of storm each year (using in bar charts)
+
+stormcount <- data_geo_start |>
+  select(YEAR, EVENT_TYPE) |>
+  #making each combo of year/event into one string
+  unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
+  #counting those to get the total amount of each
+  count(storm) |>
+  #splitting back into 2 columns
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
+
+write_csv(stormcount, "../data/stormcount.csv")
+```
