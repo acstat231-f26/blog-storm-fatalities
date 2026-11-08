@@ -34,6 +34,8 @@ library(gifski)
 
 fatalstormdata <- read.csv("../data/FINAL_wrangled_storm.csv")
 
+stormcount <- read.csv("../data/stormcount.csv")
+
 ```
 
 ```{r}
@@ -53,14 +55,14 @@ g
 
 ```{r}
 
-storm0 <- fatalstormdata |>
+stormcount <- fatalstormdata |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
   separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
 
-stormgif <- storm0 |>
-  mutate(YEAR = as.integer(storm0$YEAR))
+stormgif <- stormcount |>
+  mutate(YEAR = as.integer(stormcount$YEAR))
 
 g2 <- ggplot(stormgif, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
   geom_bar(stat = "identity") +
