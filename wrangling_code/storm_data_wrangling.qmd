@@ -23,7 +23,6 @@ library(dplyr)
 library(hms)
 library(readr)
 library(sf)
-#library(tmap)
 library(viridis)
 ```
 
@@ -80,7 +79,6 @@ write_csv(data_geo_start, "../data/FINAL_wrangled_storm.csv")
 
 ```{r}
 #adding to state data
-#need to sum up things we are interested in 
 us_states <- maps::map("state"
                     , plot = FALSE, fill = TRUE) |>
   st_as_sf() 
@@ -96,7 +94,7 @@ storm_fatal_states <- storm_fatal_format |>
 ```{r}
 #wrangling for damage visualizations
 
-damages_numeric <- storms |>
+damages_numeric <- data_geo_start |>
  separate(DAMAGE_PROPERTY,into = c("value","modifier"),
            sep = "(?<=[\\d])(?=[^\\d.])") |>
   mutate(modifier = case_when(
@@ -130,13 +128,13 @@ write_csv(damages, "../data/damages.csv")
 ```{r}
 #wrangling for storm type
 
-storm_type_state <- storms |>
+storm_type_state <- data_geo_start |>
   group_by(EVENT_TYPE, STATE, YEAR) |>
   summarize(
     N = n()
   )
 
-storm_type_per_year <- storms |>
+storm_type_per_year <- data_geo_start |>
   group_by(EVENT_TYPE, YEAR) |>
   summarize(
     N = n()
@@ -149,7 +147,7 @@ write_csv(storm_type_per_year, "../data/storm_type_year.csv")
 ```{r}
 #tornado info
 
-tornado_state <- storms |>
+tornado_state <- data_geo_start |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(STATE, YEAR) |>
   summarize(
@@ -157,7 +155,7 @@ tornado_state <- storms |>
     width = mean(TOR_WIDTH),
   )
 
-tornado_year <- storms |>
+tornado_year <- data_geo_start |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(YEAR) |>
   summarize(
