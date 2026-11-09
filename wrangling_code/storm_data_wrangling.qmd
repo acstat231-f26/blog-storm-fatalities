@@ -48,7 +48,7 @@ storm_fatal_data <- left_join(fatal_data, details_data, join_by(EVENT_ID))
 ```{r}
 #shortening dataset columns
 storm_fatal_format <- storm_fatal_data |>
-  select(!c(FAT_YEARMONTH, FAT_DAY, FAT_TIME, BEGIN_YEARMONTH, BEGIN_DAY, BEGIN_TIME, END_YEARMONTH, END_DAY, END_TIME, SOURCE, CZ_TYPE, WFO, CATEGORY, BEGIN_DATE_TIME, END_DATE_TIME))
+  select(!c(FAT_YEARMONTH, FAT_DAY, FAT_TIME, BEGIN_YEARMONTH, BEGIN_DAY, BEGIN_TIME, END_YEARMONTH, END_DAY, END_TIME, SOURCE, CZ_TYPE, WFO, CATEGORY, BEGIN_DATE_TIME, END_DATE_TIME)) 
 
 #use this code for making graphs and other non spatial visualizations
 write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
@@ -94,7 +94,7 @@ storm_fatal_states <- storm_fatal_format |>
 ```{r}
 #wrangling for damage visualizations
 
-damages_numeric <- data_geo_start |>
+damages_numeric <- storm_fatal_format |>
  separate(DAMAGE_PROPERTY,into = c("value","modifier"),
            sep = "(?<=[\\d])(?=[^\\d.])") |>
   mutate(modifier = case_when(
@@ -128,13 +128,13 @@ write_csv(damages, "../data/damages.csv")
 ```{r}
 #wrangling for storm type
 
-storm_type_state <- data_geo_start |>
+storm_type_state <- storm_fatal_format |>
   group_by(EVENT_TYPE, STATE, YEAR) |>
   summarize(
     N = n()
   )
 
-storm_type_per_year <- data_geo_start |>
+storm_type_per_year <- storm_fatal_format |>
   group_by(EVENT_TYPE, YEAR) |>
   summarize(
     N = n()
@@ -147,7 +147,7 @@ write_csv(storm_type_per_year, "../data/storm_type_year.csv")
 ```{r}
 #tornado info
 
-tornado_state <- data_geo_start |>
+tornado_state <- storm_fatal_format |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(STATE, YEAR) |>
   summarize(
@@ -155,7 +155,7 @@ tornado_state <- data_geo_start |>
     width = mean(TOR_WIDTH),
   )
 
-tornado_year <- data_geo_start |>
+tornado_year <- storm_fatal_format |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(YEAR) |>
   summarize(
