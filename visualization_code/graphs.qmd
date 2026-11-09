@@ -96,3 +96,19 @@ write_csv(tornado_year, "../data/tornado_year.csv")
 
 
 ```
+
+```{r}
+#adding to state data
+#not sure if we need
+us_states <- maps::map("state"
+                    , plot = FALSE, fill = TRUE) |>
+  st_as_sf() 
+
+states_df <- us_states |>
+  rename(STATE = ID)
+
+storm_fatal_states <- storm_fatal_format |>
+  mutate(STATE = str_to_lower(STATE)) |>
+  left_join(states_df, by = "STATE")
+```
+

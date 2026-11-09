@@ -55,6 +55,7 @@ write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
 ```
 
 ```{r}
+#code for mapping fatalities
 data_geo_start <- storm_fatal_format |>
   drop_na(BEGIN_LON, BEGIN_LAT) |>
   mutate(fatality_date = as.Date(FATALITY_DATE, format = "%m/%d/%Y"), 
@@ -68,32 +69,17 @@ data_geo_start <- storm_fatal_format |>
   distinct(EVENT_ID, .keep_all = TRUE) |> select(-starts_with("fatality_")) |>
   mutate(ID = str_to_lower(STATE),
          country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50)) 
-```
 
-
-```{r}
 #use this dataset for making maps
 write_csv(data_geo_start, "../data/FINAL_wrangled_storm.csv")
 ```
 
 
-```{r}
-#adding to state data
-us_states <- maps::map("state"
-                    , plot = FALSE, fill = TRUE) |>
-  st_as_sf() 
-
-states_df <- us_states |>
-  rename(STATE = ID)
-
-storm_fatal_states <- storm_fatal_format |>
-  mutate(STATE = str_to_lower(STATE)) |>
-  left_join(states_df, by = "STATE")
-```
 
 ```{r}
-#wrangling for damage visualizations
+#wrangling for graphs displaying property and crop damages
 
+#converting K and M to numbers, used resource: https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
 damages_numeric <- storm_fatal_format |>
  separate(DAMAGE_PROPERTY,into = c("value","modifier"),
            sep = "(?<=[\\d])(?=[^\\d.])") |>
@@ -111,7 +97,7 @@ damages_numeric <- storm_fatal_format |>
          result_crops= as.numeric(value) * modifier)
 
 
-
+#dataset for graph
 damages <- damages_numeric |>
   group_by(EVENT_TYPE, STATE, YEAR) |>
   summarize(
@@ -121,12 +107,13 @@ damages <- damages_numeric |>
     per_month_crops = total_crops/12
   )
 
+#saving data
 write_csv(damages, "../data/damages.csv")
 ```
 
 
 ```{r}
-#wrangling for storm type
+#wrangling for graphing storm type per year per state
 
 storm_type_state <- storm_fatal_format |>
   group_by(EVENT_TYPE, STATE, YEAR) |>
@@ -134,19 +121,22 @@ storm_type_state <- storm_fatal_format |>
     N = n()
   )
 
+#wrangling for graphing storm type per year
 storm_type_per_year <- storm_fatal_format |>
   group_by(EVENT_TYPE, YEAR) |>
   summarize(
     N = n()
   )
 
+#saving data
 write_csv(storm_type_state, "../data/storm_type_state.csv")
 write_csv(storm_type_per_year, "../data/storm_type_year.csv")
 ```
 
 ```{r}
-#tornado info
+#wrangling for tornado specific information
 
+#summarizing average length and width of tornados by state and year
 tornado_state <- storm_fatal_format |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(STATE, YEAR) |>
@@ -155,6 +145,7 @@ tornado_state <- storm_fatal_format |>
     width = mean(TOR_WIDTH),
   )
 
+#summarizing average length and width of tornados by year
 tornado_year <- storm_fatal_format |>
   filter(EVENT_TYPE == "Tornado") |>
   group_by(YEAR) |>
@@ -163,6 +154,7 @@ tornado_year <- storm_fatal_format |>
     width = mean(TOR_WIDTH)
   )
 
+#saving data
 write_csv(tornado_state, "../data/tornado_state.csv")
 write_csv(tornado_year, "../data/tornado_year.csv")
 ```

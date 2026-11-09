@@ -1,26 +1,1012 @@
 EVENT_TYPE,STATE,YEAR,N
+Astronomical Low Tide,CALIFORNIA,2021,1
+Astronomical Low Tide,GUAM,2014,1
+Avalanche,ALASKA,1999,12
+Avalanche,ALASKA,2000,5
+Avalanche,ALASKA,2001,7
+Avalanche,ALASKA,2002,4
+Avalanche,ALASKA,2003,1
+Avalanche,ALASKA,2004,2
+Avalanche,ALASKA,2006,1
+Avalanche,ALASKA,2008,1
+Avalanche,ALASKA,2014,1
+Avalanche,ALASKA,2015,1
+Avalanche,ALASKA,2016,4
+Avalanche,ALASKA,2017,2
+Avalanche,ALASKA,2020,3
+Avalanche,CALIFORNIA,1999,1
+Avalanche,CALIFORNIA,2006,1
+Avalanche,CALIFORNIA,2008,4
+Avalanche,CALIFORNIA,2009,1
+Avalanche,CALIFORNIA,2011,2
+Avalanche,CALIFORNIA,2012,3
+Avalanche,CALIFORNIA,2015,1
+Avalanche,CALIFORNIA,2016,2
+Avalanche,CALIFORNIA,2020,1
+Avalanche,CALIFORNIA,2021,1
+Avalanche,CALIFORNIA,2023,2
+Avalanche,CALIFORNIA,2025,1
+Avalanche,CALIFORNIA,2026,10
+Avalanche,COLORADO,1998,2
+Avalanche,COLORADO,1999,5
+Avalanche,COLORADO,2000,3
+Avalanche,COLORADO,2001,2
+Avalanche,COLORADO,2002,4
+Avalanche,COLORADO,2003,1
+Avalanche,COLORADO,2004,2
+Avalanche,COLORADO,2005,7
+Avalanche,COLORADO,2006,3
+Avalanche,COLORADO,2007,2
+Avalanche,COLORADO,2008,7
+Avalanche,COLORADO,2010,8
+Avalanche,COLORADO,2012,7
+Avalanche,COLORADO,2013,10
+Avalanche,COLORADO,2014,5
+Avalanche,COLORADO,2015,2
+Avalanche,COLORADO,2016,2
+Avalanche,COLORADO,2018,1
+Avalanche,COLORADO,2019,8
+Avalanche,COLORADO,2020,8
+Avalanche,COLORADO,2021,9
+Avalanche,COLORADO,2022,6
+Avalanche,COLORADO,2023,8
+Avalanche,COLORADO,2024,2
+Avalanche,COLORADO,2025,3
+Avalanche,COLORADO,2026,1
+Avalanche,IDAHO,1998,2
+Avalanche,IDAHO,2003,2
+Avalanche,IDAHO,2004,4
+Avalanche,IDAHO,2006,1
+Avalanche,IDAHO,2007,1
+Avalanche,IDAHO,2009,1
+Avalanche,IDAHO,2010,3
+Avalanche,IDAHO,2013,1
+Avalanche,IDAHO,2014,1
+Avalanche,IDAHO,2017,1
+Avalanche,IDAHO,2018,3
+Avalanche,IDAHO,2019,1
+Avalanche,IDAHO,2020,7
+Avalanche,IDAHO,2021,4
+Avalanche,IDAHO,2023,1
+Avalanche,IDAHO,2024,2
+Avalanche,IDAHO,2026,1
+Avalanche,MONTANA,1998,2
+Avalanche,MONTANA,1999,1
+Avalanche,MONTANA,2006,2
+Avalanche,MONTANA,2008,2
+Avalanche,MONTANA,2010,2
+Avalanche,MONTANA,2011,1
+Avalanche,MONTANA,2012,2
+Avalanche,MONTANA,2014,6
+Avalanche,MONTANA,2015,1
+Avalanche,MONTANA,2016,1
+Avalanche,MONTANA,2020,2
+Avalanche,MONTANA,2021,1
+Avalanche,MONTANA,2022,3
+Avalanche,NEVADA,2002,1
+Avalanche,NEVADA,2021,1
+Avalanche,NEVADA,2023,1
+Avalanche,NEW HAMPSHIRE,1996,3
+Avalanche,NEW HAMPSHIRE,2021,1
+Avalanche,NEW MEXICO,2019,2
+Avalanche,NEW YORK,2000,1
+Avalanche,OREGON,1999,1
+Avalanche,OREGON,2009,1
+Avalanche,OREGON,2010,1
+Avalanche,OREGON,2014,3
+Avalanche,UTAH,1998,1
+Avalanche,UTAH,1999,3
+Avalanche,UTAH,2000,3
+Avalanche,UTAH,2001,5
+Avalanche,UTAH,2002,3
+Avalanche,UTAH,2003,4
+Avalanche,UTAH,2004,4
+Avalanche,UTAH,2005,2
+Avalanche,UTAH,2006,1
+Avalanche,UTAH,2007,7
+Avalanche,UTAH,2008,4
+Avalanche,UTAH,2010,5
+Avalanche,UTAH,2011,2
+Avalanche,UTAH,2012,4
+Avalanche,UTAH,2013,4
+Avalanche,UTAH,2014,3
+Avalanche,UTAH,2015,1
+Avalanche,UTAH,2016,2
+Avalanche,UTAH,2019,2
+Avalanche,UTAH,2020,1
+Avalanche,UTAH,2021,6
+Avalanche,UTAH,2023,3
+Avalanche,UTAH,2024,4
+Avalanche,UTAH,2025,3
+Avalanche,UTAH,2026,4
+Avalanche,WASHINGTON,1996,2
+Avalanche,WASHINGTON,1997,4
+Avalanche,WASHINGTON,1998,2
+Avalanche,WASHINGTON,1999,3
+Avalanche,WASHINGTON,2000,1
+Avalanche,WASHINGTON,2001,2
+Avalanche,WASHINGTON,2002,1
+Avalanche,WASHINGTON,2003,2
+Avalanche,WASHINGTON,2005,1
+Avalanche,WASHINGTON,2006,2
+Avalanche,WASHINGTON,2007,7
+Avalanche,WASHINGTON,2008,3
+Avalanche,WASHINGTON,2010,1
+Avalanche,WASHINGTON,2011,3
+Avalanche,WASHINGTON,2012,4
+Avalanche,WASHINGTON,2013,2
+Avalanche,WASHINGTON,2014,3
+Avalanche,WASHINGTON,2016,2
+Avalanche,WASHINGTON,2020,1
+Avalanche,WASHINGTON,2021,1
+Avalanche,WASHINGTON,2023,3
+Avalanche,WASHINGTON,2024,1
+Avalanche,WASHINGTON,2025,1
+Avalanche,WASHINGTON,2026,2
+Avalanche,WYOMING,2000,3
+Avalanche,WYOMING,2001,2
+Avalanche,WYOMING,2005,1
+Avalanche,WYOMING,2006,2
+Avalanche,WYOMING,2007,2
+Avalanche,WYOMING,2008,5
+Avalanche,WYOMING,2009,4
+Avalanche,WYOMING,2010,3
+Avalanche,WYOMING,2011,3
+Avalanche,WYOMING,2012,3
+Avalanche,WYOMING,2013,4
+Avalanche,WYOMING,2014,1
+Avalanche,WYOMING,2015,2
+Avalanche,WYOMING,2016,5
+Avalanche,WYOMING,2018,2
+Avalanche,WYOMING,2019,1
+Avalanche,WYOMING,2021,3
+Avalanche,WYOMING,2022,2
+Avalanche,WYOMING,2023,1
+Avalanche,WYOMING,2024,2
+Avalanche,WYOMING,2025,2
+Blizzard,ALASKA,2001,2
+Blizzard,ALASKA,2004,1
+Blizzard,ALASKA,2009,2
+Blizzard,ALASKA,2011,1
+Blizzard,ALASKA,2012,1
+Blizzard,CALIFORNIA,2018,1
+Blizzard,COLORADO,1997,10
+Blizzard,COLORADO,2006,2
+Blizzard,COLORADO,2019,4
+Blizzard,CONNECTICUT,2026,1
+Blizzard,IDAHO,2000,1
+Blizzard,IDAHO,2001,1
+Blizzard,IDAHO,2008,1
+Blizzard,ILLINOIS,2007,2
+Blizzard,ILLINOIS,2010,2
+Blizzard,ILLINOIS,2011,16
+Blizzard,ILLINOIS,2016,1
+Blizzard,INDIANA,2011,3
+Blizzard,IOWA,1996,2
+Blizzard,IOWA,2009,1
+Blizzard,IOWA,2010,1
+Blizzard,IOWA,2011,1
+Blizzard,IOWA,2012,2
+Blizzard,IOWA,2015,1
+Blizzard,IOWA,2021,1
+Blizzard,KANSAS,1998,1
+Blizzard,KANSAS,2007,1
+Blizzard,KANSAS,2009,3
+Blizzard,KANSAS,2018,2
+Blizzard,KANSAS,2025,2
+Blizzard,MAINE,2013,1
+Blizzard,MARYLAND,1996,2
+Blizzard,MASSACHUSETTS,2015,1
+Blizzard,MICHIGAN,2008,1
+Blizzard,MINNESOTA,1996,3
+Blizzard,MINNESOTA,1997,1
+Blizzard,MINNESOTA,2009,1
+Blizzard,MINNESOTA,2010,1
+Blizzard,MINNESOTA,2014,2
+Blizzard,MINNESOTA,2018,1
+Blizzard,MISSOURI,2011,4
+Blizzard,MONTANA,1998,1
+Blizzard,MONTANA,2001,1
+Blizzard,MONTANA,2008,1
+Blizzard,NEBRASKA,1997,1
+Blizzard,NEBRASKA,2012,2
+Blizzard,NEBRASKA,2013,6
+Blizzard,NEBRASKA,2018,2
+Blizzard,NEBRASKA,2024,1
+Blizzard,NEW JERSEY,1996,3
+Blizzard,NEW MEXICO,2011,1
+Blizzard,NEW MEXICO,2013,1
+Blizzard,NEW MEXICO,2024,1
+Blizzard,NEW YORK,2010,1
+Blizzard,NEW YORK,2013,7
+Blizzard,NEW YORK,2018,1
+Blizzard,NEW YORK,2022,44
+Blizzard,NEW YORK,2026,6
+Blizzard,NORTH DAKOTA,1997,8
+Blizzard,NORTH DAKOTA,2007,2
+Blizzard,NORTH DAKOTA,2011,1
+Blizzard,NORTH DAKOTA,2014,1
+Blizzard,NORTH DAKOTA,2022,2
+Blizzard,OHIO,2022,4
+Blizzard,OKLAHOMA,1997,1
+Blizzard,OKLAHOMA,2009,4
+Blizzard,OKLAHOMA,2011,3
+Blizzard,PENNSYLVANIA,1996,7
+Blizzard,PENNSYLVANIA,2016,8
+Blizzard,RHODE ISLAND,2026,1
+Blizzard,SOUTH DAKOTA,1996,3
+Blizzard,SOUTH DAKOTA,1997,2
+Blizzard,SOUTH DAKOTA,2005,1
+Blizzard,SOUTH DAKOTA,2008,1
+Blizzard,SOUTH DAKOTA,2013,4
+Blizzard,SOUTH DAKOTA,2014,1
+Blizzard,SOUTH DAKOTA,2016,1
+Blizzard,SOUTH DAKOTA,2019,2
+Blizzard,SOUTH DAKOTA,2020,2
+Blizzard,SOUTH DAKOTA,2021,1
+Blizzard,SOUTH DAKOTA,2022,6
+Blizzard,TEXAS,2015,2
+Blizzard,UTAH,1997,3
+Blizzard,VIRGINIA,1996,1
+Blizzard,WASHINGTON,2002,3
+Blizzard,WEST VIRGINIA,2012,1
+Blizzard,WISCONSIN,1996,1
+Blizzard,WISCONSIN,2006,1
+Blizzard,WISCONSIN,2010,1
+Blizzard,WISCONSIN,2011,4
+Blizzard,WYOMING,2006,1
+Blizzard,WYOMING,2019,1
+Blizzard,WYOMING,2021,1
+Coastal Flood,ALASKA,2008,2
+Coastal Flood,ALASKA,2011,1
+Coastal Flood,ALASKA,2025,1
+Coastal Flood,CONNECTICUT,1996,1
+Coastal Flood,CONNECTICUT,1997,1
+Coastal Flood,NEW JERSEY,2011,1
+Coastal Flood,NEW JERSEY,2012,7
+Coastal Flood,NEW YORK,1996,1
+Coastal Flood,NEW YORK,1997,1
+Coastal Flood,NEW YORK,2012,39
+Coastal Flood,OREGON,2018,1
+Coastal Flood,PUERTO RICO,1996,2
+Coastal Flood,PUERTO RICO,2023,1
+Coastal Flood,VIRGINIA,2016,1
+Cold/Wind Chill,ALABAMA,1996,3
+Cold/Wind Chill,ALABAMA,1999,1
+Cold/Wind Chill,ALABAMA,2026,3
+Cold/Wind Chill,ALASKA,1999,1
+Cold/Wind Chill,ALASKA,2015,2
+Cold/Wind Chill,ARIZONA,2011,2
+Cold/Wind Chill,ARIZONA,2013,1
+Cold/Wind Chill,ARIZONA,2015,1
+Cold/Wind Chill,ARIZONA,2020,1
+Cold/Wind Chill,ARIZONA,2021,1
+Cold/Wind Chill,ARIZONA,2022,3
+Cold/Wind Chill,ARIZONA,2023,5
+Cold/Wind Chill,ARIZONA,2024,4
+Cold/Wind Chill,ARIZONA,2025,6
+Cold/Wind Chill,ARIZONA,2026,3
+Cold/Wind Chill,ARKANSAS,1998,2
+Cold/Wind Chill,ARKANSAS,2008,2
+Cold/Wind Chill,CALIFORNIA,1998,4
+Cold/Wind Chill,CALIFORNIA,2007,1
+Cold/Wind Chill,CALIFORNIA,2018,3
+Cold/Wind Chill,CALIFORNIA,2019,15
+Cold/Wind Chill,CALIFORNIA,2020,6
+Cold/Wind Chill,CALIFORNIA,2021,5
+Cold/Wind Chill,CALIFORNIA,2022,6
+Cold/Wind Chill,CALIFORNIA,2023,3
+Cold/Wind Chill,CALIFORNIA,2024,10
+Cold/Wind Chill,CALIFORNIA,2025,6
+Cold/Wind Chill,COLORADO,1996,1
+Cold/Wind Chill,COLORADO,1998,3
+Cold/Wind Chill,COLORADO,2022,1
+Cold/Wind Chill,DELAWARE,2007,1
+Cold/Wind Chill,FLORIDA,2009,1
+Cold/Wind Chill,FLORIDA,2010,2
+Cold/Wind Chill,FLORIDA,2022,2
+Cold/Wind Chill,GEORGIA,1996,1
+Cold/Wind Chill,IDAHO,2020,1
+Cold/Wind Chill,IDAHO,2021,1
+Cold/Wind Chill,ILLINOIS,1996,5
+Cold/Wind Chill,ILLINOIS,1997,8
+Cold/Wind Chill,ILLINOIS,1999,1
+Cold/Wind Chill,ILLINOIS,2003,4
+Cold/Wind Chill,ILLINOIS,2004,17
+Cold/Wind Chill,ILLINOIS,2005,8
+Cold/Wind Chill,ILLINOIS,2006,1
+Cold/Wind Chill,ILLINOIS,2008,19
+Cold/Wind Chill,ILLINOIS,2009,8
+Cold/Wind Chill,ILLINOIS,2010,18
+Cold/Wind Chill,ILLINOIS,2011,9
+Cold/Wind Chill,ILLINOIS,2012,3
+Cold/Wind Chill,ILLINOIS,2013,16
+Cold/Wind Chill,ILLINOIS,2014,15
+Cold/Wind Chill,ILLINOIS,2015,12
+Cold/Wind Chill,ILLINOIS,2016,6
+Cold/Wind Chill,ILLINOIS,2019,1
+Cold/Wind Chill,ILLINOIS,2020,2
+Cold/Wind Chill,ILLINOIS,2021,3
+Cold/Wind Chill,ILLINOIS,2024,2
+Cold/Wind Chill,ILLINOIS,2025,2
+Cold/Wind Chill,INDIANA,2008,2
+Cold/Wind Chill,INDIANA,2010,1
+Cold/Wind Chill,INDIANA,2011,1
+Cold/Wind Chill,INDIANA,2015,1
+Cold/Wind Chill,INDIANA,2024,1
+Cold/Wind Chill,INDIANA,2026,3
+Cold/Wind Chill,IOWA,1996,1
+Cold/Wind Chill,IOWA,2016,1
+Cold/Wind Chill,KANSAS,2011,1
+Cold/Wind Chill,KENTUCKY,2010,2
+Cold/Wind Chill,KENTUCKY,2014,1
+Cold/Wind Chill,KENTUCKY,2015,6
+Cold/Wind Chill,KENTUCKY,2016,1
+Cold/Wind Chill,KENTUCKY,2018,1
+Cold/Wind Chill,KENTUCKY,2024,1
+Cold/Wind Chill,KENTUCKY,2025,2
+Cold/Wind Chill,LOUISIANA,1996,1
+Cold/Wind Chill,LOUISIANA,1997,1
+Cold/Wind Chill,LOUISIANA,2008,2
+Cold/Wind Chill,LOUISIANA,2010,2
+Cold/Wind Chill,LOUISIANA,2021,1
+Cold/Wind Chill,LOUISIANA,2024,1
+Cold/Wind Chill,LOUISIANA,2025,1
+Cold/Wind Chill,LOUISIANA,2026,7
+Cold/Wind Chill,MAINE,2020,2
+Cold/Wind Chill,MICHIGAN,1996,1
+Cold/Wind Chill,MICHIGAN,1997,2
+Cold/Wind Chill,MICHIGAN,1998,1
+Cold/Wind Chill,MICHIGAN,1999,4
+Cold/Wind Chill,MICHIGAN,2003,2
+Cold/Wind Chill,MICHIGAN,2005,1
+Cold/Wind Chill,MICHIGAN,2007,1
+Cold/Wind Chill,MICHIGAN,2011,1
+Cold/Wind Chill,MICHIGAN,2018,4
+Cold/Wind Chill,MICHIGAN,2019,3
+Cold/Wind Chill,MICHIGAN,2020,1
+Cold/Wind Chill,MINNESOTA,2005,3
+Cold/Wind Chill,MINNESOTA,2008,1
+Cold/Wind Chill,MINNESOTA,2009,2
+Cold/Wind Chill,MINNESOTA,2011,1
+Cold/Wind Chill,MINNESOTA,2012,2
+Cold/Wind Chill,MINNESOTA,2014,5
+Cold/Wind Chill,MINNESOTA,2015,1
+Cold/Wind Chill,MINNESOTA,2016,2
+Cold/Wind Chill,MINNESOTA,2017,2
+Cold/Wind Chill,MINNESOTA,2018,1
+Cold/Wind Chill,MINNESOTA,2020,1
+Cold/Wind Chill,MISSISSIPPI,1996,3
+Cold/Wind Chill,MISSISSIPPI,2003,1
+Cold/Wind Chill,MISSISSIPPI,2004,1
+Cold/Wind Chill,MISSISSIPPI,2010,3
+Cold/Wind Chill,MISSISSIPPI,2011,1
+Cold/Wind Chill,MISSISSIPPI,2017,1
+Cold/Wind Chill,MISSISSIPPI,2019,1
+Cold/Wind Chill,MISSISSIPPI,2024,1
+Cold/Wind Chill,MISSISSIPPI,2026,6
+Cold/Wind Chill,MISSOURI,2013,3
+Cold/Wind Chill,MISSOURI,2018,2
+Cold/Wind Chill,MONTANA,1996,2
+Cold/Wind Chill,MONTANA,1997,1
+Cold/Wind Chill,MONTANA,2005,1
+Cold/Wind Chill,NEBRASKA,2004,1
+Cold/Wind Chill,NEBRASKA,2010,1
+Cold/Wind Chill,NEBRASKA,2024,1
+Cold/Wind Chill,NEBRASKA,2025,1
+Cold/Wind Chill,NEVADA,2007,1
+Cold/Wind Chill,NEVADA,2008,1
+Cold/Wind Chill,NEVADA,2011,3
+Cold/Wind Chill,NEVADA,2012,1
+Cold/Wind Chill,NEVADA,2014,1
+Cold/Wind Chill,NEVADA,2016,3
+Cold/Wind Chill,NEVADA,2017,3
+Cold/Wind Chill,NEVADA,2018,4
+Cold/Wind Chill,NEVADA,2019,6
+Cold/Wind Chill,NEVADA,2021,2
+Cold/Wind Chill,NEVADA,2022,6
+Cold/Wind Chill,NEVADA,2023,2
+Cold/Wind Chill,NEW HAMPSHIRE,1996,1
+Cold/Wind Chill,NEW HAMPSHIRE,2016,1
+Cold/Wind Chill,NEW JERSEY,2003,1
+Cold/Wind Chill,NEW JERSEY,2004,1
+Cold/Wind Chill,NEW JERSEY,2005,4
+Cold/Wind Chill,NEW JERSEY,2015,3
+Cold/Wind Chill,NEW JERSEY,2018,1
+Cold/Wind Chill,NEW MEXICO,1997,6
+Cold/Wind Chill,NEW MEXICO,2011,3
+Cold/Wind Chill,NEW YORK,1997,1
+Cold/Wind Chill,NEW YORK,2004,1
+Cold/Wind Chill,NEW YORK,2005,3
+Cold/Wind Chill,NEW YORK,2013,1
+Cold/Wind Chill,NEW YORK,2022,1
+Cold/Wind Chill,NORTH CAROLINA,1996,5
+Cold/Wind Chill,NORTH CAROLINA,1997,2
+Cold/Wind Chill,NORTH CAROLINA,2000,1
+Cold/Wind Chill,NORTH CAROLINA,2008,1
+Cold/Wind Chill,NORTH DAKOTA,1996,5
+Cold/Wind Chill,NORTH DAKOTA,2003,2
+Cold/Wind Chill,NORTH DAKOTA,2008,1
+Cold/Wind Chill,OHIO,1996,2
+Cold/Wind Chill,OHIO,1997,5
+Cold/Wind Chill,OHIO,2021,7
+Cold/Wind Chill,OHIO,2024,1
+Cold/Wind Chill,OHIO,2026,2
+Cold/Wind Chill,OKLAHOMA,1996,3
+Cold/Wind Chill,OKLAHOMA,2007,3
+Cold/Wind Chill,OKLAHOMA,2021,1
+Cold/Wind Chill,OREGON,2004,1
+Cold/Wind Chill,OREGON,2017,4
+Cold/Wind Chill,OREGON,2018,1
+Cold/Wind Chill,OREGON,2025,1
+Cold/Wind Chill,PENNSYLVANIA,1997,3
+Cold/Wind Chill,PENNSYLVANIA,2002,1
+Cold/Wind Chill,PENNSYLVANIA,2003,4
+Cold/Wind Chill,PENNSYLVANIA,2004,4
+Cold/Wind Chill,PENNSYLVANIA,2005,3
+Cold/Wind Chill,PENNSYLVANIA,2006,1
+Cold/Wind Chill,PENNSYLVANIA,2013,1
+Cold/Wind Chill,PENNSYLVANIA,2014,4
+Cold/Wind Chill,PENNSYLVANIA,2015,8
+Cold/Wind Chill,PENNSYLVANIA,2024,1
+Cold/Wind Chill,SOUTH CAROLINA,1996,6
+Cold/Wind Chill,SOUTH CAROLINA,1997,1
+Cold/Wind Chill,SOUTH CAROLINA,1998,1
+Cold/Wind Chill,SOUTH CAROLINA,2000,7
+Cold/Wind Chill,SOUTH CAROLINA,2010,1
+Cold/Wind Chill,SOUTH CAROLINA,2022,2
+Cold/Wind Chill,SOUTH CAROLINA,2026,1
+Cold/Wind Chill,SOUTH DAKOTA,1996,1
+Cold/Wind Chill,SOUTH DAKOTA,1997,2
+Cold/Wind Chill,SOUTH DAKOTA,2011,1
+Cold/Wind Chill,SOUTH DAKOTA,2015,1
+Cold/Wind Chill,SOUTH DAKOTA,2025,1
+Cold/Wind Chill,TENNESSEE,1996,2
+Cold/Wind Chill,TENNESSEE,2010,6
+Cold/Wind Chill,TENNESSEE,2011,1
+Cold/Wind Chill,TENNESSEE,2015,9
+Cold/Wind Chill,TENNESSEE,2021,4
+Cold/Wind Chill,TENNESSEE,2024,3
+Cold/Wind Chill,TENNESSEE,2026,9
+Cold/Wind Chill,TEXAS,1996,5
+Cold/Wind Chill,TEXAS,1997,1
+Cold/Wind Chill,TEXAS,2004,1
+Cold/Wind Chill,TEXAS,2007,1
+Cold/Wind Chill,TEXAS,2010,1
+Cold/Wind Chill,TEXAS,2011,1
+Cold/Wind Chill,TEXAS,2012,2
+Cold/Wind Chill,TEXAS,2015,2
+Cold/Wind Chill,TEXAS,2016,1
+Cold/Wind Chill,TEXAS,2017,3
+Cold/Wind Chill,TEXAS,2018,1
+Cold/Wind Chill,TEXAS,2021,56
+Cold/Wind Chill,VERMONT,2021,1
+Cold/Wind Chill,VIRGINIA,1996,1
+Cold/Wind Chill,VIRGINIA,2007,1
+Cold/Wind Chill,WASHINGTON,1996,2
+Cold/Wind Chill,WASHINGTON,2015,1
+Cold/Wind Chill,WASHINGTON,2016,1
+Cold/Wind Chill,WASHINGTON,2024,5
+Cold/Wind Chill,WEST VIRGINIA,2005,1
+Cold/Wind Chill,WEST VIRGINIA,2014,1
+Cold/Wind Chill,WEST VIRGINIA,2017,1
+Cold/Wind Chill,WISCONSIN,1996,10
+Cold/Wind Chill,WISCONSIN,1997,2
+Cold/Wind Chill,WISCONSIN,2006,1
+Cold/Wind Chill,WISCONSIN,2007,1
+Cold/Wind Chill,WISCONSIN,2008,4
+Cold/Wind Chill,WISCONSIN,2009,3
+Cold/Wind Chill,WISCONSIN,2010,1
+Cold/Wind Chill,WISCONSIN,2013,2
+Cold/Wind Chill,WISCONSIN,2014,9
+Cold/Wind Chill,WISCONSIN,2015,4
+Cold/Wind Chill,WISCONSIN,2016,11
+Cold/Wind Chill,WISCONSIN,2017,9
+Cold/Wind Chill,WISCONSIN,2018,9
+Cold/Wind Chill,WISCONSIN,2019,7
+Cold/Wind Chill,WISCONSIN,2020,4
+Cold/Wind Chill,WISCONSIN,2021,1
+Cold/Wind Chill,WISCONSIN,2022,1
+Cold/Wind Chill,WISCONSIN,2023,2
+Cold/Wind Chill,WISCONSIN,2024,8
+Cold/Wind Chill,WISCONSIN,2025,2
+Cold/Wind Chill,WYOMING,1996,1
 Debris Flow,ALASKA,2015,3
 Debris Flow,ALASKA,2020,2
 Debris Flow,ALASKA,2023,6
 Debris Flow,ALASKA,2024,1
+Debris Flow,CALIFORNIA,2003,14
+Debris Flow,CALIFORNIA,2005,1
+Debris Flow,CALIFORNIA,2006,1
 Debris Flow,CALIFORNIA,2018,21
 Debris Flow,CALIFORNIA,2019,1
 Debris Flow,CALIFORNIA,2022,3
 Debris Flow,CALIFORNIA,2024,2
+Debris Flow,COLORADO,2003,1
+Debris Flow,COLORADO,2006,2
+Debris Flow,COLORADO,2011,1
 Debris Flow,COLORADO,2014,3
 Debris Flow,NEW HAMPSHIRE,2012,1
 Debris Flow,NEW MEXICO,2025,3
+Debris Flow,NORTH CAROLINA,2004,4
 Debris Flow,NORTH CAROLINA,2013,1
 Debris Flow,NORTH CAROLINA,2018,3
 Debris Flow,NORTH CAROLINA,2021,1
 Debris Flow,NORTH CAROLINA,2024,13
+Debris Flow,OREGON,1996,1
 Debris Flow,OREGON,2021,1
+Debris Flow,PUERTO RICO,1997,1
+Debris Flow,PUERTO RICO,2007,2
 Debris Flow,TENNESSEE,2019,1
+Debris Flow,WASHINGTON,1997,4
+Debris Flow,WASHINGTON,2007,1
 Debris Flow,WASHINGTON,2014,43
 Debris Flow,WEST VIRGINIA,2015,1
+Dense Fog,ARIZONA,2015,2
+Dense Fog,CALIFORNIA,1996,1
+Dense Fog,CALIFORNIA,1997,5
+Dense Fog,CALIFORNIA,1998,6
+Dense Fog,CALIFORNIA,1999,2
+Dense Fog,CALIFORNIA,2000,3
+Dense Fog,CALIFORNIA,2002,2
+Dense Fog,CALIFORNIA,2006,1
+Dense Fog,CALIFORNIA,2007,4
+Dense Fog,CALIFORNIA,2008,1
+Dense Fog,CALIFORNIA,2009,1
+Dense Fog,CALIFORNIA,2012,3
+Dense Fog,CALIFORNIA,2013,1
+Dense Fog,CALIFORNIA,2014,3
+Dense Fog,CALIFORNIA,2015,10
+Dense Fog,CALIFORNIA,2016,5
+Dense Fog,CALIFORNIA,2017,3
+Dense Fog,CALIFORNIA,2019,3
+Dense Fog,CALIFORNIA,2020,8
+Dense Fog,CALIFORNIA,2021,6
+Dense Fog,CALIFORNIA,2022,4
+Dense Fog,CALIFORNIA,2024,10
+Dense Fog,CALIFORNIA,2025,3
+Dense Fog,CALIFORNIA,2026,5
+Dense Fog,COLORADO,1997,1
+Dense Fog,COLORADO,2008,3
+Dense Fog,FLORIDA,1996,1
+Dense Fog,FLORIDA,2001,2
+Dense Fog,FLORIDA,2003,2
+Dense Fog,FLORIDA,2006,2
+Dense Fog,FLORIDA,2007,5
+Dense Fog,FLORIDA,2008,5
+Dense Fog,FLORIDA,2016,2
+Dense Fog,FLORIDA,2022,6
+Dense Fog,GEORGIA,2007,1
+Dense Fog,GEORGIA,2013,4
+Dense Fog,GEORGIA,2022,2
+Dense Fog,IDAHO,2023,1
+Dense Fog,ILLINOIS,2008,4
+Dense Fog,ILLINOIS,2009,1
+Dense Fog,ILLINOIS,2015,3
+Dense Fog,ILLINOIS,2017,1
+Dense Fog,ILLINOIS,2025,1
+Dense Fog,INDIANA,2001,1
+Dense Fog,INDIANA,2008,1
+Dense Fog,INDIANA,2013,1
+Dense Fog,INDIANA,2015,2
+Dense Fog,INDIANA,2019,2
+Dense Fog,IOWA,2008,1
+Dense Fog,IOWA,2013,1
+Dense Fog,IOWA,2020,1
+Dense Fog,IOWA,2023,1
+Dense Fog,IOWA,2024,4
+Dense Fog,IOWA,2025,1
+Dense Fog,KANSAS,2000,2
+Dense Fog,KANSAS,2001,1
+Dense Fog,KANSAS,2004,1
+Dense Fog,KANSAS,2023,1
+Dense Fog,KANSAS,2024,1
+Dense Fog,KENTUCKY,2016,1
+Dense Fog,LOUISIANA,2006,1
+Dense Fog,LOUISIANA,2007,1
+Dense Fog,LOUISIANA,2011,2
+Dense Fog,LOUISIANA,2023,7
+Dense Fog,LOUISIANA,2025,1
+Dense Fog,MAINE,2021,1
+Dense Fog,MARYLAND,1997,1
+Dense Fog,MARYLAND,2006,1
+Dense Fog,MICHIGAN,2002,1
+Dense Fog,MICHIGAN,2018,1
+Dense Fog,MINNESOTA,2010,1
+Dense Fog,MINNESOTA,2012,1
+Dense Fog,MINNESOTA,2017,1
+Dense Fog,MINNESOTA,2021,1
+Dense Fog,MINNESOTA,2023,1
+Dense Fog,MISSISSIPPI,2012,1
+Dense Fog,MISSOURI,2022,5
+Dense Fog,NEBRASKA,2011,1
+Dense Fog,NEBRASKA,2025,1
+Dense Fog,NEBRASKA,2026,1
+Dense Fog,NEW JERSEY,2014,1
+Dense Fog,NEW MEXICO,2006,1
+Dense Fog,NEW MEXICO,2014,1
+Dense Fog,NEW MEXICO,2018,2
+Dense Fog,NEW YORK,1997,2
+Dense Fog,NORTH CAROLINA,2000,1
+Dense Fog,NORTH DAKOTA,2022,1
+Dense Fog,NORTH DAKOTA,2023,1
+Dense Fog,OHIO,2000,3
+Dense Fog,OHIO,2001,2
+Dense Fog,OHIO,2013,1
+Dense Fog,OHIO,2019,2
+Dense Fog,OKLAHOMA,2007,1
+Dense Fog,OKLAHOMA,2013,1
+Dense Fog,OREGON,1999,1
+Dense Fog,OREGON,2008,1
+Dense Fog,OREGON,2018,1
+Dense Fog,OREGON,2022,1
+Dense Fog,OREGON,2023,3
+Dense Fog,SOUTH CAROLINA,2001,1
+Dense Fog,SOUTH DAKOTA,1997,1
+Dense Fog,SOUTH DAKOTA,2010,3
+Dense Fog,SOUTH DAKOTA,2019,1
+Dense Fog,SOUTH DAKOTA,2021,1
+Dense Fog,SOUTH DAKOTA,2022,1
+Dense Fog,SOUTH DAKOTA,2024,1
+Dense Fog,TEXAS,2007,1
+Dense Fog,TEXAS,2009,1
+Dense Fog,TEXAS,2011,6
+Dense Fog,TEXAS,2012,2
+Dense Fog,TEXAS,2014,1
+Dense Fog,TEXAS,2024,2
+Dense Fog,TEXAS,2026,1
+Dense Fog,UTAH,2002,3
+Dense Fog,UTAH,2003,3
+Dense Fog,UTAH,2022,1
+Dense Fog,VIRGINIA,2010,1
+Dense Fog,VIRGINIA,2013,3
+Dense Fog,WASHINGTON,2002,1
+Dense Fog,WASHINGTON,2012,1
+Dense Fog,WASHINGTON,2018,1
+Dense Fog,WISCONSIN,2000,1
+Dense Fog,WISCONSIN,2002,10
+Dense Fog,WISCONSIN,2008,3
+Dense Fog,WISCONSIN,2009,1
+Dense Fog,WISCONSIN,2010,1
+Dense Fog,WISCONSIN,2011,1
+Dense Fog,WISCONSIN,2018,3
+Dense Fog,WISCONSIN,2019,1
+Dense Fog,WISCONSIN,2020,1
+Dense Fog,WISCONSIN,2021,4
+Dense Fog,WISCONSIN,2023,1
+Dense Fog,WISCONSIN,2025,1
+Dense Fog,WYOMING,2015,2
+Dense Smoke,INDIANA,2012,1
+Dense Smoke,MONTANA,2015,1
 Dust Devil,CALIFORNIA,2024,2
+Dust Devil,MAINE,2003,1
+Dust Devil,NEVADA,1996,1
 Dust Devil,NEW YORK,2014,1
 Dust Devil,WYOMING,2008,1
+Dust Storm,ARIZONA,2003,2
+Dust Storm,ARIZONA,2006,2
+Dust Storm,ARIZONA,2009,5
+Dust Storm,ARIZONA,2010,1
+Dust Storm,ARIZONA,2011,2
+Dust Storm,ARIZONA,2013,3
+Dust Storm,ARIZONA,2016,1
+Dust Storm,ARIZONA,2018,1
+Dust Storm,ARIZONA,2025,4
+Dust Storm,ARKANSAS,2009,1
+Dust Storm,ARKANSAS,2016,1
+Dust Storm,CALIFORNIA,2007,2
+Dust Storm,CALIFORNIA,2009,3
+Dust Storm,CALIFORNIA,2013,2
+Dust Storm,CALIFORNIA,2021,1
+Dust Storm,CALIFORNIA,2023,3
+Dust Storm,COLORADO,2021,1
+Dust Storm,IDAHO,2016,1
+Dust Storm,ILLINOIS,2023,8
+Dust Storm,KANSAS,2014,3
+Dust Storm,KANSAS,2022,1
+Dust Storm,KANSAS,2025,8
+Dust Storm,KANSAS,2026,1
+Dust Storm,MONTANA,2000,1
+Dust Storm,NEBRASKA,2002,2
+Dust Storm,NEBRASKA,2018,2
+Dust Storm,NEVADA,2009,1
+Dust Storm,NEVADA,2013,1
+Dust Storm,NEW MEXICO,2017,1
+Dust Storm,NEW MEXICO,2024,1
+Dust Storm,NEW MEXICO,2025,4
+Dust Storm,OKLAHOMA,2025,1
+Dust Storm,OREGON,2015,1
+Dust Storm,TEXAS,2009,2
+Dust Storm,TEXAS,2012,1
+Dust Storm,TEXAS,2015,1
+Dust Storm,TEXAS,2016,1
+Dust Storm,TEXAS,2017,2
+Dust Storm,TEXAS,2020,2
+Dust Storm,UTAH,2021,8
+Dust Storm,WASHINGTON,2015,1
+Dust Storm,WASHINGTON,2020,1
+Excessive Heat,ALABAMA,2022,1
+Excessive Heat,ARIZONA,2008,2
+Excessive Heat,ARIZONA,2009,2
+Excessive Heat,ARIZONA,2011,2
+Excessive Heat,ARIZONA,2012,1
+Excessive Heat,ARIZONA,2013,3
+Excessive Heat,ARIZONA,2016,8
+Excessive Heat,ARIZONA,2017,2
+Excessive Heat,ARIZONA,2018,140
+Excessive Heat,ARIZONA,2019,83
+Excessive Heat,ARIZONA,2020,222
+Excessive Heat,ARIZONA,2021,150
+Excessive Heat,ARIZONA,2022,147
+Excessive Heat,ARIZONA,2023,593
+Excessive Heat,ARIZONA,2024,109
+Excessive Heat,ARIZONA,2025,43
+Excessive Heat,ARIZONA,2026,5
+Excessive Heat,ARKANSAS,2010,2
+Excessive Heat,ARKANSAS,2012,2
+Excessive Heat,ARKANSAS,2015,2
+Excessive Heat,ARKANSAS,2019,1
+Excessive Heat,CALIFORNIA,2007,24
+Excessive Heat,CALIFORNIA,2008,2
+Excessive Heat,CALIFORNIA,2011,2
+Excessive Heat,CALIFORNIA,2014,1
+Excessive Heat,CALIFORNIA,2017,17
+Excessive Heat,CALIFORNIA,2018,1
+Excessive Heat,CALIFORNIA,2019,1
+Excessive Heat,CALIFORNIA,2020,8
+Excessive Heat,CALIFORNIA,2021,3
+Excessive Heat,CALIFORNIA,2022,1
+Excessive Heat,CALIFORNIA,2023,2
+Excessive Heat,CALIFORNIA,2024,15
+Excessive Heat,COLORADO,2022,1
+Excessive Heat,DELAWARE,2013,1
+Excessive Heat,GEORGIA,2007,3
+Excessive Heat,GEORGIA,2015,1
+Excessive Heat,IDAHO,2022,1
+Excessive Heat,ILLINOIS,2007,8
+Excessive Heat,ILLINOIS,2009,8
+Excessive Heat,ILLINOIS,2010,1
+Excessive Heat,ILLINOIS,2011,10
+Excessive Heat,ILLINOIS,2012,29
+Excessive Heat,ILLINOIS,2013,3
+Excessive Heat,ILLINOIS,2019,2
+Excessive Heat,ILLINOIS,2023,1
+Excessive Heat,INDIANA,2011,1
+Excessive Heat,INDIANA,2012,3
+Excessive Heat,KANSAS,2011,6
+Excessive Heat,KANSAS,2014,1
+Excessive Heat,KENTUCKY,2010,1
+Excessive Heat,KENTUCKY,2011,1
+Excessive Heat,LOUISIANA,2008,2
+Excessive Heat,LOUISIANA,2010,5
+Excessive Heat,LOUISIANA,2011,8
+Excessive Heat,LOUISIANA,2012,1
+Excessive Heat,LOUISIANA,2023,3
+Excessive Heat,MARYLAND,2008,2
+Excessive Heat,MARYLAND,2010,1
+Excessive Heat,MARYLAND,2011,2
+Excessive Heat,MARYLAND,2012,3
+Excessive Heat,MARYLAND,2018,9
+Excessive Heat,MARYLAND,2019,2
+Excessive Heat,MICHIGAN,2011,3
+Excessive Heat,MINNESOTA,2011,1
+Excessive Heat,MINNESOTA,2012,3
+Excessive Heat,MINNESOTA,2021,1
+Excessive Heat,MISSISSIPPI,2007,1
+Excessive Heat,MISSISSIPPI,2010,8
+Excessive Heat,MISSISSIPPI,2023,2
+Excessive Heat,MISSOURI,2007,12
+Excessive Heat,MISSOURI,2009,2
+Excessive Heat,MISSOURI,2010,3
+Excessive Heat,MISSOURI,2011,14
+Excessive Heat,MISSOURI,2012,32
+Excessive Heat,MISSOURI,2016,2
+Excessive Heat,MISSOURI,2022,3
+Excessive Heat,MONTANA,2018,1
+Excessive Heat,NEBRASKA,2023,1
+Excessive Heat,NEVADA,2007,2
+Excessive Heat,NEVADA,2010,7
+Excessive Heat,NEVADA,2011,1
+Excessive Heat,NEVADA,2012,1
+Excessive Heat,NEVADA,2013,42
+Excessive Heat,NEVADA,2014,3
+Excessive Heat,NEVADA,2015,5
+Excessive Heat,NEVADA,2016,55
+Excessive Heat,NEVADA,2017,52
+Excessive Heat,NEVADA,2018,47
+Excessive Heat,NEVADA,2019,9
+Excessive Heat,NEVADA,2021,7
+Excessive Heat,NEVADA,2022,26
+Excessive Heat,NEVADA,2023,18
+Excessive Heat,NEVADA,2024,115
+Excessive Heat,NEVADA,2025,41
+Excessive Heat,NEW JERSEY,2008,1
+Excessive Heat,NEW JERSEY,2010,1
+Excessive Heat,NEW JERSEY,2011,2
+Excessive Heat,NEW YORK,2010,10
+Excessive Heat,NEW YORK,2011,20
+Excessive Heat,NEW YORK,2012,1
+Excessive Heat,NEW YORK,2013,9
+Excessive Heat,NEW YORK,2025,1
+Excessive Heat,OKLAHOMA,2007,2
+Excessive Heat,OKLAHOMA,2008,2
+Excessive Heat,OKLAHOMA,2009,1
+Excessive Heat,OKLAHOMA,2010,1
+Excessive Heat,OKLAHOMA,2011,6
+Excessive Heat,OKLAHOMA,2016,2
+Excessive Heat,OREGON,2014,1
+Excessive Heat,OREGON,2015,2
+Excessive Heat,OREGON,2016,3
+Excessive Heat,OREGON,2017,2
+Excessive Heat,OREGON,2021,126
+Excessive Heat,OREGON,2022,16
+Excessive Heat,OREGON,2023,5
+Excessive Heat,OREGON,2024,4
+Excessive Heat,OREGON,2025,4
+Excessive Heat,OREGON,2026,4
+Excessive Heat,PENNSYLVANIA,2007,1
+Excessive Heat,PENNSYLVANIA,2008,29
+Excessive Heat,PENNSYLVANIA,2010,20
+Excessive Heat,PENNSYLVANIA,2011,27
+Excessive Heat,PENNSYLVANIA,2012,8
+Excessive Heat,PENNSYLVANIA,2013,2
+Excessive Heat,PENNSYLVANIA,2015,2
+Excessive Heat,PENNSYLVANIA,2016,10
+Excessive Heat,PENNSYLVANIA,2018,2
+Excessive Heat,PENNSYLVANIA,2022,1
+Excessive Heat,SOUTH CAROLINA,2007,1
+Excessive Heat,SOUTH CAROLINA,2009,1
+Excessive Heat,SOUTH CAROLINA,2024,1
+Excessive Heat,SOUTH CAROLINA,2025,1
+Excessive Heat,SOUTH DAKOTA,2023,1
+Excessive Heat,TENNESSEE,2007,2
+Excessive Heat,TENNESSEE,2010,11
+Excessive Heat,TENNESSEE,2011,4
+Excessive Heat,TENNESSEE,2015,2
+Excessive Heat,TENNESSEE,2016,1
+Excessive Heat,TEXAS,2007,2
+Excessive Heat,TEXAS,2008,7
+Excessive Heat,TEXAS,2009,1
+Excessive Heat,TEXAS,2010,2
+Excessive Heat,TEXAS,2011,16
+Excessive Heat,TEXAS,2012,2
+Excessive Heat,TEXAS,2013,1
+Excessive Heat,TEXAS,2015,2
+Excessive Heat,TEXAS,2017,1
+Excessive Heat,TEXAS,2019,5
+Excessive Heat,TEXAS,2023,38
+Excessive Heat,TEXAS,2024,3
+Excessive Heat,UTAH,2022,1
+Excessive Heat,UTAH,2024,2
+Excessive Heat,VIRGINIA,2008,1
+Excessive Heat,WASHINGTON,2009,2
+Excessive Heat,WASHINGTON,2010,1
+Excessive Heat,WASHINGTON,2014,1
+Excessive Heat,WASHINGTON,2015,1
+Excessive Heat,WASHINGTON,2016,1
+Excessive Heat,WASHINGTON,2021,7
+Excessive Heat,WASHINGTON,2024,4
+Excessive Heat,WISCONSIN,2011,5
+Excessive Heat,WISCONSIN,2012,11
+Excessive Heat,WISCONSIN,2022,2
+Extreme Cold/Wind Chill,ALABAMA,2000,1
+Extreme Cold/Wind Chill,ALABAMA,2003,1
+Extreme Cold/Wind Chill,ALASKA,2000,2
+Extreme Cold/Wind Chill,ALASKA,2022,1
+Extreme Cold/Wind Chill,ARIZONA,2020,2
+Extreme Cold/Wind Chill,ARKANSAS,2017,1
+Extreme Cold/Wind Chill,CALIFORNIA,2002,1
+Extreme Cold/Wind Chill,CALIFORNIA,2013,2
+Extreme Cold/Wind Chill,CALIFORNIA,2022,1
+Extreme Cold/Wind Chill,DELAWARE,2007,4
+Extreme Cold/Wind Chill,FLORIDA,2001,1
+Extreme Cold/Wind Chill,FLORIDA,2003,1
+Extreme Cold/Wind Chill,FLORIDA,2009,1
+Extreme Cold/Wind Chill,IDAHO,2022,1
+Extreme Cold/Wind Chill,ILLINOIS,2000,2
+Extreme Cold/Wind Chill,ILLINOIS,2006,7
+Extreme Cold/Wind Chill,ILLINOIS,2007,15
+Extreme Cold/Wind Chill,ILLINOIS,2008,7
+Extreme Cold/Wind Chill,ILLINOIS,2009,7
+Extreme Cold/Wind Chill,ILLINOIS,2014,6
+Extreme Cold/Wind Chill,ILLINOIS,2017,2
+Extreme Cold/Wind Chill,ILLINOIS,2019,1
+Extreme Cold/Wind Chill,ILLINOIS,2022,1
+Extreme Cold/Wind Chill,ILLINOIS,2024,3
+Extreme Cold/Wind Chill,INDIANA,2015,1
+Extreme Cold/Wind Chill,INDIANA,2022,1
+Extreme Cold/Wind Chill,IOWA,2000,1
+Extreme Cold/Wind Chill,IOWA,2001,1
+Extreme Cold/Wind Chill,IOWA,2009,1
+Extreme Cold/Wind Chill,IOWA,2019,2
+Extreme Cold/Wind Chill,KANSAS,2016,1
+Extreme Cold/Wind Chill,KANSAS,2021,3
+Extreme Cold/Wind Chill,KENTUCKY,2015,2
+Extreme Cold/Wind Chill,KENTUCKY,2019,2
+Extreme Cold/Wind Chill,KENTUCKY,2022,2
+Extreme Cold/Wind Chill,KENTUCKY,2024,1
+Extreme Cold/Wind Chill,LOUISIANA,2014,2
+Extreme Cold/Wind Chill,LOUISIANA,2018,1
+Extreme Cold/Wind Chill,LOUISIANA,2025,2
+Extreme Cold/Wind Chill,LOUISIANA,2026,1
+Extreme Cold/Wind Chill,MARYLAND,2007,1
+Extreme Cold/Wind Chill,MASSACHUSETTS,2007,1
+Extreme Cold/Wind Chill,MICHIGAN,2001,1
+Extreme Cold/Wind Chill,MICHIGAN,2002,2
+Extreme Cold/Wind Chill,MICHIGAN,2003,3
+Extreme Cold/Wind Chill,MICHIGAN,2008,1
+Extreme Cold/Wind Chill,MICHIGAN,2026,1
+Extreme Cold/Wind Chill,MINNESOTA,2007,1
+Extreme Cold/Wind Chill,MINNESOTA,2008,2
+Extreme Cold/Wind Chill,MINNESOTA,2009,2
+Extreme Cold/Wind Chill,MINNESOTA,2014,2
+Extreme Cold/Wind Chill,MINNESOTA,2016,2
+Extreme Cold/Wind Chill,MINNESOTA,2018,1
+Extreme Cold/Wind Chill,MINNESOTA,2019,2
+Extreme Cold/Wind Chill,MINNESOTA,2022,2
+Extreme Cold/Wind Chill,MISSISSIPPI,2000,1
+Extreme Cold/Wind Chill,MISSISSIPPI,2018,1
+Extreme Cold/Wind Chill,MISSISSIPPI,2026,8
+Extreme Cold/Wind Chill,MISSOURI,2000,1
+Extreme Cold/Wind Chill,MISSOURI,2001,1
+Extreme Cold/Wind Chill,MISSOURI,2018,1
+Extreme Cold/Wind Chill,MONTANA,2009,1
+Extreme Cold/Wind Chill,NEBRASKA,2003,1
+Extreme Cold/Wind Chill,NEBRASKA,2025,1
+Extreme Cold/Wind Chill,NEW JERSEY,2007,2
+Extreme Cold/Wind Chill,NEW MEXICO,2009,1
+Extreme Cold/Wind Chill,NEW MEXICO,2010,1
+Extreme Cold/Wind Chill,NEW YORK,2000,3
+Extreme Cold/Wind Chill,NEW YORK,2007,12
+Extreme Cold/Wind Chill,NEW YORK,2018,1
+Extreme Cold/Wind Chill,NEW YORK,2019,1
+Extreme Cold/Wind Chill,NORTH CAROLINA,2017,1
+Extreme Cold/Wind Chill,NORTH DAKOTA,2000,1
+Extreme Cold/Wind Chill,NORTH DAKOTA,2008,1
+Extreme Cold/Wind Chill,NORTH DAKOTA,2011,1
+Extreme Cold/Wind Chill,NORTH DAKOTA,2014,1
+Extreme Cold/Wind Chill,OHIO,2008,1
+Extreme Cold/Wind Chill,OHIO,2009,2
+Extreme Cold/Wind Chill,OHIO,2019,4
+Extreme Cold/Wind Chill,OHIO,2022,3
+Extreme Cold/Wind Chill,OKLAHOMA,2000,2
+Extreme Cold/Wind Chill,OREGON,2009,1
+Extreme Cold/Wind Chill,PENNSYLVANIA,2000,2
+Extreme Cold/Wind Chill,PENNSYLVANIA,2007,2
+Extreme Cold/Wind Chill,PENNSYLVANIA,2025,2
+Extreme Cold/Wind Chill,SOUTH CAROLINA,2002,1
+Extreme Cold/Wind Chill,SOUTH CAROLINA,2011,1
+Extreme Cold/Wind Chill,SOUTH CAROLINA,2026,1
+Extreme Cold/Wind Chill,SOUTH DAKOTA,2017,3
+Extreme Cold/Wind Chill,SOUTH DAKOTA,2018,1
+Extreme Cold/Wind Chill,SOUTH DAKOTA,2019,1
+Extreme Cold/Wind Chill,SOUTH DAKOTA,2024,1
+Extreme Cold/Wind Chill,TENNESSEE,2000,1
+Extreme Cold/Wind Chill,TENNESSEE,2010,1
+Extreme Cold/Wind Chill,TENNESSEE,2011,1
+Extreme Cold/Wind Chill,TENNESSEE,2018,1
+Extreme Cold/Wind Chill,TENNESSEE,2024,4
+Extreme Cold/Wind Chill,TEXAS,2002,2
+Extreme Cold/Wind Chill,TEXAS,2011,2
+Extreme Cold/Wind Chill,TEXAS,2017,1
+Extreme Cold/Wind Chill,TEXAS,2018,7
+Extreme Cold/Wind Chill,TEXAS,2021,56
+Extreme Cold/Wind Chill,TEXAS,2022,1
+Extreme Cold/Wind Chill,TEXAS,2026,8
+Extreme Cold/Wind Chill,VIRGINIA,2000,1
+Extreme Cold/Wind Chill,WASHINGTON,2021,1
+Extreme Cold/Wind Chill,WEST VIRGINIA,2015,2
+Extreme Cold/Wind Chill,WISCONSIN,2008,1
+Extreme Cold/Wind Chill,WISCONSIN,2009,3
+Extreme Cold/Wind Chill,WISCONSIN,2014,1
+Extreme Cold/Wind Chill,WISCONSIN,2018,1
+Extreme Cold/Wind Chill,WISCONSIN,2019,2
+Extreme Cold/Wind Chill,WYOMING,2016,1
+Flash Flood,ALABAMA,1996,1
+Flash Flood,ALABAMA,1998,7
+Flash Flood,ALABAMA,1999,1
+Flash Flood,ALABAMA,2003,1
+Flash Flood,ALABAMA,2004,1
 Flash Flood,ALABAMA,2005,1
 Flash Flood,ALABAMA,2008,1
 Flash Flood,ALABAMA,2009,3
@@ -31,9 +1017,18 @@ Flash Flood,ALABAMA,2020,1
 Flash Flood,ALABAMA,2021,10
 Flash Flood,ALABAMA,2022,4
 Flash Flood,ALABAMA,2025,1
+Flash Flood,ALASKA,2002,3
 Flash Flood,ALASKA,2015,3
+Flash Flood,AMERICAN SAMOA,2003,4
 Flash Flood,AMERICAN SAMOA,2025,1
+Flash Flood,ARIZONA,1997,20
+Flash Flood,ARIZONA,1998,4
+Flash Flood,ARIZONA,2000,1
+Flash Flood,ARIZONA,2001,6
+Flash Flood,ARIZONA,2003,2
+Flash Flood,ARIZONA,2004,2
 Flash Flood,ARIZONA,2005,4
+Flash Flood,ARIZONA,2006,5
 Flash Flood,ARIZONA,2007,7
 Flash Flood,ARIZONA,2008,7
 Flash Flood,ARIZONA,2010,3
@@ -51,7 +1046,12 @@ Flash Flood,ARIZONA,2022,2
 Flash Flood,ARIZONA,2024,4
 Flash Flood,ARIZONA,2025,7
 Flash Flood,ARIZONA,2026,1
+Flash Flood,ARKANSAS,1997,1
+Flash Flood,ARKANSAS,1998,2
+Flash Flood,ARKANSAS,2002,2
+Flash Flood,ARKANSAS,2004,2
 Flash Flood,ARKANSAS,2005,1
+Flash Flood,ARKANSAS,2006,2
 Flash Flood,ARKANSAS,2008,2
 Flash Flood,ARKANSAS,2009,4
 Flash Flood,ARKANSAS,2010,22
@@ -63,7 +1063,14 @@ Flash Flood,ARKANSAS,2017,5
 Flash Flood,ARKANSAS,2019,2
 Flash Flood,ARKANSAS,2022,3
 Flash Flood,ARKANSAS,2023,1
-Flash Flood,CALIFORNIA,2005,3
+Flash Flood,CALIFORNIA,1996,2
+Flash Flood,CALIFORNIA,1997,6
+Flash Flood,CALIFORNIA,1998,11
+Flash Flood,CALIFORNIA,1999,2
+Flash Flood,CALIFORNIA,2000,1
+Flash Flood,CALIFORNIA,2003,5
+Flash Flood,CALIFORNIA,2004,4
+Flash Flood,CALIFORNIA,2005,13
 Flash Flood,CALIFORNIA,2008,2
 Flash Flood,CALIFORNIA,2010,2
 Flash Flood,CALIFORNIA,2013,1
@@ -78,6 +1085,9 @@ Flash Flood,CALIFORNIA,2023,5
 Flash Flood,CALIFORNIA,2024,2
 Flash Flood,CALIFORNIA,2025,2
 Flash Flood,CALIFORNIA,2026,1
+Flash Flood,COLORADO,1996,3
+Flash Flood,COLORADO,1997,6
+Flash Flood,COLORADO,2000,1
 Flash Flood,COLORADO,2005,2
 Flash Flood,COLORADO,2013,8
 Flash Flood,COLORADO,2018,1
@@ -85,14 +1095,24 @@ Flash Flood,COLORADO,2019,1
 Flash Flood,COLORADO,2021,4
 Flash Flood,COLORADO,2022,2
 Flash Flood,COLORADO,2023,1
+Flash Flood,CONNECTICUT,1999,1
 Flash Flood,CONNECTICUT,2008,1
 Flash Flood,CONNECTICUT,2024,3
+Flash Flood,DELAWARE,1999,2
 Flash Flood,DELAWARE,2011,2
+Flash Flood,FLORIDA,1997,2
+Flash Flood,FLORIDA,2001,1
+Flash Flood,FLORIDA,2003,1
+Flash Flood,FLORIDA,2004,1
 Flash Flood,FLORIDA,2009,1
 Flash Flood,FLORIDA,2014,3
+Flash Flood,GEORGIA,2001,1
 Flash Flood,GEORGIA,2003,1
+Flash Flood,GEORGIA,2004,1
 Flash Flood,GEORGIA,2008,1
 Flash Flood,GEORGIA,2009,8
+Flash Flood,GUAM,2004,1
+Flash Flood,HAWAII,2003,2
 Flash Flood,HAWAII,2006,7
 Flash Flood,HAWAII,2011,1
 Flash Flood,HAWAII,2012,1
@@ -101,7 +1121,12 @@ Flash Flood,HAWAII,2016,1
 Flash Flood,HAWAII,2017,1
 Flash Flood,HAWAII,2018,2
 Flash Flood,HAWAII,2023,1
+Flash Flood,IDAHO,1996,1
 Flash Flood,IDAHO,2009,1
+Flash Flood,ILLINOIS,1996,2
+Flash Flood,ILLINOIS,2000,3
+Flash Flood,ILLINOIS,2002,1
+Flash Flood,ILLINOIS,2003,1
 Flash Flood,ILLINOIS,2008,1
 Flash Flood,ILLINOIS,2009,1
 Flash Flood,ILLINOIS,2011,5
@@ -111,6 +1136,11 @@ Flash Flood,ILLINOIS,2019,1
 Flash Flood,ILLINOIS,2020,1
 Flash Flood,ILLINOIS,2022,1
 Flash Flood,ILLINOIS,2024,1
+Flash Flood,INDIANA,1996,2
+Flash Flood,INDIANA,1997,1
+Flash Flood,INDIANA,1998,1
+Flash Flood,INDIANA,2000,1
+Flash Flood,INDIANA,2003,2
 Flash Flood,INDIANA,2006,3
 Flash Flood,INDIANA,2008,7
 Flash Flood,INDIANA,2013,1
@@ -120,11 +1150,18 @@ Flash Flood,INDIANA,2020,6
 Flash Flood,INDIANA,2021,1
 Flash Flood,INDIANA,2022,1
 Flash Flood,INDIANA,2023,2
+Flash Flood,IOWA,1997,1
+Flash Flood,IOWA,1999,1
+Flash Flood,IOWA,2004,1
 Flash Flood,IOWA,2008,3
 Flash Flood,IOWA,2010,1
 Flash Flood,IOWA,2014,1
 Flash Flood,IOWA,2016,1
 Flash Flood,IOWA,2018,2
+Flash Flood,KANSAS,1996,2
+Flash Flood,KANSAS,1998,2
+Flash Flood,KANSAS,2001,1
+Flash Flood,KANSAS,2003,7
 Flash Flood,KANSAS,2005,1
 Flash Flood,KANSAS,2007,1
 Flash Flood,KANSAS,2008,1
@@ -132,7 +1169,13 @@ Flash Flood,KANSAS,2015,1
 Flash Flood,KANSAS,2016,2
 Flash Flood,KANSAS,2017,1
 Flash Flood,KANSAS,2018,2
-Flash Flood,KENTUCKY,2006,1
+Flash Flood,KENTUCKY,1996,2
+Flash Flood,KENTUCKY,1997,7
+Flash Flood,KENTUCKY,1998,1
+Flash Flood,KENTUCKY,2000,1
+Flash Flood,KENTUCKY,2001,2
+Flash Flood,KENTUCKY,2003,4
+Flash Flood,KENTUCKY,2006,5
 Flash Flood,KENTUCKY,2010,9
 Flash Flood,KENTUCKY,2011,5
 Flash Flood,KENTUCKY,2013,1
@@ -148,6 +1191,8 @@ Flash Flood,KENTUCKY,2023,2
 Flash Flood,KENTUCKY,2024,1
 Flash Flood,KENTUCKY,2025,7
 Flash Flood,KENTUCKY,2026,3
+Flash Flood,LOUISIANA,1997,1
+Flash Flood,LOUISIANA,2003,1
 Flash Flood,LOUISIANA,2006,1
 Flash Flood,LOUISIANA,2009,2
 Flash Flood,LOUISIANA,2011,2
@@ -158,18 +1203,29 @@ Flash Flood,LOUISIANA,2019,2
 Flash Flood,LOUISIANA,2020,1
 Flash Flood,LOUISIANA,2021,5
 Flash Flood,LOUISIANA,2023,1
+Flash Flood,MAINE,1996,1
+Flash Flood,MAINE,1998,1
 Flash Flood,MAINE,2012,1
+Flash Flood,MARYLAND,1996,3
+Flash Flood,MARYLAND,2003,4
+Flash Flood,MARYLAND,2006,5
 Flash Flood,MARYLAND,2013,1
 Flash Flood,MARYLAND,2015,2
 Flash Flood,MARYLAND,2016,2
 Flash Flood,MARYLAND,2018,3
 Flash Flood,MARYLAND,2021,1
 Flash Flood,MARYLAND,2025,1
+Flash Flood,MICHIGAN,1996,2
 Flash Flood,MICHIGAN,2008,3
 Flash Flood,MICHIGAN,2018,1
+Flash Flood,MINNESOTA,1998,2
+Flash Flood,MINNESOTA,2000,1
 Flash Flood,MINNESOTA,2005,1
 Flash Flood,MINNESOTA,2007,8
 Flash Flood,MINNESOTA,2008,3
+Flash Flood,MISSISSIPPI,1999,2
+Flash Flood,MISSISSIPPI,2002,3
+Flash Flood,MISSISSIPPI,2004,1
 Flash Flood,MISSISSIPPI,2009,1
 Flash Flood,MISSISSIPPI,2010,2
 Flash Flood,MISSISSIPPI,2011,2
@@ -178,8 +1234,17 @@ Flash Flood,MISSISSIPPI,2015,1
 Flash Flood,MISSISSIPPI,2017,1
 Flash Flood,MISSISSIPPI,2021,3
 Flash Flood,MISSISSIPPI,2025,1
+Flash Flood,MISSOURI,1996,7
+Flash Flood,MISSOURI,1997,4
+Flash Flood,MISSOURI,1998,12
+Flash Flood,MISSOURI,1999,3
+Flash Flood,MISSOURI,2000,2
+Flash Flood,MISSOURI,2001,3
+Flash Flood,MISSOURI,2002,3
+Flash Flood,MISSOURI,2003,1
+Flash Flood,MISSOURI,2004,1
 Flash Flood,MISSOURI,2005,2
-Flash Flood,MISSOURI,2006,1
+Flash Flood,MISSOURI,2006,2
 Flash Flood,MISSOURI,2007,2
 Flash Flood,MISSOURI,2008,9
 Flash Flood,MISSOURI,2009,3
@@ -199,18 +1264,33 @@ Flash Flood,MISSOURI,2024,3
 Flash Flood,MISSOURI,2025,2
 Flash Flood,MISSOURI,2026,1
 Flash Flood,MONTANA,2011,1
+Flash Flood,NEBRASKA,1999,1
+Flash Flood,NEBRASKA,2002,1
+Flash Flood,NEBRASKA,2004,1
 Flash Flood,NEBRASKA,2014,1
 Flash Flood,NEBRASKA,2019,2
+Flash Flood,NEVADA,1997,1
+Flash Flood,NEVADA,1998,1
+Flash Flood,NEVADA,1999,1
+Flash Flood,NEVADA,2002,1
 Flash Flood,NEVADA,2012,2
 Flash Flood,NEVADA,2016,2
 Flash Flood,NEVADA,2017,1
 Flash Flood,NEVADA,2023,3
 Flash Flood,NEVADA,2025,1
+Flash Flood,NEW HAMPSHIRE,1996,1
+Flash Flood,NEW HAMPSHIRE,1998,1
 Flash Flood,NEW HAMPSHIRE,2005,2
 Flash Flood,NEW HAMPSHIRE,2008,1
+Flash Flood,NEW JERSEY,1996,1
+Flash Flood,NEW JERSEY,1999,6
+Flash Flood,NEW JERSEY,2006,1
 Flash Flood,NEW JERSEY,2015,1
 Flash Flood,NEW JERSEY,2021,29
 Flash Flood,NEW JERSEY,2025,2
+Flash Flood,NEW MEXICO,1996,5
+Flash Flood,NEW MEXICO,1997,2
+Flash Flood,NEW MEXICO,2006,3
 Flash Flood,NEW MEXICO,2008,4
 Flash Flood,NEW MEXICO,2009,1
 Flash Flood,NEW MEXICO,2010,1
@@ -223,7 +1303,14 @@ Flash Flood,NEW MEXICO,2021,6
 Flash Flood,NEW MEXICO,2022,5
 Flash Flood,NEW MEXICO,2024,4
 Flash Flood,NEW MEXICO,2025,4
+Flash Flood,NEW YORK,1996,7
+Flash Flood,NEW YORK,1998,1
+Flash Flood,NEW YORK,1999,2
+Flash Flood,NEW YORK,2000,1
+Flash Flood,NEW YORK,2003,5
+Flash Flood,NEW YORK,2004,2
 Flash Flood,NEW YORK,2005,2
+Flash Flood,NEW YORK,2006,4
 Flash Flood,NEW YORK,2007,4
 Flash Flood,NEW YORK,2009,1
 Flash Flood,NEW YORK,2010,1
@@ -234,6 +1321,11 @@ Flash Flood,NEW YORK,2019,1
 Flash Flood,NEW YORK,2021,19
 Flash Flood,NEW YORK,2023,1
 Flash Flood,NEW YORK,2025,1
+Flash Flood,NORTH CAROLINA,1997,3
+Flash Flood,NORTH CAROLINA,1999,24
+Flash Flood,NORTH CAROLINA,2002,1
+Flash Flood,NORTH CAROLINA,2003,7
+Flash Flood,NORTH CAROLINA,2006,1
 Flash Flood,NORTH CAROLINA,2009,1
 Flash Flood,NORTH CAROLINA,2010,3
 Flash Flood,NORTH CAROLINA,2011,2
@@ -244,9 +1336,17 @@ Flash Flood,NORTH CAROLINA,2021,5
 Flash Flood,NORTH CAROLINA,2023,1
 Flash Flood,NORTH CAROLINA,2024,67
 Flash Flood,NORTH CAROLINA,2025,8
+Flash Flood,NORTH DAKOTA,2000,2
 Flash Flood,NORTH DAKOTA,2013,1
 Flash Flood,NORTH DAKOTA,2019,2
+Flash Flood,OHIO,1996,3
+Flash Flood,OHIO,1997,4
+Flash Flood,OHIO,1998,9
+Flash Flood,OHIO,1999,2
+Flash Flood,OHIO,2001,3
+Flash Flood,OHIO,2003,4
 Flash Flood,OHIO,2005,2
+Flash Flood,OHIO,2006,2
 Flash Flood,OHIO,2008,1
 Flash Flood,OHIO,2010,1
 Flash Flood,OHIO,2011,1
@@ -257,6 +1357,11 @@ Flash Flood,OHIO,2019,1
 Flash Flood,OHIO,2020,3
 Flash Flood,OHIO,2024,1
 Flash Flood,OHIO,2025,1
+Flash Flood,OKLAHOMA,1996,5
+Flash Flood,OKLAHOMA,1998,2
+Flash Flood,OKLAHOMA,1999,2
+Flash Flood,OKLAHOMA,2000,1
+Flash Flood,OKLAHOMA,2004,2
 Flash Flood,OKLAHOMA,2007,6
 Flash Flood,OKLAHOMA,2008,2
 Flash Flood,OKLAHOMA,2010,3
@@ -271,7 +1376,14 @@ Flash Flood,OKLAHOMA,2020,2
 Flash Flood,OKLAHOMA,2022,2
 Flash Flood,OKLAHOMA,2025,5
 Flash Flood,OREGON,2014,1
+Flash Flood,PENNSYLVANIA,1996,23
+Flash Flood,PENNSYLVANIA,1997,3
+Flash Flood,PENNSYLVANIA,1999,6
+Flash Flood,PENNSYLVANIA,2001,1
+Flash Flood,PENNSYLVANIA,2003,1
+Flash Flood,PENNSYLVANIA,2004,4
 Flash Flood,PENNSYLVANIA,2005,1
+Flash Flood,PENNSYLVANIA,2006,6
 Flash Flood,PENNSYLVANIA,2010,1
 Flash Flood,PENNSYLVANIA,2011,5
 Flash Flood,PENNSYLVANIA,2013,2
@@ -282,6 +1394,12 @@ Flash Flood,PENNSYLVANIA,2019,3
 Flash Flood,PENNSYLVANIA,2020,3
 Flash Flood,PENNSYLVANIA,2021,4
 Flash Flood,PENNSYLVANIA,2023,9
+Flash Flood,PUERTO RICO,1996,1
+Flash Flood,PUERTO RICO,1997,1
+Flash Flood,PUERTO RICO,1998,3
+Flash Flood,PUERTO RICO,2001,2
+Flash Flood,PUERTO RICO,2003,4
+Flash Flood,PUERTO RICO,2004,3
 Flash Flood,PUERTO RICO,2005,3
 Flash Flood,PUERTO RICO,2008,6
 Flash Flood,PUERTO RICO,2010,4
@@ -292,6 +1410,10 @@ Flash Flood,PUERTO RICO,2020,2
 Flash Flood,PUERTO RICO,2022,3
 Flash Flood,PUERTO RICO,2024,2
 Flash Flood,PUERTO RICO,2025,3
+Flash Flood,SOUTH CAROLINA,1996,1
+Flash Flood,SOUTH CAROLINA,1998,1
+Flash Flood,SOUTH CAROLINA,2000,1
+Flash Flood,SOUTH CAROLINA,2001,1
 Flash Flood,SOUTH CAROLINA,2013,1
 Flash Flood,SOUTH CAROLINA,2014,2
 Flash Flood,SOUTH CAROLINA,2015,11
@@ -302,6 +1424,9 @@ Flash Flood,SOUTH CAROLINA,2024,2
 Flash Flood,SOUTH DAKOTA,2011,2
 Flash Flood,SOUTH DAKOTA,2012,1
 Flash Flood,SOUTH DAKOTA,2014,1
+Flash Flood,TENNESSEE,1997,1
+Flash Flood,TENNESSEE,1998,10
+Flash Flood,TENNESSEE,2002,3
 Flash Flood,TENNESSEE,2008,3
 Flash Flood,TENNESSEE,2009,1
 Flash Flood,TENNESSEE,2010,6
@@ -314,8 +1439,17 @@ Flash Flood,TENNESSEE,2020,1
 Flash Flood,TENNESSEE,2021,27
 Flash Flood,TENNESSEE,2024,15
 Flash Flood,TENNESSEE,2025,2
+Flash Flood,TEXAS,1996,6
+Flash Flood,TEXAS,1997,19
+Flash Flood,TEXAS,1998,40
+Flash Flood,TEXAS,1999,2
+Flash Flood,TEXAS,2000,9
+Flash Flood,TEXAS,2001,8
+Flash Flood,TEXAS,2002,12
+Flash Flood,TEXAS,2003,1
+Flash Flood,TEXAS,2004,14
 Flash Flood,TEXAS,2005,1
-Flash Flood,TEXAS,2006,5
+Flash Flood,TEXAS,2006,8
 Flash Flood,TEXAS,2007,43
 Flash Flood,TEXAS,2008,3
 Flash Flood,TEXAS,2009,11
@@ -335,6 +1469,11 @@ Flash Flood,TEXAS,2023,1
 Flash Flood,TEXAS,2024,5
 Flash Flood,TEXAS,2025,145
 Flash Flood,TEXAS,2026,2
+Flash Flood,UTAH,1996,1
+Flash Flood,UTAH,1997,1
+Flash Flood,UTAH,1998,3
+Flash Flood,UTAH,2001,1
+Flash Flood,UTAH,2006,2
 Flash Flood,UTAH,2008,2
 Flash Flood,UTAH,2011,1
 Flash Flood,UTAH,2012,1
@@ -348,6 +1487,13 @@ Flash Flood,UTAH,2024,2
 Flash Flood,VERMONT,2011,3
 Flash Flood,VERMONT,2023,2
 Flash Flood,VERMONT,2024,3
+Flash Flood,VIRGINIA,1996,5
+Flash Flood,VIRGINIA,1999,1
+Flash Flood,VIRGINIA,2000,1
+Flash Flood,VIRGINIA,2001,1
+Flash Flood,VIRGINIA,2002,2
+Flash Flood,VIRGINIA,2003,2
+Flash Flood,VIRGINIA,2004,11
 Flash Flood,VIRGINIA,2010,1
 Flash Flood,VIRGINIA,2011,3
 Flash Flood,VIRGINIA,2012,1
@@ -356,13 +1502,26 @@ Flash Flood,VIRGINIA,2018,8
 Flash Flood,VIRGINIA,2021,1
 Flash Flood,VIRGINIA,2024,2
 Flash Flood,VIRGINIA,2025,2
+Flash Flood,WASHINGTON,2001,1
 Flash Flood,WASHINGTON,2006,1
+Flash Flood,WEST VIRGINIA,1996,7
+Flash Flood,WEST VIRGINIA,1997,2
+Flash Flood,WEST VIRGINIA,1998,2
+Flash Flood,WEST VIRGINIA,1999,1
+Flash Flood,WEST VIRGINIA,2000,3
+Flash Flood,WEST VIRGINIA,2001,3
+Flash Flood,WEST VIRGINIA,2002,2
+Flash Flood,WEST VIRGINIA,2003,2
+Flash Flood,WEST VIRGINIA,2004,1
 Flash Flood,WEST VIRGINIA,2010,1
 Flash Flood,WEST VIRGINIA,2011,1
 Flash Flood,WEST VIRGINIA,2015,1
 Flash Flood,WEST VIRGINIA,2016,18
 Flash Flood,WEST VIRGINIA,2022,2
 Flash Flood,WEST VIRGINIA,2025,12
+Flash Flood,WISCONSIN,1998,2
+Flash Flood,WISCONSIN,2000,1
+Flash Flood,WISCONSIN,2004,1
 Flash Flood,WISCONSIN,2007,1
 Flash Flood,WISCONSIN,2008,1
 Flash Flood,WISCONSIN,2010,1
@@ -391,6 +1550,13 @@ Flood,ARKANSAS,2019,3
 Flood,ARKANSAS,2021,1
 Flood,ARKANSAS,2022,1
 Flood,ARKANSAS,2024,2
+Flood,CALIFORNIA,1996,2
+Flood,CALIFORNIA,1997,1
+Flood,CALIFORNIA,1998,6
+Flood,CALIFORNIA,1999,1
+Flood,CALIFORNIA,2000,2
+Flood,CALIFORNIA,2002,3
+Flood,CALIFORNIA,2003,1
 Flood,CALIFORNIA,2005,2
 Flood,CALIFORNIA,2006,3
 Flood,CALIFORNIA,2009,1
@@ -405,24 +1571,33 @@ Flood,CALIFORNIA,2023,8
 Flood,CALIFORNIA,2024,6
 Flood,CALIFORNIA,2025,6
 Flood,CALIFORNIA,2026,1
+Flood,COLORADO,1997,3
 Flood,COLORADO,2013,1
 Flood,COLORADO,2019,5
 Flood,COLORADO,2020,1
 Flood,COLORADO,2023,6
 Flood,COLORADO,2024,2
-Flood,CONNECTICUT,2005,1
+Flood,CONNECTICUT,2005,2
 Flood,CONNECTICUT,2006,1
 Flood,CONNECTICUT,2010,1
 Flood,CONNECTICUT,2011,1
 Flood,CONNECTICUT,2021,1
+Flood,FLORIDA,2001,1
 Flood,FLORIDA,2009,2
 Flood,FLORIDA,2012,1
 Flood,FLORIDA,2017,3
 Flood,FLORIDA,2022,6
+Flood,GEORGIA,1998,1
 Flood,GEORGIA,2009,2
 Flood,GEORGIA,2013,1
 Flood,HAWAII,2013,1
 Flood,IDAHO,2017,1
+Flood,ILLINOIS,1997,1
+Flood,ILLINOIS,1998,1
+Flood,ILLINOIS,1999,1
+Flood,ILLINOIS,2000,1
+Flood,ILLINOIS,2001,1
+Flood,ILLINOIS,2002,1
 Flood,ILLINOIS,2008,6
 Flood,ILLINOIS,2009,3
 Flood,ILLINOIS,2010,2
@@ -435,6 +1610,12 @@ Flood,ILLINOIS,2018,1
 Flood,ILLINOIS,2019,1
 Flood,ILLINOIS,2020,1
 Flood,ILLINOIS,2021,1
+Flood,INDIANA,1998,1
+Flood,INDIANA,1999,4
+Flood,INDIANA,2001,1
+Flood,INDIANA,2003,2
+Flood,INDIANA,2004,3
+Flood,INDIANA,2005,1
 Flood,INDIANA,2006,2
 Flood,INDIANA,2007,5
 Flood,INDIANA,2008,7
@@ -449,11 +1630,13 @@ Flood,INDIANA,2021,1
 Flood,INDIANA,2023,1
 Flood,INDIANA,2025,2
 Flood,INDIANA,2026,4
+Flood,IOWA,2000,2
 Flood,IOWA,2005,1
 Flood,IOWA,2007,1
 Flood,IOWA,2013,1
 Flood,IOWA,2019,1
 Flood,IOWA,2024,2
+Flood,KANSAS,1998,1
 Flood,KANSAS,2007,1
 Flood,KANSAS,2008,1
 Flood,KANSAS,2009,4
@@ -461,6 +1644,10 @@ Flood,KANSAS,2012,1
 Flood,KANSAS,2016,1
 Flood,KANSAS,2018,1
 Flood,KANSAS,2019,1
+Flood,KENTUCKY,1997,9
+Flood,KENTUCKY,1999,1
+Flood,KENTUCKY,2002,1
+Flood,KENTUCKY,2004,7
 Flood,KENTUCKY,2005,1
 Flood,KENTUCKY,2008,1
 Flood,KENTUCKY,2009,2
@@ -476,6 +1663,7 @@ Flood,KENTUCKY,2023,1
 Flood,KENTUCKY,2024,1
 Flood,KENTUCKY,2025,5
 Flood,KENTUCKY,2026,1
+Flood,LOUISIANA,1998,1
 Flood,LOUISIANA,2014,1
 Flood,LOUISIANA,2016,7
 Flood,LOUISIANA,2019,2
@@ -484,15 +1672,25 @@ Flood,MAINE,2014,1
 Flood,MAINE,2023,2
 Flood,MARYLAND,2011,1
 Flood,MARYLAND,2015,1
+Flood,MASSACHUSETTS,2006,2
 Flood,MASSACHUSETTS,2010,1
+Flood,MICHIGAN,2001,3
 Flood,MICHIGAN,2008,1
+Flood,MINNESOTA,2001,3
+Flood,MINNESOTA,2004,1
 Flood,MINNESOTA,2011,2
 Flood,MINNESOTA,2018,1
 Flood,MINNESOTA,2019,1
+Flood,MISSISSIPPI,2001,1
 Flood,MISSISSIPPI,2008,2
 Flood,MISSISSIPPI,2011,1
 Flood,MISSISSIPPI,2019,2
 Flood,MISSISSIPPI,2024,1
+Flood,MISSOURI,1997,1
+Flood,MISSOURI,1998,1
+Flood,MISSOURI,1999,1
+Flood,MISSOURI,2002,2
+Flood,MISSOURI,2005,1
 Flood,MISSOURI,2007,1
 Flood,MISSOURI,2008,3
 Flood,MISSOURI,2009,4
@@ -509,19 +1707,29 @@ Flood,MISSOURI,2023,1
 Flood,MISSOURI,2024,4
 Flood,MISSOURI,2025,1
 Flood,MISSOURI,2026,4
+Flood,MONTANA,1996,4
 Flood,MONTANA,2011,2
 Flood,MONTANA,2023,2
 Flood,NEBRASKA,2010,1
 Flood,NEBRASKA,2011,2
 Flood,NEBRASKA,2015,1
 Flood,NEBRASKA,2019,3
+Flood,NEVADA,1997,2
 Flood,NEW HAMPSHIRE,2005,2
+Flood,NEW JERSEY,1996,1
+Flood,NEW JERSEY,2006,1
 Flood,NEW JERSEY,2007,3
 Flood,NEW JERSEY,2011,8
+Flood,NEW MEXICO,2005,1
 Flood,NEW MEXICO,2008,1
+Flood,NEW YORK,1996,5
+Flood,NEW YORK,1998,2
+Flood,NEW YORK,2003,2
+Flood,NEW YORK,2004,1
 Flood,NEW YORK,2007,1
 Flood,NEW YORK,2011,4
 Flood,NEW YORK,2023,1
+Flood,NORTH CAROLINA,2004,5
 Flood,NORTH CAROLINA,2009,1
 Flood,NORTH CAROLINA,2010,5
 Flood,NORTH CAROLINA,2016,18
@@ -530,11 +1738,18 @@ Flood,NORTH CAROLINA,2018,4
 Flood,NORTH CAROLINA,2019,1
 Flood,NORTH CAROLINA,2020,2
 Flood,NORTH CAROLINA,2024,2
+Flood,NORTH DAKOTA,1997,2
+Flood,NORTH DAKOTA,2006,2
 Flood,NORTH DAKOTA,2011,2
 Flood,NORTH DAKOTA,2013,2
 Flood,NORTH DAKOTA,2022,2
 Flood,NORTH DAKOTA,2023,1
+Flood,OHIO,1997,1
+Flood,OHIO,2000,4
+Flood,OHIO,2002,1
+Flood,OHIO,2004,2
 Flood,OHIO,2005,1
+Flood,OHIO,2006,2
 Flood,OHIO,2008,1
 Flood,OHIO,2009,1
 Flood,OHIO,2010,4
@@ -547,6 +1762,7 @@ Flood,OHIO,2020,1
 Flood,OHIO,2023,1
 Flood,OHIO,2024,1
 Flood,OHIO,2026,2
+Flood,OKLAHOMA,1997,2
 Flood,OKLAHOMA,2009,1
 Flood,OKLAHOMA,2015,8
 Flood,OKLAHOMA,2018,3
@@ -554,28 +1770,43 @@ Flood,OKLAHOMA,2019,5
 Flood,OKLAHOMA,2022,1
 Flood,OKLAHOMA,2024,3
 Flood,OKLAHOMA,2025,2
+Flood,OREGON,1996,12
+Flood,OREGON,1998,2
 Flood,OREGON,2007,2
 Flood,OREGON,2009,1
 Flood,OREGON,2012,2
 Flood,OREGON,2015,1
 Flood,OREGON,2020,1
 Flood,OREGON,2023,1
-Flood,PENNSYLVANIA,2006,1
+Flood,PENNSYLVANIA,1996,4
+Flood,PENNSYLVANIA,2002,1
+Flood,PENNSYLVANIA,2003,1
+Flood,PENNSYLVANIA,2004,4
+Flood,PENNSYLVANIA,2006,4
 Flood,PENNSYLVANIA,2010,1
 Flood,PENNSYLVANIA,2011,14
 Flood,PENNSYLVANIA,2018,2
 Flood,PENNSYLVANIA,2021,1
 Flood,PENNSYLVANIA,2023,1
+Flood,PUERTO RICO,2001,1
+Flood,PUERTO RICO,2003,2
+Flood,PUERTO RICO,2004,2
 Flood,PUERTO RICO,2008,1
 Flood,PUERTO RICO,2009,1
 Flood,PUERTO RICO,2018,2
 Flood,RHODE ISLAND,2010,1
+Flood,SOUTH CAROLINA,2001,1
 Flood,SOUTH CAROLINA,2015,1
 Flood,SOUTH CAROLINA,2024,2
 Flood,SOUTH DAKOTA,2008,1
 Flood,SOUTH DAKOTA,2019,3
 Flood,SOUTH DAKOTA,2022,1
 Flood,SOUTH DAKOTA,2024,1
+Flood,TENNESSEE,1997,3
+Flood,TENNESSEE,2001,1
+Flood,TENNESSEE,2002,1
+Flood,TENNESSEE,2003,2
+Flood,TENNESSEE,2004,1
 Flood,TENNESSEE,2008,1
 Flood,TENNESSEE,2009,1
 Flood,TENNESSEE,2010,16
@@ -585,6 +1816,10 @@ Flood,TENNESSEE,2019,1
 Flood,TENNESSEE,2020,1
 Flood,TENNESSEE,2021,2
 Flood,TENNESSEE,2024,3
+Flood,TEXAS,1996,1
+Flood,TEXAS,1997,2
+Flood,TEXAS,1998,1
+Flood,TEXAS,2002,2
 Flood,TEXAS,2005,2
 Flood,TEXAS,2007,3
 Flood,TEXAS,2009,2
@@ -604,16 +1839,26 @@ Flood,TEXAS,2024,2
 Flood,TEXAS,2026,2
 Flood,UTAH,2005,1
 Flood,UTAH,2023,5
+Flood,VERMONT,1996,2
 Flood,VERMONT,2011,1
+Flood,VIRGINIA,1996,5
+Flood,VIRGINIA,1998,1
+Flood,VIRGINIA,2003,4
+Flood,VIRGINIA,2006,1
 Flood,VIRGINIA,2011,3
 Flood,VIRGINIA,2013,2
 Flood,VIRGINIA,2015,2
 Flood,VIRGINIA,2016,1
 Flood,VIRGINIA,2018,1
+Flood,WASHINGTON,1996,1
+Flood,WASHINGTON,1997,1
 Flood,WASHINGTON,2006,2
 Flood,WASHINGTON,2007,2
 Flood,WASHINGTON,2021,2
 Flood,WASHINGTON,2022,2
+Flood,WEST VIRGINIA,1997,3
+Flood,WEST VIRGINIA,2003,4
+Flood,WEST VIRGINIA,2004,2
 Flood,WEST VIRGINIA,2007,1
 Flood,WEST VIRGINIA,2010,2
 Flood,WEST VIRGINIA,2016,6
@@ -630,33 +1875,433 @@ Flood,WISCONSIN,2020,1
 Flood,WISCONSIN,2022,3
 Flood,WISCONSIN,2025,1
 Flood,WYOMING,2017,1
+Freezing Fog,ARKANSAS,2013,1
+Freezing Fog,IDAHO,2014,1
+Freezing Fog,IDAHO,2022,1
+Freezing Fog,IOWA,2023,2
+Freezing Fog,KENTUCKY,2010,1
+Freezing Fog,KENTUCKY,2011,2
+Freezing Fog,MARYLAND,2007,1
+Freezing Fog,MICHIGAN,2006,1
+Freezing Fog,MINNESOTA,2014,1
+Freezing Fog,MINNESOTA,2024,1
+Freezing Fog,MISSOURI,2017,1
+Freezing Fog,MONTANA,2023,3
+Freezing Fog,NEW MEXICO,2011,2
+Freezing Fog,NEW MEXICO,2012,1
+Freezing Fog,NEW MEXICO,2013,1
+Freezing Fog,NORTH DAKOTA,1996,1
+Freezing Fog,OREGON,2020,1
+Freezing Fog,TENNESSEE,2009,1
+Freezing Fog,TENNESSEE,2011,2
+Freezing Fog,WASHINGTON,2011,1
+Freezing Fog,WASHINGTON,2013,1
+Freezing Fog,WASHINGTON,2024,1
+Frost/Freeze,CALIFORNIA,2009,1
+Frost/Freeze,IDAHO,2013,1
+Frost/Freeze,NORTH DAKOTA,1997,1
+Frost/Freeze,OREGON,2014,1
+Frost/Freeze,TEXAS,2021,1
+Frost/Freeze,WASHINGTON,2021,1
 Funnel Cloud,GEORGIA,2005,1
 Hail,ARIZONA,2005,1
 Hail,ARIZONA,2008,1
 Hail,ARIZONA,2011,1
 Hail,CALIFORNIA,2000,1
 Hail,CALIFORNIA,2019,1
+Hail,COLORADO,2001,1
+Hail,GEORGIA,2003,1
 Hail,IDAHO,2023,2
 Hail,ILLINOIS,2003,1
 Hail,IOWA,2005,1
+Hail,IOWA,2006,1
 Hail,KANSAS,2003,2
 Hail,KANSAS,2005,1
-Hail,KENTUCKY,2006,1
+Hail,KENTUCKY,2006,2
 Hail,KENTUCKY,2017,1
 Hail,MINNESOTA,2006,1
+Hail,MISSISSIPPI,2005,1
+Hail,NEVADA,1995,1
 Hail,NEVADA,2008,1
 Hail,NEW MEXICO,1992,1
 Hail,NEW MEXICO,1998,1
 Hail,NEW MEXICO,2017,1
+Hail,OHIO,2001,1
 Hail,OKLAHOMA,2001,1
+Hail,OKLAHOMA,2003,1
 Hail,OREGON,2022,1
+Hail,TENNESSEE,2003,3
 Hail,TEXAS,1996,1
 Hail,TEXAS,2000,1
 Hail,TEXAS,2014,3
 Hail,VIRGINIA,2020,1
 Hail,WASHINGTON,2022,1
+Hail,WEST VIRGINIA,2005,1
 Hail,WEST VIRGINIA,2021,1
 Hail,WISCONSIN,2011,1
+Heat,ALABAMA,1996,1
+Heat,ALABAMA,1998,2
+Heat,ALABAMA,1999,3
+Heat,ALABAMA,2000,4
+Heat,ALABAMA,2005,3
+Heat,ALABAMA,2007,14
+Heat,ALABAMA,2010,1
+Heat,ALABAMA,2011,1
+Heat,ALABAMA,2012,8
+Heat,ALABAMA,2025,4
+Heat,ALASKA,2000,1
+Heat,ARIZONA,2005,51
+Heat,ARIZONA,2007,4
+Heat,ARIZONA,2010,2
+Heat,ARIZONA,2011,1
+Heat,ARIZONA,2012,3
+Heat,ARIZONA,2013,4
+Heat,ARIZONA,2014,2
+Heat,ARIZONA,2015,2
+Heat,ARIZONA,2016,1
+Heat,ARIZONA,2018,108
+Heat,ARIZONA,2019,96
+Heat,ARIZONA,2020,115
+Heat,ARIZONA,2021,186
+Heat,ARIZONA,2022,286
+Heat,ARIZONA,2023,167
+Heat,ARIZONA,2024,146
+Heat,ARIZONA,2025,99
+Heat,ARIZONA,2026,53
+Heat,ARKANSAS,1998,2
+Heat,ARKANSAS,1999,12
+Heat,ARKANSAS,2000,1
+Heat,ARKANSAS,2001,1
+Heat,ARKANSAS,2002,1
+Heat,ARKANSAS,2006,1
+Heat,ARKANSAS,2007,3
+Heat,ARKANSAS,2008,1
+Heat,ARKANSAS,2009,1
+Heat,ARKANSAS,2010,5
+Heat,ARKANSAS,2011,1
+Heat,ARKANSAS,2012,2
+Heat,ARKANSAS,2016,1
+Heat,ARKANSAS,2022,1
+Heat,CALIFORNIA,1996,4
+Heat,CALIFORNIA,1997,5
+Heat,CALIFORNIA,1998,3
+Heat,CALIFORNIA,2000,12
+Heat,CALIFORNIA,2001,3
+Heat,CALIFORNIA,2002,6
+Heat,CALIFORNIA,2003,5
+Heat,CALIFORNIA,2005,2
+Heat,CALIFORNIA,2006,65
+Heat,CALIFORNIA,2007,2
+Heat,CALIFORNIA,2008,4
+Heat,CALIFORNIA,2009,4
+Heat,CALIFORNIA,2012,3
+Heat,CALIFORNIA,2013,2
+Heat,CALIFORNIA,2014,1
+Heat,CALIFORNIA,2016,3
+Heat,CALIFORNIA,2017,2
+Heat,CALIFORNIA,2018,2
+Heat,CALIFORNIA,2019,3
+Heat,CALIFORNIA,2020,1
+Heat,CALIFORNIA,2021,3
+Heat,CALIFORNIA,2022,6
+Heat,CALIFORNIA,2024,10
+Heat,CALIFORNIA,2025,1
+Heat,CALIFORNIA,2026,1
+Heat,CONNECTICUT,2002,1
+Heat,DELAWARE,1998,1
+Heat,DELAWARE,1999,4
+Heat,DELAWARE,2006,2
+Heat,DELAWARE,2014,1
+Heat,DISTRICT OF COLUMBIA,1997,3
+Heat,DISTRICT OF COLUMBIA,1999,3
+Heat,DISTRICT OF COLUMBIA,2006,2
+Heat,FLORIDA,1997,1
+Heat,FLORIDA,1998,4
+Heat,FLORIDA,2003,1
+Heat,FLORIDA,2006,1
+Heat,FLORIDA,2009,2
+Heat,FLORIDA,2010,3
+Heat,FLORIDA,2022,1
+Heat,FLORIDA,2023,2
+Heat,GEORGIA,1999,5
+Heat,GEORGIA,2006,1
+Heat,GEORGIA,2010,3
+Heat,GEORGIA,2016,4
+Heat,GEORGIA,2019,2
+Heat,GEORGIA,2022,2
+Heat,IDAHO,2013,1
+Heat,ILLINOIS,1996,7
+Heat,ILLINOIS,1997,26
+Heat,ILLINOIS,1998,18
+Heat,ILLINOIS,1999,138
+Heat,ILLINOIS,2001,35
+Heat,ILLINOIS,2002,40
+Heat,ILLINOIS,2003,4
+Heat,ILLINOIS,2005,6
+Heat,ILLINOIS,2006,42
+Heat,ILLINOIS,2009,1
+Heat,ILLINOIS,2010,6
+Heat,ILLINOIS,2011,23
+Heat,ILLINOIS,2012,5
+Heat,ILLINOIS,2013,5
+Heat,ILLINOIS,2014,1
+Heat,ILLINOIS,2015,1
+Heat,ILLINOIS,2016,1
+Heat,ILLINOIS,2019,1
+Heat,ILLINOIS,2022,1
+Heat,ILLINOIS,2025,1
+Heat,INDIANA,2000,1
+Heat,IOWA,2001,1
+Heat,IOWA,2016,1
+Heat,IOWA,2019,1
+Heat,KANSAS,1998,2
+Heat,KANSAS,1999,2
+Heat,KANSAS,2000,2
+Heat,KANSAS,2005,1
+Heat,KANSAS,2006,5
+Heat,KANSAS,2015,1
+Heat,KENTUCKY,1998,1
+Heat,KENTUCKY,1999,2
+Heat,KENTUCKY,2007,2
+Heat,KENTUCKY,2008,1
+Heat,KENTUCKY,2012,1
+Heat,KENTUCKY,2017,1
+Heat,KENTUCKY,2019,1
+Heat,LOUISIANA,1996,1
+Heat,LOUISIANA,1998,20
+Heat,LOUISIANA,1999,2
+Heat,LOUISIANA,2000,12
+Heat,LOUISIANA,2001,1
+Heat,LOUISIANA,2002,2
+Heat,LOUISIANA,2005,2
+Heat,LOUISIANA,2006,2
+Heat,LOUISIANA,2010,1
+Heat,LOUISIANA,2012,1
+Heat,LOUISIANA,2018,1
+Heat,LOUISIANA,2020,1
+Heat,LOUISIANA,2022,2
+Heat,LOUISIANA,2024,1
+Heat,MARYLAND,1997,3
+Heat,MARYLAND,1998,2
+Heat,MARYLAND,1999,15
+Heat,MARYLAND,2001,5
+Heat,MARYLAND,2002,50
+Heat,MARYLAND,2006,9
+Heat,MARYLAND,2010,5
+Heat,MARYLAND,2012,3
+Heat,MARYLAND,2013,4
+Heat,MARYLAND,2015,1
+Heat,MARYLAND,2018,14
+Heat,MASSACHUSETTS,1999,2
+Heat,MASSACHUSETTS,2013,1
+Heat,MICHIGAN,2001,1
+Heat,MICHIGAN,2002,2
+Heat,MICHIGAN,2010,2
+Heat,MICHIGAN,2013,1
+Heat,MINNESOTA,1999,2
+Heat,MINNESOTA,2001,11
+Heat,MINNESOTA,2013,1
+Heat,MISSISSIPPI,2000,16
+Heat,MISSISSIPPI,2001,1
+Heat,MISSISSIPPI,2005,2
+Heat,MISSISSIPPI,2006,1
+Heat,MISSISSIPPI,2007,1
+Heat,MISSISSIPPI,2008,1
+Heat,MISSISSIPPI,2010,2
+Heat,MISSISSIPPI,2011,1
+Heat,MISSISSIPPI,2012,1
+Heat,MISSISSIPPI,2017,1
+Heat,MISSISSIPPI,2019,1
+Heat,MISSISSIPPI,2022,1
+Heat,MISSOURI,1996,2
+Heat,MISSOURI,1997,3
+Heat,MISSOURI,1998,5
+Heat,MISSOURI,1999,77
+Heat,MISSOURI,2000,17
+Heat,MISSOURI,2001,30
+Heat,MISSOURI,2002,17
+Heat,MISSOURI,2003,12
+Heat,MISSOURI,2004,1
+Heat,MISSOURI,2005,8
+Heat,MISSOURI,2006,16
+Heat,MISSOURI,2007,1
+Heat,MISSOURI,2010,4
+Heat,MISSOURI,2011,2
+Heat,MISSOURI,2012,2
+Heat,MISSOURI,2013,2
+Heat,MISSOURI,2015,1
+Heat,MISSOURI,2016,2
+Heat,MISSOURI,2017,2
+Heat,MONTANA,2011,1
+Heat,NEBRASKA,1999,3
+Heat,NEBRASKA,2001,1
+Heat,NEBRASKA,2012,1
+Heat,NEVADA,2001,1
+Heat,NEVADA,2003,3
+Heat,NEVADA,2007,10
+Heat,NEVADA,2008,19
+Heat,NEVADA,2009,6
+Heat,NEVADA,2010,16
+Heat,NEVADA,2011,4
+Heat,NEVADA,2012,6
+Heat,NEVADA,2013,14
+Heat,NEVADA,2014,9
+Heat,NEVADA,2015,29
+Heat,NEVADA,2016,26
+Heat,NEVADA,2017,63
+Heat,NEVADA,2018,73
+Heat,NEVADA,2019,27
+Heat,NEVADA,2020,1
+Heat,NEVADA,2021,3
+Heat,NEVADA,2022,27
+Heat,NEVADA,2023,22
+Heat,NEVADA,2024,46
+Heat,NEVADA,2025,53
+Heat,NEW JERSEY,1999,28
+Heat,NEW JERSEY,2001,2
+Heat,NEW JERSEY,2002,2
+Heat,NEW JERSEY,2005,2
+Heat,NEW JERSEY,2006,2
+Heat,NEW JERSEY,2012,1
+Heat,NEW MEXICO,1998,1
+Heat,NEW MEXICO,2010,1
+Heat,NEW MEXICO,2012,1
+Heat,NEW MEXICO,2017,1
+Heat,NEW YORK,1999,33
+Heat,NEW YORK,2001,4
+Heat,NEW YORK,2006,42
+Heat,NEW YORK,2013,1
+Heat,NEW YORK,2018,2
+Heat,NORTH CAROLINA,1997,1
+Heat,NORTH CAROLINA,1998,2
+Heat,NORTH CAROLINA,1999,4
+Heat,NORTH CAROLINA,2001,1
+Heat,NORTH CAROLINA,2005,2
+Heat,NORTH CAROLINA,2007,1
+Heat,NORTH CAROLINA,2008,4
+Heat,NORTH CAROLINA,2016,1
+Heat,OHIO,1999,13
+Heat,OHIO,2012,3
+Heat,OKLAHOMA,1996,7
+Heat,OKLAHOMA,1998,24
+Heat,OKLAHOMA,1999,10
+Heat,OKLAHOMA,2000,3
+Heat,OKLAHOMA,2001,9
+Heat,OKLAHOMA,2003,3
+Heat,OKLAHOMA,2005,1
+Heat,OKLAHOMA,2006,24
+Heat,OKLAHOMA,2007,1
+Heat,OKLAHOMA,2008,1
+Heat,OKLAHOMA,2011,2
+Heat,OKLAHOMA,2016,4
+Heat,OKLAHOMA,2020,3
+Heat,OREGON,1998,1
+Heat,OREGON,2008,2
+Heat,OREGON,2015,2
+Heat,OREGON,2016,3
+Heat,OREGON,2017,2
+Heat,OREGON,2018,2
+Heat,OREGON,2020,2
+Heat,OREGON,2022,1
+Heat,OREGON,2024,12
+Heat,PENNSYLVANIA,1996,1
+Heat,PENNSYLVANIA,1997,36
+Heat,PENNSYLVANIA,1998,15
+Heat,PENNSYLVANIA,1999,88
+Heat,PENNSYLVANIA,2000,17
+Heat,PENNSYLVANIA,2001,28
+Heat,PENNSYLVANIA,2002,42
+Heat,PENNSYLVANIA,2003,7
+Heat,PENNSYLVANIA,2004,1
+Heat,PENNSYLVANIA,2005,26
+Heat,PENNSYLVANIA,2006,29
+Heat,PENNSYLVANIA,2007,1
+Heat,PENNSYLVANIA,2008,1
+Heat,PENNSYLVANIA,2009,2
+Heat,PENNSYLVANIA,2010,2
+Heat,PENNSYLVANIA,2011,9
+Heat,PENNSYLVANIA,2012,9
+Heat,PENNSYLVANIA,2013,1
+Heat,PENNSYLVANIA,2015,1
+Heat,PENNSYLVANIA,2023,1
+Heat,RHODE ISLAND,2008,2
+Heat,RHODE ISLAND,2013,1
+Heat,SOUTH CAROLINA,1996,3
+Heat,SOUTH CAROLINA,1998,3
+Heat,SOUTH CAROLINA,1999,21
+Heat,SOUTH CAROLINA,2000,1
+Heat,SOUTH CAROLINA,2012,1
+Heat,SOUTH CAROLINA,2014,1
+Heat,SOUTH CAROLINA,2019,1
+Heat,SOUTH DAKOTA,2006,1
+Heat,TENNESSEE,1998,2
+Heat,TENNESSEE,2004,1
+Heat,TENNESSEE,2006,2
+Heat,TENNESSEE,2007,14
+Heat,TENNESSEE,2009,9
+Heat,TENNESSEE,2010,13
+Heat,TENNESSEE,2011,4
+Heat,TENNESSEE,2012,8
+Heat,TENNESSEE,2016,4
+Heat,TENNESSEE,2018,1
+Heat,TENNESSEE,2019,2
+Heat,TENNESSEE,2025,2
+Heat,TEXAS,1996,9
+Heat,TEXAS,1997,2
+Heat,TEXAS,1998,66
+Heat,TEXAS,1999,22
+Heat,TEXAS,2000,70
+Heat,TEXAS,2001,20
+Heat,TEXAS,2002,1
+Heat,TEXAS,2004,3
+Heat,TEXAS,2005,49
+Heat,TEXAS,2006,2
+Heat,TEXAS,2009,7
+Heat,TEXAS,2010,7
+Heat,TEXAS,2011,37
+Heat,TEXAS,2012,1
+Heat,TEXAS,2013,1
+Heat,TEXAS,2015,6
+Heat,TEXAS,2016,8
+Heat,TEXAS,2017,14
+Heat,TEXAS,2018,4
+Heat,TEXAS,2019,3
+Heat,TEXAS,2020,2
+Heat,TEXAS,2022,53
+Heat,TEXAS,2023,23
+Heat,TEXAS,2024,4
+Heat,TEXAS,2025,2
+Heat,UTAH,2005,1
+Heat,UTAH,2013,5
+Heat,UTAH,2019,1
+Heat,UTAH,2021,1
+Heat,VERMONT,2011,1
+Heat,VERMONT,2018,4
+Heat,VIRGINIA,1999,1
+Heat,VIRGINIA,2003,1
+Heat,VIRGINIA,2005,1
+Heat,VIRGINIA,2011,1
+Heat,VIRGINIA,2012,1
+Heat,VIRGINIA,2014,1
+Heat,VIRGINIA,2018,2
+Heat,VIRGINIA,2025,1
+Heat,WASHINGTON,2005,1
+Heat,WASHINGTON,2008,2
+Heat,WASHINGTON,2015,1
+Heat,WASHINGTON,2016,1
+Heat,WASHINGTON,2017,1
+Heat,WEST VIRGINIA,2019,1
+Heat,WISCONSIN,1997,1
+Heat,WISCONSIN,1999,12
+Heat,WISCONSIN,2001,10
+Heat,WISCONSIN,2002,3
+Heat,WISCONSIN,2006,2
+Heat,WISCONSIN,2012,10
+Heat,WISCONSIN,2013,2
+Heat,WISCONSIN,2016,1
+Heavy Rain,ALABAMA,1999,1
+Heavy Rain,ALABAMA,2001,1
+Heavy Rain,ALABAMA,2004,1
 Heavy Rain,ALABAMA,2007,1
 Heavy Rain,ALABAMA,2011,5
 Heavy Rain,ALABAMA,2014,1
@@ -671,7 +2316,14 @@ Heavy Rain,ARKANSAS,2007,1
 Heavy Rain,ARKANSAS,2009,3
 Heavy Rain,ARKANSAS,2010,1
 Heavy Rain,ARKANSAS,2024,2
-Heavy Rain,CALIFORNIA,2005,1
+Heavy Rain,CALIFORNIA,1996,3
+Heavy Rain,CALIFORNIA,1997,1
+Heavy Rain,CALIFORNIA,1998,4
+Heavy Rain,CALIFORNIA,1999,1
+Heavy Rain,CALIFORNIA,2000,3
+Heavy Rain,CALIFORNIA,2003,1
+Heavy Rain,CALIFORNIA,2004,1
+Heavy Rain,CALIFORNIA,2005,3
 Heavy Rain,CALIFORNIA,2008,3
 Heavy Rain,CALIFORNIA,2009,4
 Heavy Rain,CALIFORNIA,2010,2
@@ -682,19 +2334,23 @@ Heavy Rain,CALIFORNIA,2018,1
 Heavy Rain,CALIFORNIA,2019,2
 Heavy Rain,CALIFORNIA,2024,1
 Heavy Rain,CALIFORNIA,2026,3
+Heavy Rain,COLORADO,2006,1
 Heavy Rain,COLORADO,2007,1
+Heavy Rain,CONNECTICUT,1997,2
 Heavy Rain,CONNECTICUT,2010,2
 Heavy Rain,FLORIDA,2012,3
 Heavy Rain,FLORIDA,2015,1
 Heavy Rain,FLORIDA,2021,1
-Heavy Rain,GEORGIA,2003,3
+Heavy Rain,GEORGIA,2003,5
 Heavy Rain,GEORGIA,2012,1
 Heavy Rain,GEORGIA,2016,2
 Heavy Rain,GEORGIA,2019,1
+Heavy Rain,GUAM,1997,19
 Heavy Rain,GUAM,2014,1
 Heavy Rain,HAWAII,2009,2
 Heavy Rain,HAWAII,2018,1
 Heavy Rain,HAWAII,2021,3
+Heavy Rain,IDAHO,1997,1
 Heavy Rain,ILLINOIS,2013,1
 Heavy Rain,ILLINOIS,2021,4
 Heavy Rain,KANSAS,2007,1
@@ -703,11 +2359,14 @@ Heavy Rain,KENTUCKY,2013,1
 Heavy Rain,KENTUCKY,2014,1
 Heavy Rain,KENTUCKY,2018,1
 Heavy Rain,LOUISIANA,2015,1
+Heavy Rain,MARYLAND,2005,4
 Heavy Rain,MICHIGAN,2015,1
 Heavy Rain,MINNESOTA,2007,2
 Heavy Rain,MINNESOTA,2018,2
 Heavy Rain,MISSISSIPPI,2009,1
 Heavy Rain,MISSISSIPPI,2010,1
+Heavy Rain,MISSOURI,1997,1
+Heavy Rain,MISSOURI,2003,1
 Heavy Rain,NEVADA,2010,1
 Heavy Rain,NEVADA,2013,1
 Heavy Rain,NEVADA,2017,1
@@ -715,8 +2374,10 @@ Heavy Rain,NEVADA,2018,1
 Heavy Rain,NEVADA,2022,1
 Heavy Rain,NEVADA,2023,1
 Heavy Rain,NEVADA,2025,1
+Heavy Rain,NEW JERSEY,2003,2
 Heavy Rain,NEW JERSEY,2007,1
 Heavy Rain,NEW JERSEY,2011,1
+Heavy Rain,NEW MEXICO,1999,1
 Heavy Rain,NEW MEXICO,2016,2
 Heavy Rain,NEW MEXICO,2017,1
 Heavy Rain,NEW MEXICO,2018,1
@@ -724,19 +2385,27 @@ Heavy Rain,NEW MEXICO,2020,1
 Heavy Rain,NEW YORK,2010,1
 Heavy Rain,NEW YORK,2011,1
 Heavy Rain,NORTH CAROLINA,2018,2
+Heavy Rain,NORTH DAKOTA,1996,1
 Heavy Rain,OHIO,2008,1
 Heavy Rain,OHIO,2016,1
 Heavy Rain,OREGON,2015,1
 Heavy Rain,OREGON,2019,1
 Heavy Rain,OREGON,2023,1
+Heavy Rain,PENNSYLVANIA,1997,2
+Heavy Rain,PUERTO RICO,1998,5
+Heavy Rain,PUERTO RICO,1999,5
+Heavy Rain,PUERTO RICO,2005,2
 Heavy Rain,SOUTH CAROLINA,2008,1
 Heavy Rain,SOUTH CAROLINA,2010,1
 Heavy Rain,SOUTH CAROLINA,2013,1
 Heavy Rain,SOUTH CAROLINA,2025,2
 Heavy Rain,SOUTH DAKOTA,2021,1
+Heavy Rain,TENNESSEE,2002,1
 Heavy Rain,TENNESSEE,2010,1
 Heavy Rain,TENNESSEE,2019,1
 Heavy Rain,TENNESSEE,2025,3
+Heavy Rain,TEXAS,1997,2
+Heavy Rain,TEXAS,2004,2
 Heavy Rain,TEXAS,2009,3
 Heavy Rain,TEXAS,2011,3
 Heavy Rain,TEXAS,2013,8
@@ -745,7 +2414,12 @@ Heavy Rain,TEXAS,2015,9
 Heavy Rain,TEXAS,2016,2
 Heavy Rain,TEXAS,2022,1
 Heavy Rain,TEXAS,2026,1
+Heavy Rain,WASHINGTON,2001,1
 Heavy Rain,WASHINGTON,2022,1
+Heavy Rain,WEST VIRGINIA,1996,5
+Heavy Rain,WEST VIRGINIA,1997,1
+Heavy Rain,WEST VIRGINIA,1998,2
+Heavy Rain,WEST VIRGINIA,2000,1
 Heavy Rain,WEST VIRGINIA,2009,1
 Heavy Rain,WEST VIRGINIA,2013,2
 Heavy Rain,WEST VIRGINIA,2014,5
@@ -756,6 +2430,683 @@ Heavy Rain,WISCONSIN,2014,4
 Heavy Rain,WISCONSIN,2019,1
 Heavy Rain,WISCONSIN,2020,1
 Heavy Rain,WYOMING,2013,1
+Heavy Snow,ALABAMA,2010,2
+Heavy Snow,ALABAMA,2025,1
+Heavy Snow,ALASKA,1996,1
+Heavy Snow,ALASKA,2000,3
+Heavy Snow,ALASKA,2008,1
+Heavy Snow,ARIZONA,2005,2
+Heavy Snow,ARIZONA,2007,1
+Heavy Snow,ARIZONA,2009,1
+Heavy Snow,ARIZONA,2011,3
+Heavy Snow,CALIFORNIA,1996,2
+Heavy Snow,CALIFORNIA,1997,1
+Heavy Snow,CALIFORNIA,1998,1
+Heavy Snow,CALIFORNIA,1999,8
+Heavy Snow,CALIFORNIA,2001,1
+Heavy Snow,CALIFORNIA,2009,1
+Heavy Snow,CALIFORNIA,2010,1
+Heavy Snow,CALIFORNIA,2015,1
+Heavy Snow,CALIFORNIA,2016,1
+Heavy Snow,CALIFORNIA,2017,1
+Heavy Snow,CALIFORNIA,2023,2
+Heavy Snow,CALIFORNIA,2024,1
+Heavy Snow,COLORADO,1996,1
+Heavy Snow,COLORADO,1997,1
+Heavy Snow,COLORADO,1998,2
+Heavy Snow,CONNECTICUT,2011,1
+Heavy Snow,GEORGIA,2010,1
+Heavy Snow,GEORGIA,2011,1
+Heavy Snow,IDAHO,1997,1
+Heavy Snow,IDAHO,2002,2
+Heavy Snow,IDAHO,2004,2
+Heavy Snow,IDAHO,2005,2
+Heavy Snow,IDAHO,2008,1
+Heavy Snow,IDAHO,2011,1
+Heavy Snow,IDAHO,2012,1
+Heavy Snow,IDAHO,2013,1
+Heavy Snow,IDAHO,2021,1
+Heavy Snow,ILLINOIS,1997,4
+Heavy Snow,ILLINOIS,1999,2
+Heavy Snow,ILLINOIS,2000,1
+Heavy Snow,ILLINOIS,2007,1
+Heavy Snow,ILLINOIS,2008,4
+Heavy Snow,ILLINOIS,2010,2
+Heavy Snow,ILLINOIS,2014,1
+Heavy Snow,ILLINOIS,2025,1
+Heavy Snow,INDIANA,2004,1
+Heavy Snow,INDIANA,2010,1
+Heavy Snow,INDIANA,2018,1
+Heavy Snow,INDIANA,2019,2
+Heavy Snow,INDIANA,2024,1
+Heavy Snow,INDIANA,2026,1
+Heavy Snow,IOWA,1996,2
+Heavy Snow,IOWA,1998,1
+Heavy Snow,KANSAS,1997,8
+Heavy Snow,KANSAS,2000,1
+Heavy Snow,KANSAS,2007,5
+Heavy Snow,KANSAS,2011,1
+Heavy Snow,KANSAS,2014,1
+Heavy Snow,KANSAS,2020,1
+Heavy Snow,KENTUCKY,1998,5
+Heavy Snow,KENTUCKY,2011,1
+Heavy Snow,KENTUCKY,2015,3
+Heavy Snow,KENTUCKY,2021,2
+Heavy Snow,LOUISIANA,2025,7
+Heavy Snow,MASSACHUSETTS,2013,3
+Heavy Snow,MASSACHUSETTS,2015,2
+Heavy Snow,MASSACHUSETTS,2016,2
+Heavy Snow,MICHIGAN,1996,1
+Heavy Snow,MINNESOTA,2016,1
+Heavy Snow,MINNESOTA,2018,2
+Heavy Snow,MINNESOTA,2021,4
+Heavy Snow,MINNESOTA,2023,1
+Heavy Snow,MINNESOTA,2025,1
+Heavy Snow,MISSISSIPPI,2017,1
+Heavy Snow,MISSISSIPPI,2025,1
+Heavy Snow,MONTANA,1999,1
+Heavy Snow,MONTANA,2008,1
+Heavy Snow,MONTANA,2015,1
+Heavy Snow,MONTANA,2017,2
+Heavy Snow,MONTANA,2022,1
+Heavy Snow,MONTANA,2024,1
+Heavy Snow,NEBRASKA,2013,1
+Heavy Snow,NEW HAMPSHIRE,1996,1
+Heavy Snow,NEW HAMPSHIRE,2007,1
+Heavy Snow,NEW JERSEY,2011,1
+Heavy Snow,NEW JERSEY,2015,1
+Heavy Snow,NEW MEXICO,1996,1
+Heavy Snow,NEW MEXICO,1997,1
+Heavy Snow,NEW MEXICO,2007,1
+Heavy Snow,NEW MEXICO,2008,4
+Heavy Snow,NEW MEXICO,2009,7
+Heavy Snow,NEW MEXICO,2010,4
+Heavy Snow,NEW MEXICO,2011,4
+Heavy Snow,NEW MEXICO,2013,1
+Heavy Snow,NEW MEXICO,2015,1
+Heavy Snow,NEW MEXICO,2018,1
+Heavy Snow,NEW MEXICO,2019,1
+Heavy Snow,NEW MEXICO,2022,3
+Heavy Snow,NEW YORK,1996,4
+Heavy Snow,NEW YORK,2007,1
+Heavy Snow,NEW YORK,2009,1
+Heavy Snow,NEW YORK,2010,2
+Heavy Snow,NEW YORK,2011,1
+Heavy Snow,NEW YORK,2020,1
+Heavy Snow,NORTH CAROLINA,1996,2
+Heavy Snow,NORTH CAROLINA,1997,1
+Heavy Snow,NORTH CAROLINA,2010,1
+Heavy Snow,OKLAHOMA,1997,1
+Heavy Snow,OKLAHOMA,2007,1
+Heavy Snow,OKLAHOMA,2013,1
+Heavy Snow,OREGON,2000,2
+Heavy Snow,OREGON,2007,2
+Heavy Snow,OREGON,2008,1
+Heavy Snow,OREGON,2017,1
+Heavy Snow,OREGON,2021,1
+Heavy Snow,PENNSYLVANIA,1996,2
+Heavy Snow,PENNSYLVANIA,2005,1
+Heavy Snow,PENNSYLVANIA,2009,2
+Heavy Snow,PENNSYLVANIA,2011,5
+Heavy Snow,PENNSYLVANIA,2012,1
+Heavy Snow,PENNSYLVANIA,2014,4
+Heavy Snow,RHODE ISLAND,2013,1
+Heavy Snow,SOUTH CAROLINA,2018,2
+Heavy Snow,SOUTH CAROLINA,2026,1
+Heavy Snow,SOUTH DAKOTA,2010,1
+Heavy Snow,SOUTH DAKOTA,2021,1
+Heavy Snow,TENNESSEE,2010,1
+Heavy Snow,TENNESSEE,2011,1
+Heavy Snow,TENNESSEE,2024,9
+Heavy Snow,TENNESSEE,2026,3
+Heavy Snow,TEXAS,2000,2
+Heavy Snow,TEXAS,2005,1
+Heavy Snow,TEXAS,2010,2
+Heavy Snow,TEXAS,2011,1
+Heavy Snow,TEXAS,2015,1
+Heavy Snow,UTAH,1996,2
+Heavy Snow,UTAH,1998,4
+Heavy Snow,UTAH,2001,1
+Heavy Snow,UTAH,2003,1
+Heavy Snow,UTAH,2005,1
+Heavy Snow,UTAH,2022,1
+Heavy Snow,VERMONT,1997,1
+Heavy Snow,VIRGINIA,1996,2
+Heavy Snow,VIRGINIA,1998,1
+Heavy Snow,VIRGINIA,2009,1
+Heavy Snow,WASHINGTON,1996,5
+Heavy Snow,WASHINGTON,1998,1
+Heavy Snow,WASHINGTON,2008,1
+Heavy Snow,WASHINGTON,2010,2
+Heavy Snow,WASHINGTON,2011,1
+Heavy Snow,WASHINGTON,2012,1
+Heavy Snow,WASHINGTON,2013,1
+Heavy Snow,WASHINGTON,2019,3
+Heavy Snow,WASHINGTON,2023,2
+Heavy Snow,WEST VIRGINIA,1998,3
+Heavy Snow,WEST VIRGINIA,2012,2
+Heavy Snow,WEST VIRGINIA,2016,1
+Heavy Snow,WISCONSIN,1999,1
+Heavy Snow,WISCONSIN,2010,2
+Heavy Snow,WISCONSIN,2019,1
+Heavy Snow,WISCONSIN,2020,1
+Heavy Snow,WYOMING,1997,1
+Heavy Snow,WYOMING,2019,3
+Heavy Snow,WYOMING,2020,1
+High Surf,ALABAMA,2017,1
+High Surf,AMERICAN SAMOA,2019,4
+High Surf,AMERICAN SAMOA,2020,3
+High Surf,AMERICAN SAMOA,2021,1
+High Surf,AMERICAN SAMOA,2025,2
+High Surf,CALIFORNIA,1996,3
+High Surf,CALIFORNIA,1998,1
+High Surf,CALIFORNIA,1999,4
+High Surf,CALIFORNIA,2000,2
+High Surf,CALIFORNIA,2001,1
+High Surf,CALIFORNIA,2002,2
+High Surf,CALIFORNIA,2004,9
+High Surf,CALIFORNIA,2005,1
+High Surf,CALIFORNIA,2006,3
+High Surf,CALIFORNIA,2007,9
+High Surf,CALIFORNIA,2009,6
+High Surf,CALIFORNIA,2010,8
+High Surf,CALIFORNIA,2011,4
+High Surf,CALIFORNIA,2014,3
+High Surf,CALIFORNIA,2015,1
+High Surf,CALIFORNIA,2016,3
+High Surf,CALIFORNIA,2017,2
+High Surf,CALIFORNIA,2018,1
+High Surf,CALIFORNIA,2019,3
+High Surf,CALIFORNIA,2020,3
+High Surf,CALIFORNIA,2021,9
+High Surf,CALIFORNIA,2022,1
+High Surf,CALIFORNIA,2023,3
+High Surf,CALIFORNIA,2024,5
+High Surf,CALIFORNIA,2025,7
+High Surf,CALIFORNIA,2026,3
+High Surf,FLORIDA,2003,5
+High Surf,FLORIDA,2007,2
+High Surf,FLORIDA,2008,1
+High Surf,FLORIDA,2009,2
+High Surf,FLORIDA,2010,3
+High Surf,FLORIDA,2011,1
+High Surf,FLORIDA,2012,4
+High Surf,FLORIDA,2015,2
+High Surf,FLORIDA,2016,3
+High Surf,FLORIDA,2018,3
+High Surf,FLORIDA,2019,2
+High Surf,FLORIDA,2022,1
+High Surf,GUAM,2004,8
+High Surf,GUAM,2005,1
+High Surf,GUAM,2006,2
+High Surf,GUAM,2008,1
+High Surf,GUAM,2011,4
+High Surf,GUAM,2013,3
+High Surf,GUAM,2014,3
+High Surf,GUAM,2015,1
+High Surf,GUAM,2022,1
+High Surf,GUAM,2023,1
+High Surf,HAWAII,1996,3
+High Surf,HAWAII,1997,6
+High Surf,HAWAII,1999,2
+High Surf,HAWAII,2001,1
+High Surf,HAWAII,2002,1
+High Surf,HAWAII,2003,1
+High Surf,HAWAII,2004,3
+High Surf,HAWAII,2008,3
+High Surf,HAWAII,2009,1
+High Surf,HAWAII,2013,4
+High Surf,HAWAII,2015,4
+High Surf,HAWAII,2016,4
+High Surf,HAWAII,2017,2
+High Surf,HAWAII,2019,4
+High Surf,HAWAII,2021,1
+High Surf,HAWAII,2024,3
+High Surf,HAWAII,2025,2
+High Surf,ILLINOIS,2025,3
+High Surf,ILLINOIS,2026,2
+High Surf,MAINE,2009,1
+High Surf,MAINE,2019,1
+High Surf,MASSACHUSETTS,2003,1
+High Surf,MASSACHUSETTS,2017,1
+High Surf,MASSACHUSETTS,2018,1
+High Surf,MICHIGAN,2011,1
+High Surf,MINNESOTA,2023,2
+High Surf,MINNESOTA,2025,1
+High Surf,NEW JERSEY,1996,2
+High Surf,NEW JERSEY,2002,1
+High Surf,NEW JERSEY,2003,1
+High Surf,NEW JERSEY,2008,1
+High Surf,NEW JERSEY,2010,1
+High Surf,NEW JERSEY,2017,1
+High Surf,NEW JERSEY,2023,1
+High Surf,NEW YORK,2001,2
+High Surf,NEW YORK,2002,4
+High Surf,NEW YORK,2003,3
+High Surf,NEW YORK,2009,1
+High Surf,NORTH CAROLINA,2004,1
+High Surf,NORTH CAROLINA,2009,1
+High Surf,NORTH CAROLINA,2018,4
+High Surf,NORTH CAROLINA,2019,2
+High Surf,OREGON,2005,2
+High Surf,OREGON,2006,7
+High Surf,OREGON,2007,1
+High Surf,OREGON,2008,2
+High Surf,OREGON,2009,2
+High Surf,OREGON,2014,3
+High Surf,OREGON,2016,4
+High Surf,OREGON,2017,1
+High Surf,OREGON,2018,2
+High Surf,OREGON,2019,3
+High Surf,OREGON,2021,2
+High Surf,PUERTO RICO,1997,1
+High Surf,PUERTO RICO,2001,2
+High Surf,PUERTO RICO,2002,2
+High Surf,PUERTO RICO,2003,1
+High Surf,PUERTO RICO,2004,3
+High Surf,PUERTO RICO,2006,1
+High Surf,PUERTO RICO,2009,2
+High Surf,PUERTO RICO,2010,2
+High Surf,PUERTO RICO,2012,2
+High Surf,PUERTO RICO,2013,3
+High Surf,PUERTO RICO,2015,1
+High Surf,PUERTO RICO,2023,1
+High Surf,PUERTO RICO,2025,2
+High Surf,PUERTO RICO,2026,3
+High Surf,RHODE ISLAND,2003,1
+High Surf,RHODE ISLAND,2008,2
+High Surf,RHODE ISLAND,2014,1
+High Surf,RHODE ISLAND,2018,2
+High Surf,SOUTH CAROLINA,2007,1
+High Surf,TEXAS,2008,1
+High Surf,TEXAS,2011,1
+High Surf,TEXAS,2016,1
+High Surf,TEXAS,2020,2
+High Surf,VIRGIN ISLANDS,2002,1
+High Surf,VIRGIN ISLANDS,2010,3
+High Surf,VIRGINIA,2005,1
+High Surf,WASHINGTON,1997,3
+High Surf,WASHINGTON,2021,1
+High Surf,WISCONSIN,2022,3
+High Wind,ALABAMA,1998,2
+High Wind,ALABAMA,2000,1
+High Wind,ALABAMA,2001,2
+High Wind,ALABAMA,2023,2
+High Wind,ARIZONA,1998,2
+High Wind,ARIZONA,1999,2
+High Wind,ARIZONA,2009,1
+High Wind,ARKANSAS,1997,1
+High Wind,CALIFORNIA,1996,4
+High Wind,CALIFORNIA,1997,4
+High Wind,CALIFORNIA,1998,1
+High Wind,CALIFORNIA,1999,1
+High Wind,CALIFORNIA,2000,3
+High Wind,CALIFORNIA,2001,1
+High Wind,CALIFORNIA,2002,2
+High Wind,CALIFORNIA,2003,2
+High Wind,CALIFORNIA,2006,2
+High Wind,CALIFORNIA,2008,1
+High Wind,CALIFORNIA,2010,1
+High Wind,CALIFORNIA,2011,5
+High Wind,CALIFORNIA,2013,1
+High Wind,CALIFORNIA,2014,4
+High Wind,CALIFORNIA,2017,2
+High Wind,CALIFORNIA,2018,5
+High Wind,CALIFORNIA,2021,1
+High Wind,CALIFORNIA,2023,1
+High Wind,CALIFORNIA,2024,3
+High Wind,CALIFORNIA,2025,1
+High Wind,CALIFORNIA,2026,1
+High Wind,COLORADO,1996,1
+High Wind,COLORADO,1999,1
+High Wind,COLORADO,2004,1
+High Wind,COLORADO,2009,2
+High Wind,COLORADO,2011,1
+High Wind,COLORADO,2017,2
+High Wind,COLORADO,2018,11
+High Wind,COLORADO,2021,1
+High Wind,COLORADO,2022,1
+High Wind,CONNECTICUT,1996,3
+High Wind,CONNECTICUT,2002,2
+High Wind,CONNECTICUT,2009,1
+High Wind,CONNECTICUT,2010,2
+High Wind,CONNECTICUT,2012,4
+High Wind,CONNECTICUT,2018,1
+High Wind,FLORIDA,1997,1
+High Wind,FLORIDA,1998,3
+High Wind,FLORIDA,2000,1
+High Wind,FLORIDA,2001,2
+High Wind,FLORIDA,2004,5
+High Wind,GEORGIA,2009,1
+High Wind,HAWAII,2004,1
+High Wind,IDAHO,2015,1
+High Wind,IDAHO,2021,2
+High Wind,IDAHO,2025,1
+High Wind,ILLINOIS,1996,1
+High Wind,ILLINOIS,2001,1
+High Wind,ILLINOIS,2004,1
+High Wind,ILLINOIS,2016,1
+High Wind,ILLINOIS,2024,1
+High Wind,INDIANA,1996,1
+High Wind,INDIANA,2008,5
+High Wind,INDIANA,2023,2
+High Wind,IOWA,1998,1
+High Wind,IOWA,2003,1
+High Wind,KANSAS,1996,1
+High Wind,KANSAS,1999,1
+High Wind,KANSAS,2000,1
+High Wind,KANSAS,2001,1
+High Wind,KANSAS,2004,1
+High Wind,KANSAS,2025,1
+High Wind,KENTUCKY,1996,1
+High Wind,KENTUCKY,1998,2
+High Wind,KENTUCKY,2008,2
+High Wind,KENTUCKY,2009,2
+High Wind,KENTUCKY,2023,1
+High Wind,LOUISIANA,1997,1
+High Wind,LOUISIANA,1998,1
+High Wind,LOUISIANA,2000,2
+High Wind,LOUISIANA,2009,1
+High Wind,MAINE,2023,3
+High Wind,MARYLAND,2012,2
+High Wind,MARYLAND,2018,1
+High Wind,MARYLAND,2022,1
+High Wind,MASSACHUSETTS,2006,4
+High Wind,MASSACHUSETTS,2017,1
+High Wind,MASSACHUSETTS,2018,1
+High Wind,MASSACHUSETTS,2023,1
+High Wind,MICHIGAN,1998,1
+High Wind,MICHIGAN,2006,1
+High Wind,MICHIGAN,2011,1
+High Wind,MICHIGAN,2017,2
+High Wind,MICHIGAN,2018,1
+High Wind,MINNESOTA,2021,1
+High Wind,MISSISSIPPI,2000,1
+High Wind,MISSISSIPPI,2006,1
+High Wind,MONTANA,2002,2
+High Wind,MONTANA,2006,1
+High Wind,MONTANA,2025,1
+High Wind,NEBRASKA,1996,1
+High Wind,NEBRASKA,2002,1
+High Wind,NEBRASKA,2018,1
+High Wind,NEVADA,2002,2
+High Wind,NEVADA,2005,1
+High Wind,NEVADA,2014,1
+High Wind,NEW HAMPSHIRE,2003,2
+High Wind,NEW JERSEY,2002,3
+High Wind,NEW JERSEY,2003,1
+High Wind,NEW JERSEY,2009,2
+High Wind,NEW JERSEY,2010,1
+High Wind,NEW JERSEY,2012,37
+High Wind,NEW JERSEY,2014,1
+High Wind,NEW JERSEY,2016,1
+High Wind,NEW JERSEY,2018,1
+High Wind,NEW MEXICO,1999,7
+High Wind,NEW MEXICO,2003,1
+High Wind,NEW MEXICO,2009,1
+High Wind,NEW YORK,1996,4
+High Wind,NEW YORK,1997,6
+High Wind,NEW YORK,1999,1
+High Wind,NEW YORK,2000,1
+High Wind,NEW YORK,2002,1
+High Wind,NEW YORK,2003,2
+High Wind,NEW YORK,2006,2
+High Wind,NEW YORK,2009,1
+High Wind,NEW YORK,2010,2
+High Wind,NEW YORK,2012,30
+High Wind,NEW YORK,2013,1
+High Wind,NEW YORK,2018,1
+High Wind,NEW YORK,2021,1
+High Wind,NEW YORK,2022,1
+High Wind,NEW YORK,2024,1
+High Wind,NORTH CAROLINA,1996,2
+High Wind,NORTH CAROLINA,1997,1
+High Wind,NORTH CAROLINA,2001,1
+High Wind,NORTH CAROLINA,2002,1
+High Wind,NORTH CAROLINA,2004,2
+High Wind,NORTH CAROLINA,2007,1
+High Wind,NORTH CAROLINA,2011,2
+High Wind,NORTH CAROLINA,2012,1
+High Wind,NORTH CAROLINA,2024,2
+High Wind,NORTH CAROLINA,2025,2
+High Wind,NORTH DAKOTA,2000,1
+High Wind,NORTH DAKOTA,2022,1
+High Wind,OHIO,1996,1
+High Wind,OHIO,1998,1
+High Wind,OHIO,2000,2
+High Wind,OHIO,2001,1
+High Wind,OHIO,2002,2
+High Wind,OHIO,2008,7
+High Wind,OHIO,2009,1
+High Wind,OHIO,2020,1
+High Wind,OHIO,2021,1
+High Wind,OHIO,2023,1
+High Wind,OHIO,2026,1
+High Wind,OREGON,1997,1
+High Wind,OREGON,1999,8
+High Wind,OREGON,2000,2
+High Wind,OREGON,2002,2
+High Wind,OREGON,2006,1
+High Wind,OREGON,2008,1
+High Wind,OREGON,2010,1
+High Wind,OREGON,2012,1
+High Wind,OREGON,2014,2
+High Wind,OREGON,2016,2
+High Wind,OREGON,2017,1
+High Wind,OREGON,2020,6
+High Wind,OREGON,2022,4
+High Wind,PENNSYLVANIA,1997,2
+High Wind,PENNSYLVANIA,2000,3
+High Wind,PENNSYLVANIA,2002,1
+High Wind,PENNSYLVANIA,2003,4
+High Wind,PENNSYLVANIA,2006,1
+High Wind,PENNSYLVANIA,2008,1
+High Wind,PENNSYLVANIA,2012,12
+High Wind,PENNSYLVANIA,2018,1
+High Wind,PENNSYLVANIA,2025,1
+High Wind,RHODE ISLAND,2018,1
+High Wind,SOUTH CAROLINA,1996,1
+High Wind,SOUTH CAROLINA,2002,1
+High Wind,SOUTH CAROLINA,2004,1
+High Wind,SOUTH CAROLINA,2007,1
+High Wind,SOUTH CAROLINA,2017,1
+High Wind,SOUTH CAROLINA,2022,1
+High Wind,TENNESSEE,1999,1
+High Wind,TENNESSEE,2013,1
+High Wind,TENNESSEE,2023,5
+High Wind,TENNESSEE,2024,1
+High Wind,TEXAS,1996,3
+High Wind,TEXAS,2001,1
+High Wind,TEXAS,2006,2
+High Wind,TEXAS,2019,1
+High Wind,UTAH,2000,1
+High Wind,UTAH,2013,1
+High Wind,UTAH,2015,1
+High Wind,UTAH,2016,2
+High Wind,UTAH,2020,1
+High Wind,VERMONT,1999,1
+High Wind,VERMONT,2022,1
+High Wind,VIRGINIA,1997,1
+High Wind,VIRGINIA,1999,1
+High Wind,VIRGINIA,2000,2
+High Wind,VIRGINIA,2006,2
+High Wind,VIRGINIA,2008,1
+High Wind,VIRGINIA,2018,1
+High Wind,VIRGINIA,2024,3
+High Wind,WASHINGTON,1997,13
+High Wind,WASHINGTON,1999,2
+High Wind,WASHINGTON,2000,2
+High Wind,WASHINGTON,2001,3
+High Wind,WASHINGTON,2003,2
+High Wind,WASHINGTON,2004,1
+High Wind,WASHINGTON,2006,14
+High Wind,WASHINGTON,2007,4
+High Wind,WASHINGTON,2010,1
+High Wind,WASHINGTON,2011,2
+High Wind,WASHINGTON,2015,6
+High Wind,WASHINGTON,2016,1
+High Wind,WASHINGTON,2017,2
+High Wind,WASHINGTON,2021,4
+High Wind,WASHINGTON,2024,2
+High Wind,WEST VIRGINIA,2005,1
+High Wind,WISCONSIN,1997,2
+High Wind,WISCONSIN,1998,6
+High Wind,WISCONSIN,2014,1
+High Wind,WYOMING,1999,1
+High Wind,WYOMING,2011,1
+Hurricane,GUAM,2026,9
+Hurricane (Typhoon),ALABAMA,1997,1
+Hurricane (Typhoon),ALABAMA,1998,1
+Hurricane (Typhoon),ALABAMA,2020,2
+Hurricane (Typhoon),FLORIDA,1996,2
+Hurricane (Typhoon),FLORIDA,1998,2
+Hurricane (Typhoon),FLORIDA,1999,1
+Hurricane (Typhoon),FLORIDA,2004,22
+Hurricane (Typhoon),FLORIDA,2005,13
+Hurricane (Typhoon),FLORIDA,2016,5
+Hurricane (Typhoon),FLORIDA,2017,25
+Hurricane (Typhoon),FLORIDA,2018,46
+Hurricane (Typhoon),FLORIDA,2022,93
+Hurricane (Typhoon),FLORIDA,2024,6
+Hurricane (Typhoon),GEORGIA,2016,1
+Hurricane (Typhoon),GEORGIA,2018,1
+Hurricane (Typhoon),GEORGIA,2023,1
+Hurricane (Typhoon),GEORGIA,2024,11
+Hurricane (Typhoon),GUAM,2001,1
+Hurricane (Typhoon),GUAM,2002,1
+Hurricane (Typhoon),GUAM,2015,5
+Hurricane (Typhoon),GUAM,2018,1
+Hurricane (Typhoon),GUAM,2023,2
+Hurricane (Typhoon),LOUISIANA,2005,817
+Hurricane (Typhoon),LOUISIANA,2008,5
+Hurricane (Typhoon),LOUISIANA,2020,27
+Hurricane (Typhoon),LOUISIANA,2021,28
+Hurricane (Typhoon),MISSISSIPPI,2004,1
+Hurricane (Typhoon),MISSISSIPPI,2005,181
+Hurricane (Typhoon),MISSISSIPPI,2020,1
+Hurricane (Typhoon),NORTH CAROLINA,1996,14
+Hurricane (Typhoon),NORTH CAROLINA,1998,1
+Hurricane (Typhoon),NORTH CAROLINA,1999,14
+Hurricane (Typhoon),NORTH CAROLINA,2003,2
+Hurricane (Typhoon),NORTH CAROLINA,2011,1
+Hurricane (Typhoon),NORTH CAROLINA,2018,1
+Hurricane (Typhoon),SOUTH CAROLINA,1996,1
+Hurricane (Typhoon),SOUTH CAROLINA,2018,2
+Hurricane (Typhoon),TEXAS,2005,5
+Hurricane (Typhoon),TEXAS,2007,1
+Hurricane (Typhoon),TEXAS,2008,24
+Hurricane (Typhoon),TEXAS,2017,3
+Hurricane (Typhoon),TEXAS,2020,6
+Hurricane (Typhoon),VIRGINIA,1999,1
+Hurricane (Typhoon),VIRGINIA,2003,4
+Ice Storm,ALABAMA,1998,1
+Ice Storm,ALABAMA,2011,2
+Ice Storm,ALASKA,1999,5
+Ice Storm,ARIZONA,2006,5
+Ice Storm,ARKANSAS,1996,1
+Ice Storm,ARKANSAS,1998,1
+Ice Storm,ARKANSAS,1999,1
+Ice Storm,ARKANSAS,2002,1
+Ice Storm,ARKANSAS,2009,5
+Ice Storm,ARKANSAS,2014,1
+Ice Storm,CALIFORNIA,1998,2
+Ice Storm,CONNECTICUT,2009,1
+Ice Storm,GEORGIA,2014,1
+Ice Storm,GEORGIA,2015,1
+Ice Storm,ILLINOIS,2007,4
+Ice Storm,ILLINOIS,2015,2
+Ice Storm,ILLINOIS,2025,1
+Ice Storm,INDIANA,2007,1
+Ice Storm,INDIANA,2011,1
+Ice Storm,IOWA,2007,1
+Ice Storm,IOWA,2020,1
+Ice Storm,KANSAS,1997,1
+Ice Storm,KANSAS,1998,5
+Ice Storm,KANSAS,1999,1
+Ice Storm,KANSAS,2001,5
+Ice Storm,KANSAS,2002,1
+Ice Storm,KANSAS,2003,2
+Ice Storm,KANSAS,2009,1
+Ice Storm,KENTUCKY,2003,1
+Ice Storm,KENTUCKY,2009,11
+Ice Storm,KENTUCKY,2021,1
+Ice Storm,LOUISIANA,1996,1
+Ice Storm,LOUISIANA,1997,2
+Ice Storm,LOUISIANA,1998,1
+Ice Storm,LOUISIANA,2000,2
+Ice Storm,LOUISIANA,2011,1
+Ice Storm,LOUISIANA,2014,2
+Ice Storm,MAINE,1998,1
+Ice Storm,MAINE,2001,1
+Ice Storm,MASSACHUSETTS,2008,1
+Ice Storm,MICHIGAN,2003,1
+Ice Storm,MICHIGAN,2023,1
+Ice Storm,MISSISSIPPI,2011,4
+Ice Storm,MISSISSIPPI,2026,5
+Ice Storm,MONTANA,1997,2
+Ice Storm,NEBRASKA,1998,2
+Ice Storm,NEBRASKA,1999,2
+Ice Storm,NEBRASKA,2020,2
+Ice Storm,NEVADA,2005,1
+Ice Storm,NEVADA,2006,1
+Ice Storm,NEVADA,2007,1
+Ice Storm,NEW YORK,1998,1
+Ice Storm,NEW YORK,2003,1
+Ice Storm,NEW YORK,2007,3
+Ice Storm,NEW YORK,2008,2
+Ice Storm,NORTH CAROLINA,2005,1
+Ice Storm,OHIO,2007,1
+Ice Storm,OHIO,2011,2
+Ice Storm,OKLAHOMA,2007,14
+Ice Storm,OKLAHOMA,2015,4
+Ice Storm,OKLAHOMA,2017,2
+Ice Storm,OKLAHOMA,2020,1
+Ice Storm,OREGON,1996,1
+Ice Storm,OREGON,1998,1
+Ice Storm,OREGON,2024,6
+Ice Storm,SOUTH CAROLINA,2003,1
+Ice Storm,SOUTH CAROLINA,2014,2
+Ice Storm,SOUTH DAKOTA,1996,6
+Ice Storm,SOUTH DAKOTA,2002,1
+Ice Storm,SOUTH DAKOTA,2016,1
+Ice Storm,TENNESSEE,2009,2
+Ice Storm,TENNESSEE,2010,1
+Ice Storm,TENNESSEE,2022,2
+Ice Storm,TEXAS,1996,1
+Ice Storm,TEXAS,1997,4
+Ice Storm,TEXAS,1998,6
+Ice Storm,TEXAS,2006,6
+Ice Storm,TEXAS,2007,2
+Ice Storm,TEXAS,2009,2
+Ice Storm,TEXAS,2011,5
+Ice Storm,TEXAS,2015,4
+Ice Storm,TEXAS,2021,2
+Ice Storm,TEXAS,2024,1
+Ice Storm,UTAH,2013,1
+Ice Storm,WASHINGTON,1996,1
+Ice Storm,WASHINGTON,1997,1
+Ice Storm,WASHINGTON,2012,1
+Ice Storm,WASHINGTON,2021,1
+Ice Storm,WEST VIRGINIA,1999,1
+Ice Storm,WISCONSIN,2026,1
+Lake-Effect Snow,INDIANA,2012,1
+Lake-Effect Snow,INDIANA,2017,1
+Lake-Effect Snow,NEW YORK,2006,1
+Lake-Effect Snow,NEW YORK,2014,13
+Lake-Effect Snow,NEW YORK,2022,3
+Lake-Effect Snow,OHIO,2006,1
+Lake-Effect Snow,OHIO,2019,1
+Lake-Effect Snow,WISCONSIN,2017,5
+Lakeshore Flood,MICHIGAN,2017,2
+Lightning,ALABAMA,1996,1
+Lightning,ALABAMA,1997,1
+Lightning,ALABAMA,1998,1
+Lightning,ALABAMA,1999,2
+Lightning,ALABAMA,2001,2
+Lightning,ALABAMA,2002,6
+Lightning,ALABAMA,2004,1
+Lightning,ALABAMA,2005,2
+Lightning,ALABAMA,2006,1
 Lightning,ALABAMA,2007,1
 Lightning,ALABAMA,2009,1
 Lightning,ALABAMA,2010,4
@@ -769,6 +3120,13 @@ Lightning,ALABAMA,2022,1
 Lightning,ALABAMA,2023,1
 Lightning,ALABAMA,2024,1
 Lightning,ALABAMA,2025,1
+Lightning,AMERICAN SAMOA,2006,1
+Lightning,ARIZONA,1997,2
+Lightning,ARIZONA,1998,1
+Lightning,ARIZONA,1999,1
+Lightning,ARIZONA,2000,2
+Lightning,ARIZONA,2005,1
+Lightning,ARIZONA,2006,2
 Lightning,ARIZONA,2007,1
 Lightning,ARIZONA,2009,1
 Lightning,ARIZONA,2010,1
@@ -777,6 +3135,11 @@ Lightning,ARIZONA,2013,4
 Lightning,ARIZONA,2014,2
 Lightning,ARIZONA,2015,3
 Lightning,ARIZONA,2016,1
+Lightning,ARKANSAS,1997,3
+Lightning,ARKANSAS,1998,1
+Lightning,ARKANSAS,1999,2
+Lightning,ARKANSAS,2004,1
+Lightning,ARKANSAS,2006,3
 Lightning,ARKANSAS,2007,2
 Lightning,ARKANSAS,2008,2
 Lightning,ARKANSAS,2011,1
@@ -784,6 +3147,11 @@ Lightning,ARKANSAS,2012,1
 Lightning,ARKANSAS,2014,2
 Lightning,ARKANSAS,2015,1
 Lightning,ARKANSAS,2018,2
+Lightning,CALIFORNIA,1999,1
+Lightning,CALIFORNIA,2001,2
+Lightning,CALIFORNIA,2003,1
+Lightning,CALIFORNIA,2004,1
+Lightning,CALIFORNIA,2005,2
 Lightning,CALIFORNIA,2009,2
 Lightning,CALIFORNIA,2012,1
 Lightning,CALIFORNIA,2013,1
@@ -792,6 +3160,16 @@ Lightning,CALIFORNIA,2015,1
 Lightning,CALIFORNIA,2020,1
 Lightning,CALIFORNIA,2021,1
 Lightning,CALIFORNIA,2022,1
+Lightning,COLORADO,1996,3
+Lightning,COLORADO,1997,5
+Lightning,COLORADO,1998,3
+Lightning,COLORADO,1999,2
+Lightning,COLORADO,2000,2
+Lightning,COLORADO,2001,2
+Lightning,COLORADO,2003,6
+Lightning,COLORADO,2004,3
+Lightning,COLORADO,2005,1
+Lightning,COLORADO,2006,3
 Lightning,COLORADO,2007,2
 Lightning,COLORADO,2008,4
 Lightning,COLORADO,2009,1
@@ -804,9 +3182,22 @@ Lightning,COLORADO,2017,2
 Lightning,COLORADO,2019,1
 Lightning,COLORADO,2020,4
 Lightning,COLORADO,2024,1
+Lightning,CONNECTICUT,1997,1
+Lightning,CONNECTICUT,2000,1
 Lightning,CONNECTICUT,2008,1
 Lightning,CONNECTICUT,2010,1
 Lightning,DISTRICT OF COLUMBIA,2022,3
+Lightning,FLORIDA,1996,10
+Lightning,FLORIDA,1997,8
+Lightning,FLORIDA,1998,8
+Lightning,FLORIDA,1999,5
+Lightning,FLORIDA,2000,8
+Lightning,FLORIDA,2001,8
+Lightning,FLORIDA,2002,9
+Lightning,FLORIDA,2003,10
+Lightning,FLORIDA,2004,5
+Lightning,FLORIDA,2005,5
+Lightning,FLORIDA,2006,5
 Lightning,FLORIDA,2007,11
 Lightning,FLORIDA,2008,5
 Lightning,FLORIDA,2009,5
@@ -826,6 +3217,16 @@ Lightning,FLORIDA,2022,6
 Lightning,FLORIDA,2023,4
 Lightning,FLORIDA,2024,6
 Lightning,FLORIDA,2025,7
+Lightning,GEORGIA,1997,1
+Lightning,GEORGIA,1998,1
+Lightning,GEORGIA,1999,2
+Lightning,GEORGIA,2000,4
+Lightning,GEORGIA,2001,1
+Lightning,GEORGIA,2002,2
+Lightning,GEORGIA,2003,2
+Lightning,GEORGIA,2004,2
+Lightning,GEORGIA,2005,2
+Lightning,GEORGIA,2006,1
 Lightning,GEORGIA,2007,3
 Lightning,GEORGIA,2008,1
 Lightning,GEORGIA,2010,3
@@ -838,8 +3239,19 @@ Lightning,GEORGIA,2021,1
 Lightning,GEORGIA,2022,2
 Lightning,GEORGIA,2023,1
 Lightning,GEORGIA,2025,2
+Lightning,GUAM,2003,1
 Lightning,GUAM,2011,1
+Lightning,IDAHO,1996,1
+Lightning,IDAHO,1997,1
+Lightning,IDAHO,2002,1
 Lightning,IDAHO,2010,1
+Lightning,ILLINOIS,1996,2
+Lightning,ILLINOIS,1997,1
+Lightning,ILLINOIS,1999,2
+Lightning,ILLINOIS,2001,5
+Lightning,ILLINOIS,2002,1
+Lightning,ILLINOIS,2005,1
+Lightning,ILLINOIS,2006,1
 Lightning,ILLINOIS,2007,1
 Lightning,ILLINOIS,2010,1
 Lightning,ILLINOIS,2012,1
@@ -848,20 +3260,34 @@ Lightning,ILLINOIS,2016,1
 Lightning,ILLINOIS,2018,1
 Lightning,ILLINOIS,2019,1
 Lightning,ILLINOIS,2021,1
+Lightning,INDIANA,1996,1
+Lightning,INDIANA,1998,2
+Lightning,INDIANA,1999,1
+Lightning,INDIANA,2001,1
+Lightning,INDIANA,2006,1
 Lightning,INDIANA,2009,1
 Lightning,INDIANA,2010,1
 Lightning,INDIANA,2011,1
 Lightning,INDIANA,2013,2
 Lightning,INDIANA,2019,1
 Lightning,INDIANA,2020,1
+Lightning,IOWA,1996,1
+Lightning,IOWA,2000,1
+Lightning,IOWA,2003,1
+Lightning,IOWA,2005,1
 Lightning,IOWA,2008,1
 Lightning,IOWA,2015,2
+Lightning,KANSAS,1996,2
+Lightning,KANSAS,1999,2
 Lightning,KANSAS,2007,1
 Lightning,KANSAS,2008,1
 Lightning,KANSAS,2009,1
 Lightning,KANSAS,2011,1
 Lightning,KANSAS,2012,1
 Lightning,KANSAS,2019,1
+Lightning,KENTUCKY,1996,1
+Lightning,KENTUCKY,2000,4
+Lightning,KENTUCKY,2005,2
 Lightning,KENTUCKY,2007,1
 Lightning,KENTUCKY,2009,1
 Lightning,KENTUCKY,2010,2
@@ -871,6 +3297,15 @@ Lightning,KENTUCKY,2019,1
 Lightning,KENTUCKY,2022,1
 Lightning,KENTUCKY,2023,1
 Lightning,KENTUCKY,2025,1
+Lightning,LOUISIANA,1996,3
+Lightning,LOUISIANA,1998,3
+Lightning,LOUISIANA,1999,3
+Lightning,LOUISIANA,2000,3
+Lightning,LOUISIANA,2001,1
+Lightning,LOUISIANA,2002,2
+Lightning,LOUISIANA,2004,2
+Lightning,LOUISIANA,2005,1
+Lightning,LOUISIANA,2006,2
 Lightning,LOUISIANA,2007,3
 Lightning,LOUISIANA,2009,1
 Lightning,LOUISIANA,2010,1
@@ -881,33 +3316,63 @@ Lightning,LOUISIANA,2016,4
 Lightning,LOUISIANA,2022,1
 Lightning,LOUISIANA,2023,1
 Lightning,LOUISIANA,2025,1
+Lightning,MAINE,2000,1
+Lightning,MAINE,2005,1
 Lightning,MAINE,2007,1
 Lightning,MAINE,2008,2
+Lightning,MARYLAND,1996,1
+Lightning,MARYLAND,1998,2
+Lightning,MARYLAND,2000,3
+Lightning,MARYLAND,2002,1
 Lightning,MARYLAND,2007,1
 Lightning,MARYLAND,2010,2
 Lightning,MARYLAND,2021,1
 Lightning,MARYLAND,2022,1
+Lightning,MASSACHUSETTS,2000,1
+Lightning,MASSACHUSETTS,2001,1
 Lightning,MASSACHUSETTS,2008,1
 Lightning,MASSACHUSETTS,2009,1
 Lightning,MASSACHUSETTS,2010,2
 Lightning,MASSACHUSETTS,2014,2
+Lightning,MICHIGAN,1996,2
+Lightning,MICHIGAN,1998,2
+Lightning,MICHIGAN,1999,1
+Lightning,MICHIGAN,2000,1
+Lightning,MICHIGAN,2001,1
+Lightning,MICHIGAN,2002,1
+Lightning,MICHIGAN,2003,1
+Lightning,MICHIGAN,2006,2
 Lightning,MICHIGAN,2007,1
 Lightning,MICHIGAN,2011,2
 Lightning,MICHIGAN,2013,1
 Lightning,MICHIGAN,2014,1
 Lightning,MICHIGAN,2016,2
 Lightning,MICHIGAN,2023,1
+Lightning,MINNESOTA,1996,2
+Lightning,MINNESOTA,1998,2
 Lightning,MINNESOTA,2007,1
 Lightning,MINNESOTA,2009,2
 Lightning,MINNESOTA,2012,3
 Lightning,MINNESOTA,2013,1
 Lightning,MINNESOTA,2021,1
+Lightning,MISSISSIPPI,1996,1
+Lightning,MISSISSIPPI,1998,1
+Lightning,MISSISSIPPI,1999,1
+Lightning,MISSISSIPPI,2000,1
+Lightning,MISSISSIPPI,2001,1
+Lightning,MISSISSIPPI,2002,2
+Lightning,MISSISSIPPI,2004,1
+Lightning,MISSISSIPPI,2005,1
+Lightning,MISSISSIPPI,2006,2
 Lightning,MISSISSIPPI,2008,1
 Lightning,MISSISSIPPI,2009,1
 Lightning,MISSISSIPPI,2011,2
 Lightning,MISSISSIPPI,2014,1
 Lightning,MISSISSIPPI,2016,3
 Lightning,MISSISSIPPI,2025,1
+Lightning,MISSOURI,1996,1
+Lightning,MISSOURI,2002,5
+Lightning,MISSOURI,2005,2
 Lightning,MISSOURI,2007,2
 Lightning,MISSOURI,2009,2
 Lightning,MISSOURI,2010,1
@@ -919,12 +3384,25 @@ Lightning,MISSOURI,2016,1
 Lightning,MISSOURI,2018,2
 Lightning,MISSOURI,2020,1
 Lightning,MISSOURI,2024,2
+Lightning,MONTANA,1998,2
+Lightning,MONTANA,1999,3
 Lightning,MONTANA,2007,1
 Lightning,MONTANA,2009,1
 Lightning,MONTANA,2011,1
 Lightning,MONTANA,2020,1
+Lightning,NEBRASKA,1997,1
+Lightning,NEBRASKA,1998,1
+Lightning,NEBRASKA,2001,1
 Lightning,NEBRASKA,2003,1
+Lightning,NEBRASKA,2006,1
 Lightning,NEBRASKA,2023,1
+Lightning,NEVADA,2006,1
+Lightning,NEW JERSEY,1997,1
+Lightning,NEW JERSEY,1998,1
+Lightning,NEW JERSEY,1999,1
+Lightning,NEW JERSEY,2001,2
+Lightning,NEW JERSEY,2002,1
+Lightning,NEW JERSEY,2006,3
 Lightning,NEW JERSEY,2007,2
 Lightning,NEW JERSEY,2008,1
 Lightning,NEW JERSEY,2009,1
@@ -934,11 +3412,21 @@ Lightning,NEW JERSEY,2012,3
 Lightning,NEW JERSEY,2021,2
 Lightning,NEW JERSEY,2024,1
 Lightning,NEW JERSEY,2025,2
+Lightning,NEW MEXICO,1996,3
+Lightning,NEW MEXICO,1997,2
+Lightning,NEW MEXICO,2003,1
 Lightning,NEW MEXICO,2009,2
 Lightning,NEW MEXICO,2014,1
 Lightning,NEW MEXICO,2015,2
 Lightning,NEW MEXICO,2016,1
 Lightning,NEW MEXICO,2017,1
+Lightning,NEW YORK,1996,1
+Lightning,NEW YORK,1998,1
+Lightning,NEW YORK,1999,1
+Lightning,NEW YORK,2000,1
+Lightning,NEW YORK,2002,2
+Lightning,NEW YORK,2004,1
+Lightning,NEW YORK,2006,1
 Lightning,NEW YORK,2007,1
 Lightning,NEW YORK,2009,1
 Lightning,NEW YORK,2012,1
@@ -947,6 +3435,15 @@ Lightning,NEW YORK,2016,4
 Lightning,NEW YORK,2018,1
 Lightning,NEW YORK,2021,3
 Lightning,NEW YORK,2023,1
+Lightning,NORTH CAROLINA,1996,1
+Lightning,NORTH CAROLINA,1998,2
+Lightning,NORTH CAROLINA,1999,4
+Lightning,NORTH CAROLINA,2000,1
+Lightning,NORTH CAROLINA,2002,2
+Lightning,NORTH CAROLINA,2003,5
+Lightning,NORTH CAROLINA,2004,1
+Lightning,NORTH CAROLINA,2005,1
+Lightning,NORTH CAROLINA,2006,3
 Lightning,NORTH CAROLINA,2008,1
 Lightning,NORTH CAROLINA,2009,3
 Lightning,NORTH CAROLINA,2010,2
@@ -960,7 +3457,17 @@ Lightning,NORTH CAROLINA,2019,1
 Lightning,NORTH CAROLINA,2020,2
 Lightning,NORTH CAROLINA,2022,1
 Lightning,NORTH CAROLINA,2025,2
+Lightning,NORTH DAKOTA,1997,1
 Lightning,NORTH DAKOTA,2019,1
+Lightning,OHIO,1996,3
+Lightning,OHIO,1998,1
+Lightning,OHIO,1999,2
+Lightning,OHIO,2000,2
+Lightning,OHIO,2001,1
+Lightning,OHIO,2002,1
+Lightning,OHIO,2003,1
+Lightning,OHIO,2004,1
+Lightning,OHIO,2005,3
 Lightning,OHIO,2007,1
 Lightning,OHIO,2008,2
 Lightning,OHIO,2010,1
@@ -971,10 +3478,23 @@ Lightning,OHIO,2017,1
 Lightning,OHIO,2019,2
 Lightning,OHIO,2022,1
 Lightning,OHIO,2025,1
+Lightning,OKLAHOMA,1996,1
+Lightning,OKLAHOMA,1997,2
+Lightning,OKLAHOMA,1998,1
+Lightning,OKLAHOMA,1999,1
+Lightning,OKLAHOMA,2002,1
 Lightning,OKLAHOMA,2012,1
 Lightning,OKLAHOMA,2023,1
 Lightning,OKLAHOMA,2025,2
+Lightning,OREGON,1997,1
 Lightning,OREGON,2013,1
+Lightning,PENNSYLVANIA,1997,1
+Lightning,PENNSYLVANIA,1998,1
+Lightning,PENNSYLVANIA,2000,2
+Lightning,PENNSYLVANIA,2001,2
+Lightning,PENNSYLVANIA,2002,1
+Lightning,PENNSYLVANIA,2005,4
+Lightning,PENNSYLVANIA,2006,1
 Lightning,PENNSYLVANIA,2007,1
 Lightning,PENNSYLVANIA,2008,1
 Lightning,PENNSYLVANIA,2009,1
@@ -986,12 +3506,24 @@ Lightning,PENNSYLVANIA,2019,2
 Lightning,PENNSYLVANIA,2020,2
 Lightning,PENNSYLVANIA,2021,1
 Lightning,PENNSYLVANIA,2023,1
+Lightning,PUERTO RICO,2000,1
+Lightning,PUERTO RICO,2001,2
+Lightning,PUERTO RICO,2006,1
 Lightning,PUERTO RICO,2009,1
 Lightning,PUERTO RICO,2017,1
 Lightning,PUERTO RICO,2020,1
 Lightning,PUERTO RICO,2022,2
 Lightning,PUERTO RICO,2025,2
+Lightning,RHODE ISLAND,2004,1
 Lightning,RHODE ISLAND,2008,1
+Lightning,SOUTH CAROLINA,1997,1
+Lightning,SOUTH CAROLINA,1998,2
+Lightning,SOUTH CAROLINA,2000,2
+Lightning,SOUTH CAROLINA,2001,1
+Lightning,SOUTH CAROLINA,2002,2
+Lightning,SOUTH CAROLINA,2004,2
+Lightning,SOUTH CAROLINA,2005,1
+Lightning,SOUTH CAROLINA,2006,2
 Lightning,SOUTH CAROLINA,2007,2
 Lightning,SOUTH CAROLINA,2008,2
 Lightning,SOUTH CAROLINA,2011,1
@@ -999,15 +3531,35 @@ Lightning,SOUTH CAROLINA,2013,1
 Lightning,SOUTH CAROLINA,2015,1
 Lightning,SOUTH CAROLINA,2019,1
 Lightning,SOUTH CAROLINA,2020,1
+Lightning,SOUTH DAKOTA,2001,2
+Lightning,SOUTH DAKOTA,2003,1
 Lightning,SOUTH DAKOTA,2011,1
 Lightning,SOUTH DAKOTA,2015,1
+Lightning,TENNESSEE,1996,1
+Lightning,TENNESSEE,1998,1
+Lightning,TENNESSEE,1999,1
+Lightning,TENNESSEE,2001,1
+Lightning,TENNESSEE,2002,3
+Lightning,TENNESSEE,2004,2
+Lightning,TENNESSEE,2005,2
+Lightning,TENNESSEE,2006,3
 Lightning,TENNESSEE,2007,1
 Lightning,TENNESSEE,2009,1
 Lightning,TENNESSEE,2016,1
 Lightning,TENNESSEE,2017,1
 Lightning,TENNESSEE,2018,3
 Lightning,TENNESSEE,2024,3
-Lightning,TEXAS,2006,1
+Lightning,TEXAS,1996,6
+Lightning,TEXAS,1997,3
+Lightning,TEXAS,1998,2
+Lightning,TEXAS,1999,3
+Lightning,TEXAS,2000,5
+Lightning,TEXAS,2001,1
+Lightning,TEXAS,2002,2
+Lightning,TEXAS,2003,4
+Lightning,TEXAS,2004,3
+Lightning,TEXAS,2005,1
+Lightning,TEXAS,2006,2
 Lightning,TEXAS,2007,6
 Lightning,TEXAS,2008,1
 Lightning,TEXAS,2009,6
@@ -1025,13 +3577,32 @@ Lightning,TEXAS,2023,2
 Lightning,TEXAS,2024,3
 Lightning,TEXAS,2025,3
 Lightning,TEXAS,2026,2
+Lightning,UTAH,1996,1
+Lightning,UTAH,1997,1
+Lightning,UTAH,1998,1
+Lightning,UTAH,1999,1
+Lightning,UTAH,2000,3
+Lightning,UTAH,2002,2
+Lightning,UTAH,2003,4
+Lightning,UTAH,2005,1
 Lightning,UTAH,2007,1
 Lightning,UTAH,2011,3
 Lightning,UTAH,2012,1
 Lightning,UTAH,2015,1
 Lightning,UTAH,2016,1
 Lightning,UTAH,2024,1
+Lightning,VERMONT,1996,1
+Lightning,VERMONT,2002,1
+Lightning,VERMONT,2004,1
 Lightning,VERMONT,2012,1
+Lightning,VIRGIN ISLANDS,2003,1
+Lightning,VIRGINIA,1996,1
+Lightning,VIRGINIA,1997,1
+Lightning,VIRGINIA,1999,1
+Lightning,VIRGINIA,2000,2
+Lightning,VIRGINIA,2001,3
+Lightning,VIRGINIA,2003,1
+Lightning,VIRGINIA,2004,1
 Lightning,VIRGINIA,2007,1
 Lightning,VIRGINIA,2008,1
 Lightning,VIRGINIA,2009,1
@@ -1039,9 +3610,16 @@ Lightning,VIRGINIA,2016,1
 Lightning,VIRGINIA,2017,3
 Lightning,VIRGINIA,2019,1
 Lightning,VIRGINIA,2023,1
+Lightning,WASHINGTON,1996,2
 Lightning,WASHINGTON,2020,1
+Lightning,WEST VIRGINIA,1997,1
 Lightning,WEST VIRGINIA,2015,1
-Lightning,WISCONSIN,2006,1
+Lightning,WISCONSIN,1997,3
+Lightning,WISCONSIN,1999,1
+Lightning,WISCONSIN,2000,1
+Lightning,WISCONSIN,2001,1
+Lightning,WISCONSIN,2002,1
+Lightning,WISCONSIN,2006,2
 Lightning,WISCONSIN,2007,4
 Lightning,WISCONSIN,2008,1
 Lightning,WISCONSIN,2011,1
@@ -1051,10 +3629,20 @@ Lightning,WISCONSIN,2017,2
 Lightning,WISCONSIN,2021,1
 Lightning,WISCONSIN,2025,1
 Lightning,WISCONSIN,2026,1
+Lightning,WYOMING,1998,1
+Lightning,WYOMING,1999,2
+Lightning,WYOMING,2002,1
+Lightning,WYOMING,2003,2
 Lightning,WYOMING,2010,3
 Lightning,WYOMING,2022,1
+Marine Dense Fog,E PACIFIC,2015,4
+Marine Dense Fog,E PACIFIC,2020,2
+Marine Dense Fog,E PACIFIC,2021,2
+Marine Dense Fog,E PACIFIC,2022,2
+Marine Dense Fog,GULF OF MEXICO,2020,3
 Marine High Wind,ATLANTIC NORTH,2008,1
 Marine High Wind,ATLANTIC NORTH,2009,3
+Marine High Wind,CALIFORNIA,1996,1
 Marine High Wind,GULF OF MEXICO,2013,1
 Marine High Wind,HAWAII WATERS,2014,1
 Marine High Wind,HAWAII WATERS,2015,1
@@ -1097,11 +3685,13 @@ Marine Strong Wind,LAKE SUPERIOR,2008,1
 Marine Strong Wind,LAKE SUPERIOR,2014,2
 Marine Strong Wind,LAKE SUPERIOR,2018,4
 Marine Strong Wind,LAKE SUPERIOR,2019,1
+Marine Thunderstorm Wind,ATLANTIC NORTH,2004,6
 Marine Thunderstorm Wind,ATLANTIC NORTH,2008,1
 Marine Thunderstorm Wind,ATLANTIC NORTH,2012,1
 Marine Thunderstorm Wind,ATLANTIC NORTH,2016,1
 Marine Thunderstorm Wind,ATLANTIC NORTH,2017,1
 Marine Thunderstorm Wind,ATLANTIC NORTH,2019,1
+Marine Thunderstorm Wind,ATLANTIC SOUTH,2003,2
 Marine Thunderstorm Wind,ATLANTIC SOUTH,2005,1
 Marine Thunderstorm Wind,ATLANTIC SOUTH,2007,2
 Marine Thunderstorm Wind,ATLANTIC SOUTH,2008,1
@@ -1119,9 +3709,607 @@ Marine Thunderstorm Wind,GULF OF MEXICO,2023,2
 Marine Thunderstorm Wind,LAKE MICHIGAN,2011,2
 Marine Thunderstorm Wind,LAKE MICHIGAN,2020,1
 Marine Thunderstorm Wind,LAKE MICHIGAN,2021,1
+Marine Tropical Storm,GULF OF MEXICO,2021,9
+Marine Tropical Storm,GULF OF MEXICO,2022,20
+Rip Current,ALABAMA,1996,2
+Rip Current,ALABAMA,1998,1
+Rip Current,ALABAMA,1999,2
+Rip Current,ALABAMA,2001,1
+Rip Current,ALABAMA,2002,2
+Rip Current,ALABAMA,2003,2
+Rip Current,ALABAMA,2005,2
+Rip Current,ALABAMA,2007,5
+Rip Current,ALABAMA,2008,5
+Rip Current,ALABAMA,2010,2
+Rip Current,ALABAMA,2011,1
+Rip Current,ALABAMA,2012,3
+Rip Current,ALABAMA,2013,4
+Rip Current,ALABAMA,2014,3
+Rip Current,ALABAMA,2015,2
+Rip Current,ALABAMA,2016,1
+Rip Current,ALABAMA,2017,6
+Rip Current,ALABAMA,2018,5
+Rip Current,ALABAMA,2019,2
+Rip Current,ALABAMA,2020,1
+Rip Current,ALABAMA,2021,5
+Rip Current,ALABAMA,2022,3
+Rip Current,ALABAMA,2023,3
+Rip Current,ALABAMA,2025,1
+Rip Current,AMERICAN SAMOA,2007,3
+Rip Current,AMERICAN SAMOA,2011,1
+Rip Current,AMERICAN SAMOA,2015,1
+Rip Current,AMERICAN SAMOA,2020,2
+Rip Current,AMERICAN SAMOA,2021,1
+Rip Current,AMERICAN SAMOA,2024,1
+Rip Current,CALIFORNIA,1996,1
+Rip Current,CALIFORNIA,1997,1
+Rip Current,CALIFORNIA,1998,2
+Rip Current,CALIFORNIA,1999,7
+Rip Current,CALIFORNIA,2000,11
+Rip Current,CALIFORNIA,2001,7
+Rip Current,CALIFORNIA,2002,3
+Rip Current,CALIFORNIA,2003,5
+Rip Current,CALIFORNIA,2006,1
+Rip Current,CALIFORNIA,2007,1
+Rip Current,CALIFORNIA,2008,3
+Rip Current,CALIFORNIA,2009,1
+Rip Current,CALIFORNIA,2010,2
+Rip Current,CALIFORNIA,2012,2
+Rip Current,CALIFORNIA,2014,3
+Rip Current,CALIFORNIA,2016,2
+Rip Current,CALIFORNIA,2017,1
+Rip Current,CALIFORNIA,2018,3
+Rip Current,CALIFORNIA,2019,8
+Rip Current,CALIFORNIA,2020,4
+Rip Current,CALIFORNIA,2021,2
+Rip Current,CALIFORNIA,2022,1
+Rip Current,CALIFORNIA,2023,2
+Rip Current,CONNECTICUT,2002,2
+Rip Current,DELAWARE,1998,1
+Rip Current,DELAWARE,2001,1
+Rip Current,DELAWARE,2002,1
+Rip Current,DELAWARE,2005,1
+Rip Current,DELAWARE,2023,1
+Rip Current,FLORIDA,1996,22
+Rip Current,FLORIDA,1997,8
+Rip Current,FLORIDA,1998,11
+Rip Current,FLORIDA,1999,8
+Rip Current,FLORIDA,2000,8
+Rip Current,FLORIDA,2001,21
+Rip Current,FLORIDA,2002,20
+Rip Current,FLORIDA,2003,30
+Rip Current,FLORIDA,2004,14
+Rip Current,FLORIDA,2005,13
+Rip Current,FLORIDA,2006,14
+Rip Current,FLORIDA,2007,23
+Rip Current,FLORIDA,2008,24
+Rip Current,FLORIDA,2009,17
+Rip Current,FLORIDA,2010,13
+Rip Current,FLORIDA,2011,9
+Rip Current,FLORIDA,2012,12
+Rip Current,FLORIDA,2013,26
+Rip Current,FLORIDA,2014,10
+Rip Current,FLORIDA,2015,15
+Rip Current,FLORIDA,2016,14
+Rip Current,FLORIDA,2017,16
+Rip Current,FLORIDA,2018,22
+Rip Current,FLORIDA,2019,27
+Rip Current,FLORIDA,2020,14
+Rip Current,FLORIDA,2021,28
+Rip Current,FLORIDA,2022,15
+Rip Current,FLORIDA,2023,28
+Rip Current,FLORIDA,2024,19
+Rip Current,FLORIDA,2025,11
+Rip Current,FLORIDA,2026,5
+Rip Current,GEORGIA,2005,1
+Rip Current,GEORGIA,2015,3
+Rip Current,GEORGIA,2016,1
+Rip Current,GEORGIA,2018,2
+Rip Current,GEORGIA,2020,2
+Rip Current,GEORGIA,2022,1
+Rip Current,GUAM,1998,3
+Rip Current,GUAM,1999,2
+Rip Current,GUAM,2000,3
+Rip Current,GUAM,2001,8
+Rip Current,GUAM,2002,2
+Rip Current,GUAM,2003,1
+Rip Current,GUAM,2004,9
+Rip Current,GUAM,2005,3
+Rip Current,GUAM,2006,3
+Rip Current,GUAM,2007,1
+Rip Current,GUAM,2008,2
+Rip Current,GUAM,2010,2
+Rip Current,GUAM,2013,4
+Rip Current,GUAM,2014,4
+Rip Current,GUAM,2015,4
+Rip Current,GUAM,2016,3
+Rip Current,GUAM,2017,1
+Rip Current,GUAM,2021,1
+Rip Current,GUAM,2022,1
+Rip Current,GUAM,2024,5
+Rip Current,GUAM,2025,2
+Rip Current,ILLINOIS,2008,1
+Rip Current,ILLINOIS,2012,2
+Rip Current,ILLINOIS,2018,3
+Rip Current,ILLINOIS,2019,1
+Rip Current,ILLINOIS,2020,4
+Rip Current,ILLINOIS,2021,3
+Rip Current,ILLINOIS,2022,1
+Rip Current,ILLINOIS,2023,2
+Rip Current,ILLINOIS,2024,4
+Rip Current,INDIANA,1999,1
+Rip Current,INDIANA,2001,1
+Rip Current,INDIANA,2005,2
+Rip Current,INDIANA,2008,2
+Rip Current,INDIANA,2010,2
+Rip Current,INDIANA,2011,1
+Rip Current,INDIANA,2012,2
+Rip Current,INDIANA,2013,1
+Rip Current,INDIANA,2016,3
+Rip Current,INDIANA,2018,2
+Rip Current,INDIANA,2020,4
+Rip Current,INDIANA,2022,3
+Rip Current,INDIANA,2023,4
+Rip Current,INDIANA,2024,1
+Rip Current,LOUISIANA,2002,1
+Rip Current,LOUISIANA,2009,1
+Rip Current,LOUISIANA,2020,1
+Rip Current,LOUISIANA,2023,3
+Rip Current,LOUISIANA,2026,1
+Rip Current,MARYLAND,2006,1
+Rip Current,MARYLAND,2014,5
+Rip Current,MARYLAND,2021,4
+Rip Current,MARYLAND,2023,2
+Rip Current,MARYLAND,2025,1
+Rip Current,MASSACHUSETTS,2011,1
+Rip Current,MICHIGAN,2001,2
+Rip Current,MICHIGAN,2005,1
+Rip Current,MICHIGAN,2006,1
+Rip Current,MICHIGAN,2007,1
+Rip Current,MICHIGAN,2008,1
+Rip Current,MICHIGAN,2009,3
+Rip Current,MICHIGAN,2010,9
+Rip Current,MICHIGAN,2011,3
+Rip Current,MICHIGAN,2012,6
+Rip Current,MICHIGAN,2013,2
+Rip Current,MICHIGAN,2017,1
+Rip Current,MICHIGAN,2020,4
+Rip Current,MICHIGAN,2022,5
+Rip Current,MICHIGAN,2023,2
+Rip Current,MICHIGAN,2024,1
+Rip Current,MICHIGAN,2025,1
+Rip Current,MINNESOTA,2017,2
+Rip Current,NEW HAMPSHIRE,2018,2
+Rip Current,NEW HAMPSHIRE,2025,1
+Rip Current,NEW JERSEY,1998,1
+Rip Current,NEW JERSEY,2000,2
+Rip Current,NEW JERSEY,2002,2
+Rip Current,NEW JERSEY,2003,1
+Rip Current,NEW JERSEY,2005,2
+Rip Current,NEW JERSEY,2006,3
+Rip Current,NEW JERSEY,2007,1
+Rip Current,NEW JERSEY,2008,6
+Rip Current,NEW JERSEY,2009,1
+Rip Current,NEW JERSEY,2010,1
+Rip Current,NEW JERSEY,2011,2
+Rip Current,NEW JERSEY,2012,5
+Rip Current,NEW JERSEY,2014,4
+Rip Current,NEW JERSEY,2015,1
+Rip Current,NEW JERSEY,2016,4
+Rip Current,NEW JERSEY,2017,9
+Rip Current,NEW JERSEY,2020,1
+Rip Current,NEW JERSEY,2022,5
+Rip Current,NEW JERSEY,2023,5
+Rip Current,NEW JERSEY,2025,3
+Rip Current,NEW YORK,1998,1
+Rip Current,NEW YORK,2001,3
+Rip Current,NEW YORK,2002,6
+Rip Current,NEW YORK,2004,1
+Rip Current,NEW YORK,2005,3
+Rip Current,NEW YORK,2008,7
+Rip Current,NEW YORK,2009,6
+Rip Current,NEW YORK,2010,7
+Rip Current,NEW YORK,2014,1
+Rip Current,NEW YORK,2015,3
+Rip Current,NEW YORK,2016,2
+Rip Current,NEW YORK,2017,2
+Rip Current,NEW YORK,2018,3
+Rip Current,NEW YORK,2019,3
+Rip Current,NEW YORK,2020,3
+Rip Current,NEW YORK,2021,1
+Rip Current,NEW YORK,2022,3
+Rip Current,NEW YORK,2023,2
+Rip Current,NEW YORK,2024,5
+Rip Current,NEW YORK,2025,1
+Rip Current,NORTH CAROLINA,2000,4
+Rip Current,NORTH CAROLINA,2002,3
+Rip Current,NORTH CAROLINA,2003,1
+Rip Current,NORTH CAROLINA,2004,5
+Rip Current,NORTH CAROLINA,2005,3
+Rip Current,NORTH CAROLINA,2006,2
+Rip Current,NORTH CAROLINA,2007,7
+Rip Current,NORTH CAROLINA,2008,1
+Rip Current,NORTH CAROLINA,2009,5
+Rip Current,NORTH CAROLINA,2010,2
+Rip Current,NORTH CAROLINA,2012,3
+Rip Current,NORTH CAROLINA,2013,7
+Rip Current,NORTH CAROLINA,2014,1
+Rip Current,NORTH CAROLINA,2015,1
+Rip Current,NORTH CAROLINA,2016,9
+Rip Current,NORTH CAROLINA,2017,12
+Rip Current,NORTH CAROLINA,2018,6
+Rip Current,NORTH CAROLINA,2019,10
+Rip Current,NORTH CAROLINA,2020,5
+Rip Current,NORTH CAROLINA,2021,4
+Rip Current,NORTH CAROLINA,2022,3
+Rip Current,NORTH CAROLINA,2023,2
+Rip Current,NORTH CAROLINA,2024,3
+Rip Current,NORTH CAROLINA,2025,1
+Rip Current,OHIO,2023,1
+Rip Current,OHIO,2024,1
+Rip Current,OREGON,2007,3
+Rip Current,OREGON,2008,1
+Rip Current,OREGON,2013,1
+Rip Current,OREGON,2014,1
+Rip Current,OREGON,2015,1
+Rip Current,OREGON,2016,1
+Rip Current,OREGON,2018,2
+Rip Current,OREGON,2019,1
+Rip Current,OREGON,2022,1
+Rip Current,OREGON,2023,1
+Rip Current,PUERTO RICO,1998,2
+Rip Current,PUERTO RICO,1999,3
+Rip Current,PUERTO RICO,2000,1
+Rip Current,PUERTO RICO,2001,3
+Rip Current,PUERTO RICO,2003,1
+Rip Current,PUERTO RICO,2012,1
+Rip Current,PUERTO RICO,2013,1
+Rip Current,PUERTO RICO,2014,7
+Rip Current,PUERTO RICO,2015,7
+Rip Current,PUERTO RICO,2016,5
+Rip Current,PUERTO RICO,2017,3
+Rip Current,PUERTO RICO,2020,16
+Rip Current,PUERTO RICO,2021,27
+Rip Current,PUERTO RICO,2022,16
+Rip Current,PUERTO RICO,2023,20
+Rip Current,PUERTO RICO,2024,17
+Rip Current,PUERTO RICO,2025,9
+Rip Current,PUERTO RICO,2026,12
+Rip Current,RHODE ISLAND,2021,2
+Rip Current,RHODE ISLAND,2023,1
+Rip Current,SOUTH CAROLINA,1997,1
+Rip Current,SOUTH CAROLINA,2004,3
+Rip Current,SOUTH CAROLINA,2005,4
+Rip Current,SOUTH CAROLINA,2006,1
+Rip Current,SOUTH CAROLINA,2007,3
+Rip Current,SOUTH CAROLINA,2009,3
+Rip Current,SOUTH CAROLINA,2010,2
+Rip Current,SOUTH CAROLINA,2011,3
+Rip Current,SOUTH CAROLINA,2013,7
+Rip Current,SOUTH CAROLINA,2014,2
+Rip Current,SOUTH CAROLINA,2015,5
+Rip Current,SOUTH CAROLINA,2017,1
+Rip Current,SOUTH CAROLINA,2018,1
+Rip Current,SOUTH CAROLINA,2019,1
+Rip Current,SOUTH CAROLINA,2020,5
+Rip Current,SOUTH CAROLINA,2021,2
+Rip Current,SOUTH CAROLINA,2022,1
+Rip Current,SOUTH CAROLINA,2023,2
+Rip Current,SOUTH CAROLINA,2024,4
+Rip Current,SOUTH CAROLINA,2025,2
+Rip Current,TEXAS,2007,2
+Rip Current,TEXAS,2008,4
+Rip Current,TEXAS,2009,1
+Rip Current,TEXAS,2010,6
+Rip Current,TEXAS,2011,8
+Rip Current,TEXAS,2012,1
+Rip Current,TEXAS,2014,2
+Rip Current,TEXAS,2015,3
+Rip Current,TEXAS,2016,4
+Rip Current,TEXAS,2017,8
+Rip Current,TEXAS,2018,4
+Rip Current,TEXAS,2019,6
+Rip Current,TEXAS,2020,6
+Rip Current,TEXAS,2021,10
+Rip Current,TEXAS,2022,2
+Rip Current,TEXAS,2024,3
+Rip Current,TEXAS,2025,3
+Rip Current,VIRGIN ISLANDS,2001,1
+Rip Current,VIRGIN ISLANDS,2002,1
+Rip Current,VIRGIN ISLANDS,2014,2
+Rip Current,VIRGIN ISLANDS,2021,2
+Rip Current,VIRGINIA,2009,1
+Rip Current,VIRGINIA,2011,1
+Rip Current,VIRGINIA,2012,1
+Rip Current,VIRGINIA,2018,2
+Rip Current,VIRGINIA,2019,1
+Rip Current,VIRGINIA,2021,1
+Rip Current,VIRGINIA,2025,2
+Rip Current,WASHINGTON,2007,1
+Rip Current,WASHINGTON,2014,2
+Rip Current,WASHINGTON,2016,1
+Rip Current,WASHINGTON,2018,2
+Rip Current,WASHINGTON,2021,1
+Rip Current,WISCONSIN,2016,1
+Rip Current,WISCONSIN,2017,1
+Rip Current,WISCONSIN,2018,3
+Rip Current,WISCONSIN,2020,3
+Rip Current,WISCONSIN,2021,4
+Rip Current,WISCONSIN,2022,2
+Rip Current,WISCONSIN,2023,1
+Rip Current,WISCONSIN,2024,1
+Rip Current,WISCONSIN,2025,1
+Sleet,MISSOURI,2008,2
+Sleet,TEXAS,2018,1
+Sleet,TEXAS,2022,1
+Sneakerwave,CALIFORNIA,2012,2
+Sneakerwave,CALIFORNIA,2013,3
+Sneakerwave,CALIFORNIA,2014,5
+Sneakerwave,CALIFORNIA,2015,1
+Sneakerwave,CALIFORNIA,2016,1
+Sneakerwave,CALIFORNIA,2019,2
+Sneakerwave,CALIFORNIA,2021,1
+Sneakerwave,CALIFORNIA,2022,1
+Sneakerwave,CALIFORNIA,2024,3
+Sneakerwave,CALIFORNIA,2025,3
+Sneakerwave,OREGON,2017,3
+Sneakerwave,OREGON,2018,3
+Sneakerwave,OREGON,2021,1
+Sneakerwave,OREGON,2025,1
+Storm Surge/Tide,ALABAMA,2020,1
+Storm Surge/Tide,CALIFORNIA,1999,2
+Storm Surge/Tide,CALIFORNIA,2020,1
+Storm Surge/Tide,CALIFORNIA,2022,1
+Storm Surge/Tide,CALIFORNIA,2026,1
+Storm Surge/Tide,FLORIDA,2017,1
+Storm Surge/Tide,FLORIDA,2018,6
+Storm Surge/Tide,FLORIDA,2020,3
+Storm Surge/Tide,FLORIDA,2022,8
+Storm Surge/Tide,LOUISIANA,2012,3
+Storm Surge/Tide,LOUISIANA,2021,1
+Storm Surge/Tide,MISSISSIPPI,2020,1
+Storm Surge/Tide,NEW JERSEY,2011,2
+Storm Surge/Tide,NEW YORK,2011,1
+Storm Surge/Tide,TEXAS,2008,13
+Strong Wind,ALABAMA,2008,1
+Strong Wind,ALABAMA,2020,3
+Strong Wind,ALABAMA,2022,1
+Strong Wind,ALABAMA,2023,4
+Strong Wind,ALABAMA,2024,2
+Strong Wind,ALABAMA,2025,1
+Strong Wind,ARIZONA,2004,1
+Strong Wind,ARIZONA,2006,4
+Strong Wind,ARIZONA,2012,1
+Strong Wind,ARIZONA,2022,1
+Strong Wind,ARIZONA,2024,1
+Strong Wind,ARIZONA,2025,1
+Strong Wind,ARKANSAS,2007,1
+Strong Wind,ARKANSAS,2008,2
+Strong Wind,ARKANSAS,2010,1
+Strong Wind,ARKANSAS,2011,1
+Strong Wind,ARKANSAS,2012,1
+Strong Wind,ARKANSAS,2015,1
+Strong Wind,CALIFORNIA,2004,1
+Strong Wind,CALIFORNIA,2006,1
+Strong Wind,CALIFORNIA,2007,4
+Strong Wind,CALIFORNIA,2008,4
+Strong Wind,CALIFORNIA,2009,1
+Strong Wind,CALIFORNIA,2010,2
+Strong Wind,CALIFORNIA,2012,2
+Strong Wind,CALIFORNIA,2013,4
+Strong Wind,CALIFORNIA,2014,3
+Strong Wind,CALIFORNIA,2016,5
+Strong Wind,CALIFORNIA,2017,3
+Strong Wind,CALIFORNIA,2018,1
+Strong Wind,CALIFORNIA,2019,8
+Strong Wind,CALIFORNIA,2021,2
+Strong Wind,CALIFORNIA,2022,4
+Strong Wind,CALIFORNIA,2023,8
+Strong Wind,CALIFORNIA,2024,7
+Strong Wind,CALIFORNIA,2025,1
+Strong Wind,CALIFORNIA,2026,2
+Strong Wind,COLORADO,2020,1
+Strong Wind,CONNECTICUT,1996,1
+Strong Wind,CONNECTICUT,1998,1
+Strong Wind,CONNECTICUT,2017,1
+Strong Wind,DELAWARE,2004,1
+Strong Wind,DELAWARE,2008,3
+Strong Wind,FLORIDA,2004,1
+Strong Wind,FLORIDA,2011,1
+Strong Wind,FLORIDA,2012,1
+Strong Wind,FLORIDA,2014,1
+Strong Wind,FLORIDA,2016,1
+Strong Wind,FLORIDA,2019,1
+Strong Wind,GEORGIA,2003,1
+Strong Wind,GEORGIA,2005,2
+Strong Wind,GEORGIA,2008,3
+Strong Wind,GEORGIA,2011,1
+Strong Wind,GEORGIA,2013,3
+Strong Wind,GEORGIA,2015,1
+Strong Wind,GEORGIA,2016,1
+Strong Wind,GEORGIA,2018,1
+Strong Wind,GEORGIA,2020,2
+Strong Wind,GEORGIA,2022,1
+Strong Wind,HAWAII,2002,1
+Strong Wind,HAWAII,2005,1
+Strong Wind,HAWAII,2009,1
+Strong Wind,HAWAII,2014,1
+Strong Wind,IDAHO,2016,2
+Strong Wind,ILLINOIS,2008,1
+Strong Wind,ILLINOIS,2010,1
+Strong Wind,ILLINOIS,2017,4
+Strong Wind,ILLINOIS,2019,1
+Strong Wind,ILLINOIS,2024,1
+Strong Wind,INDIANA,2010,1
+Strong Wind,INDIANA,2015,1
+Strong Wind,INDIANA,2022,2
+Strong Wind,INDIANA,2024,1
+Strong Wind,IOWA,2012,1
+Strong Wind,IOWA,2026,1
+Strong Wind,KANSAS,2011,1
+Strong Wind,KENTUCKY,2007,1
+Strong Wind,KENTUCKY,2013,1
+Strong Wind,KENTUCKY,2023,2
+Strong Wind,LOUISIANA,2006,2
+Strong Wind,LOUISIANA,2017,1
+Strong Wind,LOUISIANA,2018,1
+Strong Wind,LOUISIANA,2021,1
+Strong Wind,MAINE,1998,1
+Strong Wind,MAINE,1999,1
+Strong Wind,MAINE,2001,1
+Strong Wind,MAINE,2002,1
+Strong Wind,MAINE,2014,1
+Strong Wind,MAINE,2021,1
+Strong Wind,MARYLAND,2003,1
+Strong Wind,MARYLAND,2015,1
+Strong Wind,MASSACHUSETTS,1996,1
+Strong Wind,MASSACHUSETTS,1998,1
+Strong Wind,MASSACHUSETTS,2014,2
+Strong Wind,MASSACHUSETTS,2016,2
+Strong Wind,MASSACHUSETTS,2021,1
+Strong Wind,MASSACHUSETTS,2023,1
+Strong Wind,MICHIGAN,2007,3
+Strong Wind,MICHIGAN,2012,1
+Strong Wind,MINNESOTA,1997,1
+Strong Wind,MINNESOTA,2009,2
+Strong Wind,MINNESOTA,2020,1
+Strong Wind,MINNESOTA,2023,3
+Strong Wind,MISSISSIPPI,2012,1
+Strong Wind,MISSISSIPPI,2014,1
+Strong Wind,MISSISSIPPI,2019,1
+Strong Wind,MISSISSIPPI,2023,2
+Strong Wind,MISSISSIPPI,2025,2
+Strong Wind,MISSOURI,2003,1
+Strong Wind,MISSOURI,2017,1
+Strong Wind,MISSOURI,2023,1
+Strong Wind,MONTANA,2022,2
+Strong Wind,NEBRASKA,2003,1
+Strong Wind,NEBRASKA,2010,1
+Strong Wind,NEVADA,2006,1
+Strong Wind,NEVADA,2007,2
+Strong Wind,NEVADA,2009,2
+Strong Wind,NEVADA,2012,1
+Strong Wind,NEVADA,2018,2
+Strong Wind,NEVADA,2019,2
+Strong Wind,NEW HAMPSHIRE,1999,1
+Strong Wind,NEW HAMPSHIRE,2000,1
+Strong Wind,NEW HAMPSHIRE,2009,1
+Strong Wind,NEW HAMPSHIRE,2010,1
+Strong Wind,NEW HAMPSHIRE,2022,1
+Strong Wind,NEW JERSEY,1997,1
+Strong Wind,NEW JERSEY,1999,3
+Strong Wind,NEW JERSEY,2004,1
+Strong Wind,NEW JERSEY,2005,1
+Strong Wind,NEW JERSEY,2008,3
+Strong Wind,NEW JERSEY,2015,1
+Strong Wind,NEW MEXICO,2013,1
+Strong Wind,NEW MEXICO,2015,3
+Strong Wind,NEW MEXICO,2016,1
+Strong Wind,NEW YORK,1997,3
+Strong Wind,NEW YORK,1998,1
+Strong Wind,NEW YORK,2004,1
+Strong Wind,NEW YORK,2008,2
+Strong Wind,NEW YORK,2025,2
+Strong Wind,NORTH CAROLINA,1999,1
+Strong Wind,NORTH CAROLINA,2000,2
+Strong Wind,NORTH CAROLINA,2004,2
+Strong Wind,NORTH CAROLINA,2008,2
+Strong Wind,NORTH CAROLINA,2009,4
+Strong Wind,NORTH CAROLINA,2010,3
+Strong Wind,NORTH CAROLINA,2011,1
+Strong Wind,NORTH CAROLINA,2012,1
+Strong Wind,NORTH CAROLINA,2014,1
+Strong Wind,NORTH CAROLINA,2016,2
+Strong Wind,NORTH CAROLINA,2018,2
+Strong Wind,NORTH CAROLINA,2019,1
+Strong Wind,NORTH CAROLINA,2020,2
+Strong Wind,NORTH CAROLINA,2023,1
+Strong Wind,NORTH CAROLINA,2024,1
+Strong Wind,OHIO,2004,1
+Strong Wind,OHIO,2006,1
+Strong Wind,OREGON,2010,1
+Strong Wind,OREGON,2015,1
+Strong Wind,OREGON,2016,1
+Strong Wind,OREGON,2017,2
+Strong Wind,OREGON,2019,1
+Strong Wind,PENNSYLVANIA,2003,1
+Strong Wind,PENNSYLVANIA,2004,1
+Strong Wind,PENNSYLVANIA,2006,1
+Strong Wind,PENNSYLVANIA,2007,1
+Strong Wind,PENNSYLVANIA,2008,2
+Strong Wind,PENNSYLVANIA,2010,1
+Strong Wind,PENNSYLVANIA,2011,1
+Strong Wind,PENNSYLVANIA,2015,1
+Strong Wind,PENNSYLVANIA,2017,2
+Strong Wind,PENNSYLVANIA,2021,1
+Strong Wind,PENNSYLVANIA,2024,2
+Strong Wind,RHODE ISLAND,2025,1
+Strong Wind,SOUTH CAROLINA,1996,5
+Strong Wind,SOUTH CAROLINA,2004,1
+Strong Wind,SOUTH CAROLINA,2005,1
+Strong Wind,SOUTH CAROLINA,2006,2
+Strong Wind,SOUTH CAROLINA,2008,2
+Strong Wind,SOUTH CAROLINA,2009,1
+Strong Wind,SOUTH CAROLINA,2015,1
+Strong Wind,SOUTH CAROLINA,2018,1
+Strong Wind,SOUTH CAROLINA,2020,1
+Strong Wind,SOUTH CAROLINA,2023,1
+Strong Wind,SOUTH DAKOTA,2020,1
+Strong Wind,TENNESSEE,2008,2
+Strong Wind,TENNESSEE,2009,1
+Strong Wind,TENNESSEE,2011,1
+Strong Wind,TENNESSEE,2017,1
+Strong Wind,TENNESSEE,2024,2
+Strong Wind,TEXAS,2003,2
+Strong Wind,TEXAS,2006,3
+Strong Wind,TEXAS,2011,2
+Strong Wind,TEXAS,2012,2
+Strong Wind,TEXAS,2013,2
+Strong Wind,TEXAS,2019,1
+Strong Wind,TEXAS,2021,2
+Strong Wind,TEXAS,2026,1
+Strong Wind,UTAH,2024,3
+Strong Wind,UTAH,2025,3
+Strong Wind,VERMONT,2004,1
+Strong Wind,VERMONT,2012,2
+Strong Wind,VIRGINIA,2007,1
+Strong Wind,VIRGINIA,2008,1
+Strong Wind,VIRGINIA,2011,2
+Strong Wind,VIRGINIA,2012,2
+Strong Wind,VIRGINIA,2018,1
+Strong Wind,VIRGINIA,2022,1
+Strong Wind,VIRGINIA,2026,1
+Strong Wind,WASHINGTON,2006,2
+Strong Wind,WASHINGTON,2007,2
+Strong Wind,WASHINGTON,2008,1
+Strong Wind,WASHINGTON,2009,3
+Strong Wind,WASHINGTON,2010,3
+Strong Wind,WASHINGTON,2011,1
+Strong Wind,WASHINGTON,2012,2
+Strong Wind,WASHINGTON,2013,1
+Strong Wind,WASHINGTON,2014,2
+Strong Wind,WASHINGTON,2015,4
+Strong Wind,WASHINGTON,2019,2
+Strong Wind,WASHINGTON,2020,1
+Strong Wind,WASHINGTON,2023,1
+Strong Wind,WASHINGTON,2024,2
+Strong Wind,WEST VIRGINIA,2018,1
+Strong Wind,WEST VIRGINIA,2020,1
+Strong Wind,WISCONSIN,2003,2
+Strong Wind,WISCONSIN,2004,1
+Strong Wind,WISCONSIN,2008,1
+Strong Wind,WISCONSIN,2009,1
+Strong Wind,WISCONSIN,2010,1
+Strong Wind,WISCONSIN,2011,1
+Strong Wind,WISCONSIN,2013,1
+Strong Wind,WISCONSIN,2014,1
+Strong Wind,WISCONSIN,2018,2
+Strong Wind,WISCONSIN,2021,2
+Strong Wind,WYOMING,2018,2
 Thunderstorm Wind,ALABAMA,1983,1
 Thunderstorm Wind,ALABAMA,1985,1
 Thunderstorm Wind,ALABAMA,1992,2
+Thunderstorm Wind,ALABAMA,1994,1
 Thunderstorm Wind,ALABAMA,1996,1
 Thunderstorm Wind,ALABAMA,1998,1
 Thunderstorm Wind,ALABAMA,1999,1
@@ -1142,8 +4330,10 @@ Thunderstorm Wind,ALABAMA,2022,3
 Thunderstorm Wind,ALABAMA,2024,1
 Thunderstorm Wind,ALABAMA,2025,2
 Thunderstorm Wind,ARIZONA,1988,1
+Thunderstorm Wind,ARIZONA,1993,1
 Thunderstorm Wind,ARIZONA,1999,1
 Thunderstorm Wind,ARIZONA,2001,1
+Thunderstorm Wind,ARIZONA,2003,1
 Thunderstorm Wind,ARIZONA,2019,1
 Thunderstorm Wind,ARIZONA,2024,2
 Thunderstorm Wind,ARKANSAS,1984,2
@@ -1165,6 +4355,9 @@ Thunderstorm Wind,ARKANSAS,2020,1
 Thunderstorm Wind,ARKANSAS,2023,2
 Thunderstorm Wind,ARKANSAS,2024,1
 Thunderstorm Wind,ARKANSAS,2025,1
+Thunderstorm Wind,CALIFORNIA,1993,1
+Thunderstorm Wind,CALIFORNIA,1994,1
+Thunderstorm Wind,CALIFORNIA,2001,1
 Thunderstorm Wind,CALIFORNIA,2007,3
 Thunderstorm Wind,CALIFORNIA,2009,1
 Thunderstorm Wind,CALIFORNIA,2010,1
@@ -1176,7 +4369,7 @@ Thunderstorm Wind,CALIFORNIA,2023,1
 Thunderstorm Wind,CALIFORNIA,2024,1
 Thunderstorm Wind,CALIFORNIA,2025,8
 Thunderstorm Wind,COLORADO,1987,1
-Thunderstorm Wind,COLORADO,1996,1
+Thunderstorm Wind,COLORADO,1996,2
 Thunderstorm Wind,COLORADO,1997,3
 Thunderstorm Wind,COLORADO,1999,1
 Thunderstorm Wind,COLORADO,2005,2
@@ -1195,14 +4388,19 @@ Thunderstorm Wind,CONNECTICUT,2017,1
 Thunderstorm Wind,CONNECTICUT,2018,2
 Thunderstorm Wind,CONNECTICUT,2019,2
 Thunderstorm Wind,CONNECTICUT,2024,1
+Thunderstorm Wind,DELAWARE,1995,1
 Thunderstorm Wind,DELAWARE,2025,1
+Thunderstorm Wind,DISTRICT OF COLUMBIA,1993,1
 Thunderstorm Wind,DISTRICT OF COLUMBIA,2002,2
 Thunderstorm Wind,FLORIDA,1983,1
 Thunderstorm Wind,FLORIDA,1987,1
 Thunderstorm Wind,FLORIDA,1990,1
 Thunderstorm Wind,FLORIDA,1991,2
 Thunderstorm Wind,FLORIDA,1992,1
-Thunderstorm Wind,FLORIDA,1998,2
+Thunderstorm Wind,FLORIDA,1993,3
+Thunderstorm Wind,FLORIDA,1995,1
+Thunderstorm Wind,FLORIDA,1998,3
+Thunderstorm Wind,FLORIDA,2002,1
 Thunderstorm Wind,FLORIDA,2008,1
 Thunderstorm Wind,FLORIDA,2009,4
 Thunderstorm Wind,FLORIDA,2010,1
@@ -1221,8 +4419,11 @@ Thunderstorm Wind,FLORIDA,2025,3
 Thunderstorm Wind,GEORGIA,1984,1
 Thunderstorm Wind,GEORGIA,1989,3
 Thunderstorm Wind,GEORGIA,1990,4
+Thunderstorm Wind,GEORGIA,1993,1
+Thunderstorm Wind,GEORGIA,1995,2
 Thunderstorm Wind,GEORGIA,2002,1
 Thunderstorm Wind,GEORGIA,2003,1
+Thunderstorm Wind,GEORGIA,2004,3
 Thunderstorm Wind,GEORGIA,2005,1
 Thunderstorm Wind,GEORGIA,2007,5
 Thunderstorm Wind,GEORGIA,2008,1
@@ -1274,6 +4475,7 @@ Thunderstorm Wind,INDIANA,1988,1
 Thunderstorm Wind,INDIANA,1989,1
 Thunderstorm Wind,INDIANA,1990,2
 Thunderstorm Wind,INDIANA,1991,1
+Thunderstorm Wind,INDIANA,1995,1
 Thunderstorm Wind,INDIANA,1996,2
 Thunderstorm Wind,INDIANA,1998,3
 Thunderstorm Wind,INDIANA,1999,1
@@ -1320,6 +4522,7 @@ Thunderstorm Wind,KANSAS,2020,1
 Thunderstorm Wind,KANSAS,2024,1
 Thunderstorm Wind,KENTUCKY,1985,1
 Thunderstorm Wind,KENTUCKY,1986,1
+Thunderstorm Wind,KENTUCKY,1995,1
 Thunderstorm Wind,KENTUCKY,1996,1
 Thunderstorm Wind,KENTUCKY,1997,2
 Thunderstorm Wind,KENTUCKY,2000,2
@@ -1343,6 +4546,8 @@ Thunderstorm Wind,LOUISIANA,1988,1
 Thunderstorm Wind,LOUISIANA,1990,1
 Thunderstorm Wind,LOUISIANA,1991,2
 Thunderstorm Wind,LOUISIANA,1992,1
+Thunderstorm Wind,LOUISIANA,1993,2
+Thunderstorm Wind,LOUISIANA,1995,1
 Thunderstorm Wind,LOUISIANA,1997,1
 Thunderstorm Wind,LOUISIANA,1999,2
 Thunderstorm Wind,LOUISIANA,2001,1
@@ -1377,6 +4582,7 @@ Thunderstorm Wind,MARYLAND,2022,1
 Thunderstorm Wind,MARYLAND,2024,1
 Thunderstorm Wind,MARYLAND,2026,2
 Thunderstorm Wind,MASSACHUSETTS,1989,2
+Thunderstorm Wind,MASSACHUSETTS,1995,1
 Thunderstorm Wind,MASSACHUSETTS,1996,1
 Thunderstorm Wind,MASSACHUSETTS,1997,1
 Thunderstorm Wind,MASSACHUSETTS,1998,2
@@ -1393,12 +4599,15 @@ Thunderstorm Wind,MICHIGAN,1989,1
 Thunderstorm Wind,MICHIGAN,1990,1
 Thunderstorm Wind,MICHIGAN,1991,4
 Thunderstorm Wind,MICHIGAN,1992,1
+Thunderstorm Wind,MICHIGAN,1994,1
+Thunderstorm Wind,MICHIGAN,1995,1
 Thunderstorm Wind,MICHIGAN,1997,5
 Thunderstorm Wind,MICHIGAN,1998,8
 Thunderstorm Wind,MICHIGAN,1999,1
 Thunderstorm Wind,MICHIGAN,2000,2
 Thunderstorm Wind,MICHIGAN,2001,1
 Thunderstorm Wind,MICHIGAN,2004,3
+Thunderstorm Wind,MICHIGAN,2006,1
 Thunderstorm Wind,MICHIGAN,2008,2
 Thunderstorm Wind,MICHIGAN,2009,1
 Thunderstorm Wind,MICHIGAN,2010,1
@@ -1421,11 +4630,13 @@ Thunderstorm Wind,MINNESOTA,2019,1
 Thunderstorm Wind,MINNESOTA,2021,3
 Thunderstorm Wind,MINNESOTA,2022,3
 Thunderstorm Wind,MISSISSIPPI,1990,2
+Thunderstorm Wind,MISSISSIPPI,1995,1
 Thunderstorm Wind,MISSISSIPPI,1996,1
 Thunderstorm Wind,MISSISSIPPI,1997,1
 Thunderstorm Wind,MISSISSIPPI,1998,3
 Thunderstorm Wind,MISSISSIPPI,2000,3
 Thunderstorm Wind,MISSISSIPPI,2001,9
+Thunderstorm Wind,MISSISSIPPI,2003,1
 Thunderstorm Wind,MISSISSIPPI,2004,1
 Thunderstorm Wind,MISSISSIPPI,2005,1
 Thunderstorm Wind,MISSISSIPPI,2009,2
@@ -1441,6 +4652,7 @@ Thunderstorm Wind,MISSISSIPPI,2023,3
 Thunderstorm Wind,MISSISSIPPI,2024,4
 Thunderstorm Wind,MISSISSIPPI,2026,3
 Thunderstorm Wind,MISSOURI,1986,1
+Thunderstorm Wind,MISSOURI,1995,1
 Thunderstorm Wind,MISSOURI,1996,4
 Thunderstorm Wind,MISSOURI,2003,1
 Thunderstorm Wind,MISSOURI,2004,2
@@ -1465,6 +4677,7 @@ Thunderstorm Wind,MONTANA,2016,1
 Thunderstorm Wind,MONTANA,2017,1
 Thunderstorm Wind,MONTANA,2021,1
 Thunderstorm Wind,MONTANA,2022,1
+Thunderstorm Wind,NEBRASKA,1994,1
 Thunderstorm Wind,NEBRASKA,1996,1
 Thunderstorm Wind,NEBRASKA,2010,1
 Thunderstorm Wind,NEBRASKA,2012,1
@@ -1476,10 +4689,13 @@ Thunderstorm Wind,NEVADA,1990,1
 Thunderstorm Wind,NEVADA,2017,1
 Thunderstorm Wind,NEVADA,2022,1
 Thunderstorm Wind,NEVADA,2024,1
+Thunderstorm Wind,NEW HAMPSHIRE,1994,1
 Thunderstorm Wind,NEW HAMPSHIRE,1999,2
+Thunderstorm Wind,NEW HAMPSHIRE,2000,1
 Thunderstorm Wind,NEW HAMPSHIRE,2006,1
 Thunderstorm Wind,NEW HAMPSHIRE,2015,3
 Thunderstorm Wind,NEW JERSEY,1989,2
+Thunderstorm Wind,NEW JERSEY,1994,1
 Thunderstorm Wind,NEW JERSEY,1997,5
 Thunderstorm Wind,NEW JERSEY,1998,1
 Thunderstorm Wind,NEW JERSEY,2008,3
@@ -1499,6 +4715,7 @@ Thunderstorm Wind,NEW YORK,1986,3
 Thunderstorm Wind,NEW YORK,1988,1
 Thunderstorm Wind,NEW YORK,1989,1
 Thunderstorm Wind,NEW YORK,1991,2
+Thunderstorm Wind,NEW YORK,1995,5
 Thunderstorm Wind,NEW YORK,1997,4
 Thunderstorm Wind,NEW YORK,1998,9
 Thunderstorm Wind,NEW YORK,1999,2
@@ -1516,6 +4733,7 @@ Thunderstorm Wind,NORTH CAROLINA,1985,1
 Thunderstorm Wind,NORTH CAROLINA,1986,1
 Thunderstorm Wind,NORTH CAROLINA,1988,1
 Thunderstorm Wind,NORTH CAROLINA,1989,2
+Thunderstorm Wind,NORTH CAROLINA,1995,1
 Thunderstorm Wind,NORTH CAROLINA,1997,1
 Thunderstorm Wind,NORTH CAROLINA,2005,1
 Thunderstorm Wind,NORTH CAROLINA,2008,1
@@ -1537,6 +4755,8 @@ Thunderstorm Wind,NORTH DAKOTA,2025,1
 Thunderstorm Wind,OHIO,1984,3
 Thunderstorm Wind,OHIO,1985,1
 Thunderstorm Wind,OHIO,1992,1
+Thunderstorm Wind,OHIO,1994,5
+Thunderstorm Wind,OHIO,1995,4
 Thunderstorm Wind,OHIO,1996,5
 Thunderstorm Wind,OHIO,1997,3
 Thunderstorm Wind,OHIO,1998,1
@@ -1556,10 +4776,12 @@ Thunderstorm Wind,OHIO,2023,1
 Thunderstorm Wind,OHIO,2024,1
 Thunderstorm Wind,OKLAHOMA,1987,1
 Thunderstorm Wind,OKLAHOMA,1989,1
+Thunderstorm Wind,OKLAHOMA,1994,1
 Thunderstorm Wind,OKLAHOMA,1998,2
 Thunderstorm Wind,OKLAHOMA,2001,1
+Thunderstorm Wind,OKLAHOMA,2003,1
 Thunderstorm Wind,OKLAHOMA,2004,2
-Thunderstorm Wind,OKLAHOMA,2005,1
+Thunderstorm Wind,OKLAHOMA,2005,2
 Thunderstorm Wind,OKLAHOMA,2011,1
 Thunderstorm Wind,OKLAHOMA,2012,5
 Thunderstorm Wind,OKLAHOMA,2017,1
@@ -1576,6 +4798,8 @@ Thunderstorm Wind,PENNSYLVANIA,1987,2
 Thunderstorm Wind,PENNSYLVANIA,1988,1
 Thunderstorm Wind,PENNSYLVANIA,1991,1
 Thunderstorm Wind,PENNSYLVANIA,1992,1
+Thunderstorm Wind,PENNSYLVANIA,1994,1
+Thunderstorm Wind,PENNSYLVANIA,1995,3
 Thunderstorm Wind,PENNSYLVANIA,1997,1
 Thunderstorm Wind,PENNSYLVANIA,1998,1
 Thunderstorm Wind,PENNSYLVANIA,1999,3
@@ -1614,6 +4838,7 @@ Thunderstorm Wind,SOUTH CAROLINA,2020,4
 Thunderstorm Wind,SOUTH CAROLINA,2022,1
 Thunderstorm Wind,SOUTH CAROLINA,2023,1
 Thunderstorm Wind,SOUTH CAROLINA,2026,1
+Thunderstorm Wind,SOUTH DAKOTA,1993,1
 Thunderstorm Wind,SOUTH DAKOTA,2006,1
 Thunderstorm Wind,SOUTH DAKOTA,2009,1
 Thunderstorm Wind,SOUTH DAKOTA,2013,1
@@ -1624,7 +4849,7 @@ Thunderstorm Wind,TENNESSEE,1997,1
 Thunderstorm Wind,TENNESSEE,1999,1
 Thunderstorm Wind,TENNESSEE,2000,3
 Thunderstorm Wind,TENNESSEE,2001,3
-Thunderstorm Wind,TENNESSEE,2003,2
+Thunderstorm Wind,TENNESSEE,2003,3
 Thunderstorm Wind,TENNESSEE,2004,1
 Thunderstorm Wind,TENNESSEE,2005,1
 Thunderstorm Wind,TENNESSEE,2006,1
@@ -1648,11 +4873,13 @@ Thunderstorm Wind,TEXAS,1987,2
 Thunderstorm Wind,TEXAS,1988,2
 Thunderstorm Wind,TEXAS,1989,2
 Thunderstorm Wind,TEXAS,1990,1
+Thunderstorm Wind,TEXAS,1993,1
+Thunderstorm Wind,TEXAS,1994,2
 Thunderstorm Wind,TEXAS,1997,2
 Thunderstorm Wind,TEXAS,1998,1
 Thunderstorm Wind,TEXAS,1999,1
 Thunderstorm Wind,TEXAS,2000,2
-Thunderstorm Wind,TEXAS,2001,1
+Thunderstorm Wind,TEXAS,2001,2
 Thunderstorm Wind,TEXAS,2002,2
 Thunderstorm Wind,TEXAS,2003,2
 Thunderstorm Wind,TEXAS,2007,1
@@ -1673,6 +4900,8 @@ Thunderstorm Wind,TEXAS,2024,11
 Thunderstorm Wind,TEXAS,2025,2
 Thunderstorm Wind,TEXAS,2026,4
 Thunderstorm Wind,UTAH,1997,2
+Thunderstorm Wind,UTAH,2001,2
+Thunderstorm Wind,UTAH,2002,1
 Thunderstorm Wind,UTAH,2015,1
 Thunderstorm Wind,UTAH,2023,1
 Thunderstorm Wind,UTAH,2024,1
@@ -1709,6 +4938,7 @@ Thunderstorm Wind,WEST VIRGINIA,1987,1
 Thunderstorm Wind,WEST VIRGINIA,1989,1
 Thunderstorm Wind,WEST VIRGINIA,1991,2
 Thunderstorm Wind,WEST VIRGINIA,1997,1
+Thunderstorm Wind,WEST VIRGINIA,2001,2
 Thunderstorm Wind,WEST VIRGINIA,2002,1
 Thunderstorm Wind,WEST VIRGINIA,2004,2
 Thunderstorm Wind,WEST VIRGINIA,2005,2
@@ -1800,6 +5030,7 @@ Tornado,ARKANSAS,1980,1
 Tornado,ARKANSAS,1982,7
 Tornado,ARKANSAS,1988,1
 Tornado,ARKANSAS,1990,2
+Tornado,ARKANSAS,1995,1
 Tornado,ARKANSAS,1996,11
 Tornado,ARKANSAS,1997,26
 Tornado,ARKANSAS,1998,2
@@ -1840,7 +5071,9 @@ Tornado,FLORIDA,1983,1
 Tornado,FLORIDA,1987,1
 Tornado,FLORIDA,1988,1
 Tornado,FLORIDA,1992,1
-Tornado,FLORIDA,1995,2
+Tornado,FLORIDA,1993,2
+Tornado,FLORIDA,1994,1
+Tornado,FLORIDA,1995,3
 Tornado,FLORIDA,1996,3
 Tornado,FLORIDA,1998,42
 Tornado,FLORIDA,2001,2
@@ -1866,13 +5099,15 @@ Tornado,GEORGIA,1974,5
 Tornado,GEORGIA,1977,1
 Tornado,GEORGIA,1989,2
 Tornado,GEORGIA,1992,2
+Tornado,GEORGIA,1993,2
+Tornado,GEORGIA,1994,2
 Tornado,GEORGIA,1996,1
 Tornado,GEORGIA,1997,1
 Tornado,GEORGIA,1998,19
 Tornado,GEORGIA,2000,19
 Tornado,GEORGIA,2003,6
 Tornado,GEORGIA,2004,1
-Tornado,GEORGIA,2005,3
+Tornado,GEORGIA,2005,4
 Tornado,GEORGIA,2007,10
 Tornado,GEORGIA,2008,6
 Tornado,GEORGIA,2009,1
@@ -1934,7 +5169,7 @@ Tornado,INDIANA,1986,1
 Tornado,INDIANA,1990,2
 Tornado,INDIANA,1991,1
 Tornado,INDIANA,2001,1
-Tornado,INDIANA,2004,1
+Tornado,INDIANA,2004,2
 Tornado,INDIANA,2005,24
 Tornado,INDIANA,2008,4
 Tornado,INDIANA,2012,14
@@ -1980,6 +5215,7 @@ Tornado,KANSAS,1983,1
 Tornado,KANSAS,1984,1
 Tornado,KANSAS,1990,2
 Tornado,KANSAS,1991,2
+Tornado,KANSAS,1993,1
 Tornado,KANSAS,1999,6
 Tornado,KANSAS,2001,1
 Tornado,KANSAS,2003,6
@@ -2224,6 +5460,7 @@ Tornado,NORTH CAROLINA,1981,2
 Tornado,NORTH CAROLINA,1982,1
 Tornado,NORTH CAROLINA,1984,1
 Tornado,NORTH CAROLINA,1989,1
+Tornado,NORTH CAROLINA,1995,1
 Tornado,NORTH CAROLINA,1998,2
 Tornado,NORTH CAROLINA,1999,1
 Tornado,NORTH CAROLINA,2004,3
@@ -2357,6 +5594,7 @@ Tornado,TENNESSEE,1988,3
 Tornado,TENNESSEE,1989,1
 Tornado,TENNESSEE,1991,1
 Tornado,TENNESSEE,1992,1
+Tornado,TENNESSEE,1993,1
 Tornado,TENNESSEE,1994,2
 Tornado,TENNESSEE,1997,1
 Tornado,TENNESSEE,1998,7
@@ -2411,13 +5649,14 @@ Tornado,TEXAS,1988,1
 Tornado,TEXAS,1989,1
 Tornado,TEXAS,1991,1
 Tornado,TEXAS,1993,1
-Tornado,TEXAS,1994,1
-Tornado,TEXAS,1995,1
+Tornado,TEXAS,1994,2
+Tornado,TEXAS,1995,2
 Tornado,TEXAS,1997,29
 Tornado,TEXAS,1998,2
 Tornado,TEXAS,1999,6
 Tornado,TEXAS,2000,4
 Tornado,TEXAS,2002,3
+Tornado,TEXAS,2003,1
 Tornado,TEXAS,2004,2
 Tornado,TEXAS,2006,4
 Tornado,TEXAS,2007,9
@@ -2468,4 +5707,839 @@ Tornado,WISCONSIN,2011,2
 Tornado,WISCONSIN,2017,1
 Tornado,WYOMING,1959,1
 Tornado,WYOMING,1979,1
+Tropical Depression,ALABAMA,2008,1
+Tropical Depression,FLORIDA,2016,2
+Tropical Depression,FLORIDA,2019,4
+Tropical Depression,SOUTH CAROLINA,2017,1
+Tropical Storm,ARKANSAS,2008,1
+Tropical Storm,CONNECTICUT,2011,1
+Tropical Storm,CONNECTICUT,2020,1
+Tropical Storm,FLORIDA,1998,2
+Tropical Storm,FLORIDA,2001,1
+Tropical Storm,FLORIDA,2004,6
+Tropical Storm,FLORIDA,2008,12
+Tropical Storm,FLORIDA,2009,1
+Tropical Storm,FLORIDA,2012,3
+Tropical Storm,FLORIDA,2016,5
+Tropical Storm,FLORIDA,2017,49
+Tropical Storm,FLORIDA,2018,1
+Tropical Storm,FLORIDA,2019,1
+Tropical Storm,FLORIDA,2020,1
+Tropical Storm,FLORIDA,2022,15
+Tropical Storm,FLORIDA,2023,3
+Tropical Storm,FLORIDA,2024,18
+Tropical Storm,GEORGIA,2008,1
+Tropical Storm,GEORGIA,2016,2
+Tropical Storm,GEORGIA,2017,3
+Tropical Storm,GEORGIA,2020,3
+Tropical Storm,GEORGIA,2024,20
+Tropical Storm,GUAM,2003,2
+Tropical Storm,GUAM,2015,9
+Tropical Storm,GUAM,2026,2
+Tropical Storm,LOUISIANA,2008,3
+Tropical Storm,LOUISIANA,2009,1
+Tropical Storm,LOUISIANA,2020,2
+Tropical Storm,MAINE,2023,1
+Tropical Storm,MARYLAND,2003,1
+Tropical Storm,MARYLAND,2011,1
+Tropical Storm,MARYLAND,2020,1
+Tropical Storm,MISSISSIPPI,2002,1
+Tropical Storm,MISSISSIPPI,2012,1
+Tropical Storm,NEW HAMPSHIRE,2011,1
+Tropical Storm,NEW HAMPSHIRE,2020,1
+Tropical Storm,NEW JERSEY,1996,1
+Tropical Storm,NEW YORK,2003,1
+Tropical Storm,NEW YORK,2011,3
+Tropical Storm,NEW YORK,2020,7
+Tropical Storm,NORTH CAROLINA,2011,3
+Tropical Storm,NORTH CAROLINA,2016,5
+Tropical Storm,NORTH CAROLINA,2018,10
+Tropical Storm,NORTH CAROLINA,2022,4
+Tropical Storm,NORTH CAROLINA,2024,6
+Tropical Storm,PENNSYLVANIA,2011,1
+Tropical Storm,PUERTO RICO,2004,4
+Tropical Storm,SOUTH CAROLINA,2013,1
+Tropical Storm,SOUTH CAROLINA,2016,3
+Tropical Storm,SOUTH CAROLINA,2024,35
+Tropical Storm,TEXAS,1998,3
+Tropical Storm,TEXAS,2001,22
+Tropical Storm,TEXAS,2003,1
+Tropical Storm,TEXAS,2017,51
+Tropical Storm,TEXAS,2020,5
+Tropical Storm,VIRGINIA,1999,1
+Tropical Storm,VIRGINIA,2003,3
+Tropical Storm,VIRGINIA,2011,3
+Tsunami,AMERICAN SAMOA,2009,32
+Tsunami,CALIFORNIA,2011,1
 Waterspout,ATLANTIC SOUTH,2017,3
+Waterspout,LOUISIANA,2000,2
+Wildfire,ARIZONA,2013,19
+Wildfire,ARIZONA,2020,1
+Wildfire,ARKANSAS,2020,1
+Wildfire,CALIFORNIA,1999,1
+Wildfire,CALIFORNIA,2000,1
+Wildfire,CALIFORNIA,2001,1
+Wildfire,CALIFORNIA,2002,1
+Wildfire,CALIFORNIA,2003,22
+Wildfire,CALIFORNIA,2006,6
+Wildfire,CALIFORNIA,2007,10
+Wildfire,CALIFORNIA,2008,2
+Wildfire,CALIFORNIA,2009,2
+Wildfire,CALIFORNIA,2012,1
+Wildfire,CALIFORNIA,2013,1
+Wildfire,CALIFORNIA,2014,2
+Wildfire,CALIFORNIA,2015,7
+Wildfire,CALIFORNIA,2016,4
+Wildfire,CALIFORNIA,2017,18
+Wildfire,CALIFORNIA,2018,111
+Wildfire,CALIFORNIA,2019,5
+Wildfire,CALIFORNIA,2020,31
+Wildfire,CALIFORNIA,2021,1
+Wildfire,CALIFORNIA,2022,8
+Wildfire,CALIFORNIA,2025,58
+Wildfire,COLORADO,2008,3
+Wildfire,COLORADO,2012,5
+Wildfire,COLORADO,2020,2
+Wildfire,COLORADO,2021,3
+Wildfire,COLORADO,2024,2
+Wildfire,FLORIDA,2008,1
+Wildfire,FLORIDA,2010,1
+Wildfire,FLORIDA,2012,11
+Wildfire,FLORIDA,2024,1
+Wildfire,FLORIDA,2026,1
+Wildfire,HAWAII,2023,102
+Wildfire,HAWAII,2025,1
+Wildfire,IDAHO,2003,2
+Wildfire,IDAHO,2008,1
+Wildfire,IDAHO,2015,1
+Wildfire,IDAHO,2025,2
+Wildfire,KANSAS,2021,3
+Wildfire,KENTUCKY,2016,2
+Wildfire,MONTANA,2015,1
+Wildfire,MONTANA,2021,1
+Wildfire,NEBRASKA,2022,3
+Wildfire,NEBRASKA,2024,1
+Wildfire,NEBRASKA,2026,1
+Wildfire,NEVADA,2011,1
+Wildfire,NEVADA,2012,1
+Wildfire,NEW MEXICO,2017,1
+Wildfire,NEW MEXICO,2022,2
+Wildfire,NEW MEXICO,2024,2
+Wildfire,NORTH DAKOTA,2024,2
+Wildfire,OKLAHOMA,2005,3
+Wildfire,OKLAHOMA,2006,2
+Wildfire,OKLAHOMA,2012,1
+Wildfire,OKLAHOMA,2014,1
+Wildfire,OKLAHOMA,2017,2
+Wildfire,OKLAHOMA,2018,2
+Wildfire,OKLAHOMA,2022,2
+Wildfire,OKLAHOMA,2023,3
+Wildfire,OKLAHOMA,2025,2
+Wildfire,OREGON,2013,1
+Wildfire,OREGON,2018,2
+Wildfire,OREGON,2020,10
+Wildfire,OREGON,2021,1
+Wildfire,OREGON,2022,2
+Wildfire,PENNSYLVANIA,2015,1
+Wildfire,SOUTH DAKOTA,2000,1
+Wildfire,TEXAS,2005,3
+Wildfire,TEXAS,2006,12
+Wildfire,TEXAS,2008,1
+Wildfire,TEXAS,2009,2
+Wildfire,TEXAS,2011,11
+Wildfire,TEXAS,2012,1
+Wildfire,TEXAS,2014,1
+Wildfire,TEXAS,2017,4
+Wildfire,TEXAS,2018,1
+Wildfire,TEXAS,2022,1
+Wildfire,TEXAS,2024,2
+Wildfire,UTAH,1997,1
+Wildfire,UTAH,2007,9
+Wildfire,UTAH,2012,1
+Wildfire,WASHINGTON,2001,4
+Wildfire,WASHINGTON,2012,1
+Wildfire,WASHINGTON,2019,1
+Wildfire,WASHINGTON,2020,1
+Wildfire,WASHINGTON,2023,2
+Wildfire,WASHINGTON,2026,1
+Wildfire,WEST VIRGINIA,1999,1
+Wildfire,WEST VIRGINIA,2014,1
+Wildfire,WISCONSIN,2010,1
+Wildfire,WISCONSIN,2012,1
+Wildfire,WISCONSIN,2020,2
+Wildfire,WYOMING,2000,1
+Wildfire,WYOMING,2021,1
+Winter Storm,ALABAMA,2010,2
+Winter Storm,ALABAMA,2014,8
+Winter Storm,ALABAMA,2025,1
+Winter Storm,ALASKA,2000,2
+Winter Storm,ARIZONA,1997,4
+Winter Storm,ARIZONA,2000,8
+Winter Storm,ARIZONA,2001,1
+Winter Storm,ARIZONA,2002,1
+Winter Storm,ARIZONA,2006,3
+Winter Storm,ARIZONA,2025,5
+Winter Storm,ARKANSAS,2000,1
+Winter Storm,ARKANSAS,2009,1
+Winter Storm,ARKANSAS,2011,3
+Winter Storm,ARKANSAS,2012,1
+Winter Storm,ARKANSAS,2013,1
+Winter Storm,ARKANSAS,2014,3
+Winter Storm,CALIFORNIA,1996,2
+Winter Storm,CALIFORNIA,1999,1
+Winter Storm,CALIFORNIA,2000,3
+Winter Storm,CALIFORNIA,2004,2
+Winter Storm,CALIFORNIA,2005,1
+Winter Storm,CALIFORNIA,2006,2
+Winter Storm,CALIFORNIA,2008,1
+Winter Storm,CALIFORNIA,2010,1
+Winter Storm,CALIFORNIA,2012,2
+Winter Storm,CALIFORNIA,2019,4
+Winter Storm,CALIFORNIA,2023,1
+Winter Storm,COLORADO,1997,1
+Winter Storm,COLORADO,2005,1
+Winter Storm,COLORADO,2006,1
+Winter Storm,COLORADO,2008,1
+Winter Storm,CONNECTICUT,2005,1
+Winter Storm,CONNECTICUT,2019,1
+Winter Storm,DELAWARE,2007,3
+Winter Storm,DELAWARE,2010,2
+Winter Storm,DELAWARE,2011,1
+Winter Storm,DISTRICT OF COLUMBIA,2011,1
+Winter Storm,GEORGIA,2014,4
+Winter Storm,IDAHO,2002,1
+Winter Storm,IDAHO,2013,2
+Winter Storm,IDAHO,2014,3
+Winter Storm,IDAHO,2015,1
+Winter Storm,IDAHO,2016,1
+Winter Storm,IDAHO,2017,1
+Winter Storm,IDAHO,2019,1
+Winter Storm,ILLINOIS,1996,1
+Winter Storm,ILLINOIS,1997,6
+Winter Storm,ILLINOIS,1998,2
+Winter Storm,ILLINOIS,2000,1
+Winter Storm,ILLINOIS,2004,1
+Winter Storm,ILLINOIS,2006,1
+Winter Storm,ILLINOIS,2007,1
+Winter Storm,ILLINOIS,2008,3
+Winter Storm,ILLINOIS,2010,1
+Winter Storm,ILLINOIS,2011,1
+Winter Storm,ILLINOIS,2012,1
+Winter Storm,ILLINOIS,2014,1
+Winter Storm,ILLINOIS,2019,2
+Winter Storm,ILLINOIS,2021,1
+Winter Storm,ILLINOIS,2024,1
+Winter Storm,INDIANA,2007,2
+Winter Storm,INDIANA,2008,5
+Winter Storm,INDIANA,2010,1
+Winter Storm,INDIANA,2013,1
+Winter Storm,INDIANA,2015,1
+Winter Storm,INDIANA,2022,4
+Winter Storm,INDIANA,2025,1
+Winter Storm,IOWA,1996,1
+Winter Storm,IOWA,1999,4
+Winter Storm,IOWA,2007,2
+Winter Storm,IOWA,2012,1
+Winter Storm,IOWA,2015,2
+Winter Storm,IOWA,2020,1
+Winter Storm,KANSAS,1996,1
+Winter Storm,KANSAS,2000,4
+Winter Storm,KANSAS,2003,3
+Winter Storm,KANSAS,2004,2
+Winter Storm,KANSAS,2005,4
+Winter Storm,KANSAS,2009,1
+Winter Storm,KANSAS,2010,1
+Winter Storm,KANSAS,2011,2
+Winter Storm,KANSAS,2012,1
+Winter Storm,KANSAS,2022,4
+Winter Storm,KANSAS,2025,2
+Winter Storm,KENTUCKY,2009,7
+Winter Storm,KENTUCKY,2014,1
+Winter Storm,KENTUCKY,2015,5
+Winter Storm,KENTUCKY,2018,1
+Winter Storm,KENTUCKY,2021,3
+Winter Storm,KENTUCKY,2025,1
+Winter Storm,KENTUCKY,2026,10
+Winter Storm,LOUISIANA,2011,2
+Winter Storm,LOUISIANA,2021,5
+Winter Storm,LOUISIANA,2026,1
+Winter Storm,MAINE,2002,1
+Winter Storm,MARYLAND,2000,1
+Winter Storm,MARYLAND,2003,3
+Winter Storm,MARYLAND,2004,1
+Winter Storm,MARYLAND,2009,1
+Winter Storm,MICHIGAN,1996,1
+Winter Storm,MICHIGAN,2007,2
+Winter Storm,MICHIGAN,2013,1
+Winter Storm,MICHIGAN,2017,1
+Winter Storm,MICHIGAN,2018,1
+Winter Storm,MICHIGAN,2025,1
+Winter Storm,MINNESOTA,1996,1
+Winter Storm,MINNESOTA,1997,1
+Winter Storm,MINNESOTA,2006,2
+Winter Storm,MINNESOTA,2010,2
+Winter Storm,MINNESOTA,2012,1
+Winter Storm,MINNESOTA,2014,1
+Winter Storm,MINNESOTA,2017,1
+Winter Storm,MINNESOTA,2020,1
+Winter Storm,MISSISSIPPI,2011,1
+Winter Storm,MISSISSIPPI,2024,6
+Winter Storm,MISSOURI,2005,2
+Winter Storm,MISSOURI,2006,2
+Winter Storm,MISSOURI,2007,3
+Winter Storm,MISSOURI,2008,2
+Winter Storm,MISSOURI,2009,4
+Winter Storm,MISSOURI,2013,1
+Winter Storm,MISSOURI,2019,3
+Winter Storm,MISSOURI,2020,1
+Winter Storm,MISSOURI,2022,1
+Winter Storm,MONTANA,1996,3
+Winter Storm,MONTANA,2012,2
+Winter Storm,MONTANA,2014,1
+Winter Storm,MONTANA,2015,1
+Winter Storm,MONTANA,2016,1
+Winter Storm,MONTANA,2020,2
+Winter Storm,MONTANA,2021,1
+Winter Storm,MONTANA,2025,8
+Winter Storm,NEBRASKA,1996,4
+Winter Storm,NEBRASKA,1999,3
+Winter Storm,NEBRASKA,2004,2
+Winter Storm,NEBRASKA,2005,2
+Winter Storm,NEBRASKA,2009,4
+Winter Storm,NEBRASKA,2012,1
+Winter Storm,NEBRASKA,2013,1
+Winter Storm,NEBRASKA,2014,1
+Winter Storm,NEVADA,1998,1
+Winter Storm,NEVADA,2006,1
+Winter Storm,NEW HAMPSHIRE,2024,1
+Winter Storm,NEW JERSEY,1996,1
+Winter Storm,NEW JERSEY,2003,1
+Winter Storm,NEW JERSEY,2007,1
+Winter Storm,NEW JERSEY,2010,2
+Winter Storm,NEW JERSEY,2013,1
+Winter Storm,NEW JERSEY,2016,11
+Winter Storm,NEW JERSEY,2026,1
+Winter Storm,NEW MEXICO,1997,3
+Winter Storm,NEW MEXICO,2001,2
+Winter Storm,NEW MEXICO,2022,1
+Winter Storm,NEW YORK,2000,1
+Winter Storm,NEW YORK,2007,2
+Winter Storm,NEW YORK,2015,1
+Winter Storm,NEW YORK,2016,6
+Winter Storm,NEW YORK,2018,1
+Winter Storm,NEW YORK,2020,1
+Winter Storm,NEW YORK,2022,4
+Winter Storm,NEW YORK,2026,2
+Winter Storm,NORTH CAROLINA,1996,5
+Winter Storm,NORTH CAROLINA,1998,6
+Winter Storm,NORTH CAROLINA,2009,2
+Winter Storm,NORTH CAROLINA,2010,5
+Winter Storm,NORTH CAROLINA,2011,1
+Winter Storm,NORTH CAROLINA,2014,1
+Winter Storm,NORTH CAROLINA,2016,1
+Winter Storm,NORTH CAROLINA,2018,6
+Winter Storm,NORTH DAKOTA,1999,2
+Winter Storm,NORTH DAKOTA,2003,3
+Winter Storm,NORTH DAKOTA,2007,2
+Winter Storm,OHIO,1996,3
+Winter Storm,OHIO,2008,1
+Winter Storm,OHIO,2022,1
+Winter Storm,OKLAHOMA,2007,14
+Winter Storm,OKLAHOMA,2009,4
+Winter Storm,OKLAHOMA,2010,1
+Winter Storm,OKLAHOMA,2011,2
+Winter Storm,OREGON,1998,6
+Winter Storm,OREGON,1999,1
+Winter Storm,OREGON,2000,1
+Winter Storm,OREGON,2008,1
+Winter Storm,OREGON,2024,9
+Winter Storm,PENNSYLVANIA,1999,3
+Winter Storm,PENNSYLVANIA,2003,2
+Winter Storm,PENNSYLVANIA,2006,2
+Winter Storm,PENNSYLVANIA,2007,5
+Winter Storm,PENNSYLVANIA,2008,4
+Winter Storm,PENNSYLVANIA,2010,2
+Winter Storm,PENNSYLVANIA,2011,4
+Winter Storm,PENNSYLVANIA,2013,2
+Winter Storm,PENNSYLVANIA,2014,3
+Winter Storm,PENNSYLVANIA,2016,9
+Winter Storm,PENNSYLVANIA,2017,3
+Winter Storm,PENNSYLVANIA,2020,1
+Winter Storm,PENNSYLVANIA,2021,1
+Winter Storm,PENNSYLVANIA,2026,3
+Winter Storm,SOUTH CAROLINA,2014,2
+Winter Storm,SOUTH CAROLINA,2018,1
+Winter Storm,SOUTH DAKOTA,2007,1
+Winter Storm,SOUTH DAKOTA,2013,1
+Winter Storm,SOUTH DAKOTA,2019,1
+Winter Storm,SOUTH DAKOTA,2020,2
+Winter Storm,SOUTH DAKOTA,2025,1
+Winter Storm,TENNESSEE,1998,1
+Winter Storm,TENNESSEE,2008,1
+Winter Storm,TENNESSEE,2010,2
+Winter Storm,TENNESSEE,2012,1
+Winter Storm,TENNESSEE,2015,3
+Winter Storm,TENNESSEE,2024,6
+Winter Storm,TENNESSEE,2026,9
+Winter Storm,TEXAS,1997,3
+Winter Storm,TEXAS,2000,4
+Winter Storm,TEXAS,2009,6
+Winter Storm,TEXAS,2010,1
+Winter Storm,TEXAS,2011,2
+Winter Storm,TEXAS,2013,7
+Winter Storm,TEXAS,2015,4
+Winter Storm,TEXAS,2019,3
+Winter Storm,TEXAS,2020,3
+Winter Storm,TEXAS,2021,6
+Winter Storm,TEXAS,2022,3
+Winter Storm,TEXAS,2023,2
+Winter Storm,TEXAS,2025,2
+Winter Storm,TEXAS,2026,3
+Winter Storm,UTAH,1997,5
+Winter Storm,UTAH,1998,4
+Winter Storm,UTAH,2000,1
+Winter Storm,UTAH,2001,3
+Winter Storm,UTAH,2002,2
+Winter Storm,UTAH,2003,2
+Winter Storm,UTAH,2005,2
+Winter Storm,UTAH,2006,1
+Winter Storm,UTAH,2008,1
+Winter Storm,UTAH,2013,1
+Winter Storm,UTAH,2015,1
+Winter Storm,VERMONT,1996,1
+Winter Storm,VERMONT,2001,1
+Winter Storm,VERMONT,2008,1
+Winter Storm,VERMONT,2011,2
+Winter Storm,VERMONT,2022,1
+Winter Storm,VIRGINIA,2000,1
+Winter Storm,VIRGINIA,2003,1
+Winter Storm,VIRGINIA,2004,1
+Winter Storm,VIRGINIA,2010,2
+Winter Storm,VIRGINIA,2014,1
+Winter Storm,VIRGINIA,2015,1
+Winter Storm,VIRGINIA,2016,2
+Winter Storm,VIRGINIA,2018,1
+Winter Storm,VIRGINIA,2019,1
+Winter Storm,VIRGINIA,2026,1
+Winter Storm,WASHINGTON,1998,1
+Winter Storm,WASHINGTON,1999,1
+Winter Storm,WASHINGTON,2005,2
+Winter Storm,WASHINGTON,2020,1
+Winter Storm,WISCONSIN,2007,8
+Winter Storm,WISCONSIN,2008,4
+Winter Storm,WISCONSIN,2009,6
+Winter Storm,WISCONSIN,2010,5
+Winter Storm,WISCONSIN,2013,2
+Winter Storm,WISCONSIN,2015,5
+Winter Storm,WISCONSIN,2016,3
+Winter Storm,WISCONSIN,2017,1
+Winter Storm,WISCONSIN,2019,4
+Winter Storm,WISCONSIN,2023,1
+Winter Storm,WISCONSIN,2025,1
+Winter Storm,WYOMING,1997,2
+Winter Storm,WYOMING,1999,2
+Winter Storm,WYOMING,2003,2
+Winter Storm,WYOMING,2008,4
+Winter Storm,WYOMING,2009,1
+Winter Storm,WYOMING,2023,1
+Winter Weather,ALABAMA,2010,6
+Winter Weather,ALABAMA,2014,1
+Winter Weather,ALASKA,2006,1
+Winter Weather,ALASKA,2014,1
+Winter Weather,ALASKA,2015,1
+Winter Weather,ALASKA,2016,1
+Winter Weather,ALASKA,2024,1
+Winter Weather,ARIZONA,2008,2
+Winter Weather,ARIZONA,2010,2
+Winter Weather,ARIZONA,2011,2
+Winter Weather,ARIZONA,2014,1
+Winter Weather,ARIZONA,2016,2
+Winter Weather,ARIZONA,2018,1
+Winter Weather,ARKANSAS,2007,1
+Winter Weather,ARKANSAS,2008,4
+Winter Weather,ARKANSAS,2009,1
+Winter Weather,ARKANSAS,2013,1
+Winter Weather,ARKANSAS,2014,6
+Winter Weather,ARKANSAS,2018,4
+Winter Weather,CALIFORNIA,1997,18
+Winter Weather,CALIFORNIA,2006,2
+Winter Weather,CALIFORNIA,2007,1
+Winter Weather,CALIFORNIA,2008,3
+Winter Weather,CALIFORNIA,2014,1
+Winter Weather,CALIFORNIA,2017,1
+Winter Weather,CALIFORNIA,2018,3
+Winter Weather,CALIFORNIA,2019,2
+Winter Weather,CALIFORNIA,2024,1
+Winter Weather,COLORADO,2004,1
+Winter Weather,COLORADO,2009,5
+Winter Weather,COLORADO,2011,3
+Winter Weather,COLORADO,2014,1
+Winter Weather,COLORADO,2019,2
+Winter Weather,COLORADO,2020,1
+Winter Weather,CONNECTICUT,1997,1
+Winter Weather,CONNECTICUT,2009,1
+Winter Weather,CONNECTICUT,2011,1
+Winter Weather,CONNECTICUT,2015,1
+Winter Weather,DELAWARE,2008,1
+Winter Weather,DELAWARE,2012,1
+Winter Weather,DELAWARE,2016,1
+Winter Weather,GEORGIA,2010,3
+Winter Weather,GEORGIA,2018,2
+Winter Weather,IDAHO,2009,2
+Winter Weather,IDAHO,2012,2
+Winter Weather,IDAHO,2014,4
+Winter Weather,IDAHO,2015,2
+Winter Weather,IDAHO,2018,1
+Winter Weather,IDAHO,2019,2
+Winter Weather,IDAHO,2020,2
+Winter Weather,IDAHO,2021,1
+Winter Weather,IDAHO,2022,1
+Winter Weather,IDAHO,2023,1
+Winter Weather,ILLINOIS,2007,1
+Winter Weather,ILLINOIS,2008,7
+Winter Weather,ILLINOIS,2009,6
+Winter Weather,ILLINOIS,2010,9
+Winter Weather,ILLINOIS,2011,2
+Winter Weather,ILLINOIS,2012,6
+Winter Weather,ILLINOIS,2013,1
+Winter Weather,ILLINOIS,2014,2
+Winter Weather,ILLINOIS,2016,3
+Winter Weather,ILLINOIS,2018,4
+Winter Weather,ILLINOIS,2019,2
+Winter Weather,ILLINOIS,2020,2
+Winter Weather,ILLINOIS,2021,1
+Winter Weather,ILLINOIS,2025,2
+Winter Weather,INDIANA,2005,1
+Winter Weather,INDIANA,2008,14
+Winter Weather,INDIANA,2009,2
+Winter Weather,INDIANA,2010,3
+Winter Weather,INDIANA,2012,4
+Winter Weather,INDIANA,2013,1
+Winter Weather,INDIANA,2014,1
+Winter Weather,INDIANA,2015,2
+Winter Weather,INDIANA,2016,7
+Winter Weather,INDIANA,2017,4
+Winter Weather,INDIANA,2018,2
+Winter Weather,INDIANA,2019,8
+Winter Weather,INDIANA,2020,2
+Winter Weather,INDIANA,2021,1
+Winter Weather,INDIANA,2022,5
+Winter Weather,INDIANA,2025,1
+Winter Weather,IOWA,2007,1
+Winter Weather,IOWA,2008,5
+Winter Weather,IOWA,2009,1
+Winter Weather,IOWA,2011,3
+Winter Weather,IOWA,2012,2
+Winter Weather,IOWA,2013,1
+Winter Weather,IOWA,2018,2
+Winter Weather,IOWA,2019,2
+Winter Weather,IOWA,2020,3
+Winter Weather,IOWA,2021,1
+Winter Weather,IOWA,2023,1
+Winter Weather,KANSAS,1997,1
+Winter Weather,KANSAS,1998,1
+Winter Weather,KANSAS,2003,1
+Winter Weather,KANSAS,2005,1
+Winter Weather,KANSAS,2006,5
+Winter Weather,KANSAS,2007,6
+Winter Weather,KANSAS,2008,8
+Winter Weather,KANSAS,2009,6
+Winter Weather,KANSAS,2010,3
+Winter Weather,KANSAS,2011,5
+Winter Weather,KANSAS,2012,1
+Winter Weather,KANSAS,2014,1
+Winter Weather,KANSAS,2016,2
+Winter Weather,KANSAS,2017,4
+Winter Weather,KANSAS,2019,5
+Winter Weather,KANSAS,2022,3
+Winter Weather,KENTUCKY,2008,5
+Winter Weather,KENTUCKY,2009,1
+Winter Weather,KENTUCKY,2010,1
+Winter Weather,KENTUCKY,2011,2
+Winter Weather,KENTUCKY,2013,1
+Winter Weather,KENTUCKY,2014,5
+Winter Weather,KENTUCKY,2015,2
+Winter Weather,KENTUCKY,2017,2
+Winter Weather,KENTUCKY,2020,3
+Winter Weather,KENTUCKY,2022,1
+Winter Weather,KENTUCKY,2024,5
+Winter Weather,KENTUCKY,2025,1
+Winter Weather,KENTUCKY,2026,1
+Winter Weather,LOUISIANA,2008,1
+Winter Weather,LOUISIANA,2018,3
+Winter Weather,MAINE,1998,2
+Winter Weather,MARYLAND,2003,1
+Winter Weather,MARYLAND,2004,1
+Winter Weather,MARYLAND,2008,1
+Winter Weather,MARYLAND,2010,1
+Winter Weather,MARYLAND,2011,1
+Winter Weather,MARYLAND,2015,2
+Winter Weather,MARYLAND,2016,2
+Winter Weather,MASSACHUSETTS,1998,2
+Winter Weather,MASSACHUSETTS,2017,1
+Winter Weather,MICHIGAN,2007,10
+Winter Weather,MICHIGAN,2010,1
+Winter Weather,MICHIGAN,2011,4
+Winter Weather,MICHIGAN,2014,4
+Winter Weather,MICHIGAN,2017,6
+Winter Weather,MICHIGAN,2018,3
+Winter Weather,MICHIGAN,2019,3
+Winter Weather,MICHIGAN,2020,3
+Winter Weather,MICHIGAN,2021,3
+Winter Weather,MICHIGAN,2022,1
+Winter Weather,MICHIGAN,2023,2
+Winter Weather,MICHIGAN,2026,1
+Winter Weather,MINNESOTA,2006,2
+Winter Weather,MINNESOTA,2007,1
+Winter Weather,MINNESOTA,2008,3
+Winter Weather,MINNESOTA,2009,4
+Winter Weather,MINNESOTA,2010,2
+Winter Weather,MINNESOTA,2011,3
+Winter Weather,MINNESOTA,2013,1
+Winter Weather,MINNESOTA,2015,2
+Winter Weather,MINNESOTA,2016,4
+Winter Weather,MINNESOTA,2017,1
+Winter Weather,MINNESOTA,2018,3
+Winter Weather,MINNESOTA,2020,3
+Winter Weather,MINNESOTA,2021,1
+Winter Weather,MINNESOTA,2022,2
+Winter Weather,MINNESOTA,2024,2
+Winter Weather,MISSISSIPPI,2008,2
+Winter Weather,MISSISSIPPI,2010,3
+Winter Weather,MISSISSIPPI,2014,2
+Winter Weather,MISSISSIPPI,2015,5
+Winter Weather,MISSISSIPPI,2018,2
+Winter Weather,MISSISSIPPI,2025,1
+Winter Weather,MISSOURI,2010,1
+Winter Weather,MISSOURI,2013,1
+Winter Weather,MISSOURI,2014,1
+Winter Weather,MISSOURI,2015,1
+Winter Weather,MISSOURI,2016,3
+Winter Weather,MISSOURI,2017,2
+Winter Weather,MISSOURI,2018,5
+Winter Weather,MISSOURI,2019,9
+Winter Weather,MISSOURI,2020,1
+Winter Weather,MISSOURI,2021,3
+Winter Weather,MISSOURI,2022,2
+Winter Weather,MISSOURI,2023,1
+Winter Weather,MISSOURI,2024,1
+Winter Weather,MISSOURI,2025,2
+Winter Weather,MONTANA,2004,1
+Winter Weather,MONTANA,2008,1
+Winter Weather,MONTANA,2009,3
+Winter Weather,MONTANA,2010,1
+Winter Weather,MONTANA,2012,2
+Winter Weather,MONTANA,2013,6
+Winter Weather,MONTANA,2014,5
+Winter Weather,MONTANA,2016,2
+Winter Weather,MONTANA,2017,1
+Winter Weather,MONTANA,2018,5
+Winter Weather,MONTANA,2019,2
+Winter Weather,MONTANA,2020,2
+Winter Weather,MONTANA,2021,2
+Winter Weather,MONTANA,2022,2
+Winter Weather,MONTANA,2023,6
+Winter Weather,MONTANA,2025,10
+Winter Weather,MONTANA,2026,4
+Winter Weather,NEBRASKA,1997,2
+Winter Weather,NEBRASKA,2006,6
+Winter Weather,NEBRASKA,2007,1
+Winter Weather,NEBRASKA,2009,1
+Winter Weather,NEBRASKA,2010,11
+Winter Weather,NEBRASKA,2011,5
+Winter Weather,NEBRASKA,2013,4
+Winter Weather,NEBRASKA,2018,1
+Winter Weather,NEBRASKA,2019,1
+Winter Weather,NEBRASKA,2023,1
+Winter Weather,NEBRASKA,2025,2
+Winter Weather,NEVADA,2002,1
+Winter Weather,NEVADA,2009,2
+Winter Weather,NEVADA,2010,1
+Winter Weather,NEVADA,2015,1
+Winter Weather,NEVADA,2023,1
+Winter Weather,NEW HAMPSHIRE,2007,1
+Winter Weather,NEW HAMPSHIRE,2022,2
+Winter Weather,NEW HAMPSHIRE,2026,1
+Winter Weather,NEW JERSEY,2007,8
+Winter Weather,NEW JERSEY,2008,1
+Winter Weather,NEW JERSEY,2009,3
+Winter Weather,NEW JERSEY,2013,2
+Winter Weather,NEW JERSEY,2014,3
+Winter Weather,NEW JERSEY,2015,7
+Winter Weather,NEW JERSEY,2022,1
+Winter Weather,NEW MEXICO,2009,3
+Winter Weather,NEW MEXICO,2010,5
+Winter Weather,NEW MEXICO,2011,1
+Winter Weather,NEW MEXICO,2013,1
+Winter Weather,NEW MEXICO,2016,2
+Winter Weather,NEW MEXICO,2018,2
+Winter Weather,NEW MEXICO,2022,1
+Winter Weather,NEW MEXICO,2024,2
+Winter Weather,NEW MEXICO,2025,1
+Winter Weather,NEW YORK,1996,1
+Winter Weather,NEW YORK,1997,2
+Winter Weather,NEW YORK,2007,3
+Winter Weather,NEW YORK,2008,8
+Winter Weather,NEW YORK,2009,2
+Winter Weather,NEW YORK,2012,1
+Winter Weather,NEW YORK,2016,1
+Winter Weather,NEW YORK,2018,1
+Winter Weather,NEW YORK,2019,1
+Winter Weather,NEW YORK,2024,1
+Winter Weather,NEW YORK,2025,3
+Winter Weather,NORTH CAROLINA,2005,1
+Winter Weather,NORTH CAROLINA,2007,4
+Winter Weather,NORTH CAROLINA,2009,1
+Winter Weather,NORTH CAROLINA,2010,10
+Winter Weather,NORTH CAROLINA,2011,2
+Winter Weather,NORTH CAROLINA,2014,2
+Winter Weather,NORTH CAROLINA,2015,2
+Winter Weather,NORTH CAROLINA,2016,3
+Winter Weather,NORTH CAROLINA,2018,1
+Winter Weather,NORTH DAKOTA,1997,3
+Winter Weather,NORTH DAKOTA,2006,1
+Winter Weather,NORTH DAKOTA,2023,2
+Winter Weather,OHIO,2008,1
+Winter Weather,OHIO,2013,1
+Winter Weather,OHIO,2014,5
+Winter Weather,OHIO,2015,1
+Winter Weather,OHIO,2018,4
+Winter Weather,OHIO,2019,2
+Winter Weather,OKLAHOMA,2007,2
+Winter Weather,OKLAHOMA,2008,9
+Winter Weather,OKLAHOMA,2009,1
+Winter Weather,OKLAHOMA,2011,3
+Winter Weather,OKLAHOMA,2012,1
+Winter Weather,OKLAHOMA,2021,2
+Winter Weather,OKLAHOMA,2023,4
+Winter Weather,OKLAHOMA,2025,3
+Winter Weather,OREGON,2007,7
+Winter Weather,OREGON,2008,1
+Winter Weather,OREGON,2010,1
+Winter Weather,OREGON,2011,3
+Winter Weather,OREGON,2017,1
+Winter Weather,OREGON,2018,1
+Winter Weather,OREGON,2019,1
+Winter Weather,OREGON,2020,2
+Winter Weather,OREGON,2022,1
+Winter Weather,OREGON,2024,1
+Winter Weather,PENNSYLVANIA,1999,1
+Winter Weather,PENNSYLVANIA,2004,6
+Winter Weather,PENNSYLVANIA,2008,5
+Winter Weather,PENNSYLVANIA,2009,3
+Winter Weather,PENNSYLVANIA,2010,2
+Winter Weather,PENNSYLVANIA,2012,5
+Winter Weather,PENNSYLVANIA,2013,6
+Winter Weather,PENNSYLVANIA,2014,3
+Winter Weather,PENNSYLVANIA,2015,7
+Winter Weather,PENNSYLVANIA,2016,4
+Winter Weather,PENNSYLVANIA,2022,8
+Winter Weather,PENNSYLVANIA,2024,1
+Winter Weather,PENNSYLVANIA,2025,3
+Winter Weather,PENNSYLVANIA,2026,2
+Winter Weather,RHODE ISLAND,2008,1
+Winter Weather,SOUTH CAROLINA,2004,1
+Winter Weather,SOUTH CAROLINA,2026,1
+Winter Weather,SOUTH DAKOTA,2010,2
+Winter Weather,SOUTH DAKOTA,2011,4
+Winter Weather,SOUTH DAKOTA,2013,1
+Winter Weather,SOUTH DAKOTA,2014,3
+Winter Weather,SOUTH DAKOTA,2018,5
+Winter Weather,SOUTH DAKOTA,2019,1
+Winter Weather,SOUTH DAKOTA,2020,6
+Winter Weather,SOUTH DAKOTA,2022,3
+Winter Weather,SOUTH DAKOTA,2023,3
+Winter Weather,SOUTH DAKOTA,2024,1
+Winter Weather,SOUTH DAKOTA,2025,1
+Winter Weather,SOUTH DAKOTA,2026,2
+Winter Weather,TENNESSEE,2005,1
+Winter Weather,TENNESSEE,2008,2
+Winter Weather,TENNESSEE,2009,1
+Winter Weather,TENNESSEE,2010,1
+Winter Weather,TENNESSEE,2011,1
+Winter Weather,TENNESSEE,2013,1
+Winter Weather,TENNESSEE,2014,1
+Winter Weather,TENNESSEE,2015,1
+Winter Weather,TENNESSEE,2024,4
+Winter Weather,TENNESSEE,2026,5
+Winter Weather,TEXAS,2005,5
+Winter Weather,TEXAS,2006,3
+Winter Weather,TEXAS,2007,6
+Winter Weather,TEXAS,2008,5
+Winter Weather,TEXAS,2009,8
+Winter Weather,TEXAS,2010,4
+Winter Weather,TEXAS,2011,4
+Winter Weather,TEXAS,2012,1
+Winter Weather,TEXAS,2013,15
+Winter Weather,TEXAS,2014,11
+Winter Weather,TEXAS,2015,10
+Winter Weather,TEXAS,2017,3
+Winter Weather,TEXAS,2019,3
+Winter Weather,TEXAS,2020,5
+Winter Weather,TEXAS,2021,13
+Winter Weather,TEXAS,2022,1
+Winter Weather,TEXAS,2023,5
+Winter Weather,UTAH,2014,1
+Winter Weather,UTAH,2016,1
+Winter Weather,UTAH,2018,1
+Winter Weather,UTAH,2023,3
+Winter Weather,UTAH,2024,3
+Winter Weather,UTAH,2025,1
+Winter Weather,VERMONT,1997,1
+Winter Weather,VERMONT,2000,1
+Winter Weather,VERMONT,2003,1
+Winter Weather,VERMONT,2004,1
+Winter Weather,VERMONT,2006,2
+Winter Weather,VERMONT,2008,6
+Winter Weather,VERMONT,2011,2
+Winter Weather,VERMONT,2015,5
+Winter Weather,VERMONT,2016,1
+Winter Weather,VERMONT,2021,1
+Winter Weather,VIRGINIA,2003,1
+Winter Weather,VIRGINIA,2004,4
+Winter Weather,VIRGINIA,2012,1
+Winter Weather,VIRGINIA,2014,2
+Winter Weather,VIRGINIA,2016,3
+Winter Weather,VIRGINIA,2019,2
+Winter Weather,VIRGINIA,2022,1
+Winter Weather,WASHINGTON,2007,1
+Winter Weather,WASHINGTON,2008,1
+Winter Weather,WASHINGTON,2010,3
+Winter Weather,WASHINGTON,2011,1
+Winter Weather,WASHINGTON,2012,2
+Winter Weather,WASHINGTON,2013,3
+Winter Weather,WASHINGTON,2014,4
+Winter Weather,WASHINGTON,2018,1
+Winter Weather,WASHINGTON,2019,2
+Winter Weather,WASHINGTON,2021,1
+Winter Weather,WASHINGTON,2022,3
+Winter Weather,WASHINGTON,2023,1
+Winter Weather,WASHINGTON,2024,1
+Winter Weather,WEST VIRGINIA,2006,1
+Winter Weather,WEST VIRGINIA,2014,1
+Winter Weather,WISCONSIN,2007,4
+Winter Weather,WISCONSIN,2008,8
+Winter Weather,WISCONSIN,2009,6
+Winter Weather,WISCONSIN,2010,3
+Winter Weather,WISCONSIN,2011,5
+Winter Weather,WISCONSIN,2012,1
+Winter Weather,WISCONSIN,2013,8
+Winter Weather,WISCONSIN,2014,2
+Winter Weather,WISCONSIN,2015,2
+Winter Weather,WISCONSIN,2016,8
+Winter Weather,WISCONSIN,2017,4
+Winter Weather,WISCONSIN,2018,9
+Winter Weather,WISCONSIN,2019,7
+Winter Weather,WISCONSIN,2020,6
+Winter Weather,WISCONSIN,2021,3
+Winter Weather,WISCONSIN,2022,1
+Winter Weather,WISCONSIN,2023,2
+Winter Weather,WISCONSIN,2024,1
+Winter Weather,WYOMING,1998,1
+Winter Weather,WYOMING,1999,1
+Winter Weather,WYOMING,2009,1
+Winter Weather,WYOMING,2011,2
+Winter Weather,WYOMING,2017,1
+Winter Weather,WYOMING,2019,1
+Winter Weather,WYOMING,2020,1
+Winter Weather,WYOMING,2026,2

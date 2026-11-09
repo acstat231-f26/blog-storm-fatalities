@@ -1,0 +1,941 @@
+EVENT_TYPE,YEAR,N
+Astronomical Low Tide,2014,1
+Astronomical Low Tide,2021,1
+Avalanche,1996,5
+Avalanche,1997,4
+Avalanche,1998,9
+Avalanche,1999,26
+Avalanche,2000,16
+Avalanche,2001,18
+Avalanche,2002,13
+Avalanche,2003,10
+Avalanche,2004,12
+Avalanche,2005,11
+Avalanche,2006,13
+Avalanche,2007,19
+Avalanche,2008,26
+Avalanche,2009,7
+Avalanche,2010,23
+Avalanche,2011,11
+Avalanche,2012,23
+Avalanche,2013,21
+Avalanche,2014,23
+Avalanche,2015,8
+Avalanche,2016,18
+Avalanche,2017,3
+Avalanche,2018,6
+Avalanche,2019,14
+Avalanche,2020,23
+Avalanche,2021,27
+Avalanche,2022,11
+Avalanche,2023,19
+Avalanche,2024,11
+Avalanche,2025,10
+Avalanche,2026,18
+Blizzard,1996,22
+Blizzard,1997,26
+Blizzard,1998,2
+Blizzard,2000,1
+Blizzard,2001,4
+Blizzard,2002,3
+Blizzard,2004,1
+Blizzard,2005,1
+Blizzard,2006,4
+Blizzard,2007,5
+Blizzard,2008,4
+Blizzard,2009,11
+Blizzard,2010,6
+Blizzard,2011,34
+Blizzard,2012,6
+Blizzard,2013,19
+Blizzard,2014,4
+Blizzard,2015,4
+Blizzard,2016,10
+Blizzard,2018,7
+Blizzard,2019,7
+Blizzard,2020,2
+Blizzard,2021,3
+Blizzard,2022,56
+Blizzard,2024,2
+Blizzard,2025,2
+Blizzard,2026,8
+Coastal Flood,1996,4
+Coastal Flood,1997,2
+Coastal Flood,2008,2
+Coastal Flood,2011,2
+Coastal Flood,2012,46
+Coastal Flood,2016,1
+Coastal Flood,2018,1
+Coastal Flood,2023,1
+Coastal Flood,2025,1
+Cold/Wind Chill,1996,62
+Cold/Wind Chill,1997,35
+Cold/Wind Chill,1998,11
+Cold/Wind Chill,1999,7
+Cold/Wind Chill,2000,8
+Cold/Wind Chill,2002,1
+Cold/Wind Chill,2003,14
+Cold/Wind Chill,2004,27
+Cold/Wind Chill,2005,24
+Cold/Wind Chill,2006,3
+Cold/Wind Chill,2007,10
+Cold/Wind Chill,2008,33
+Cold/Wind Chill,2009,14
+Cold/Wind Chill,2010,38
+Cold/Wind Chill,2011,25
+Cold/Wind Chill,2012,8
+Cold/Wind Chill,2013,24
+Cold/Wind Chill,2014,36
+Cold/Wind Chill,2015,51
+Cold/Wind Chill,2016,27
+Cold/Wind Chill,2017,23
+Cold/Wind Chill,2018,27
+Cold/Wind Chill,2019,33
+Cold/Wind Chill,2020,18
+Cold/Wind Chill,2021,83
+Cold/Wind Chill,2022,22
+Cold/Wind Chill,2023,12
+Cold/Wind Chill,2024,39
+Cold/Wind Chill,2025,22
+Cold/Wind Chill,2026,34
+Debris Flow,1996,1
+Debris Flow,1997,5
+Debris Flow,2003,15
+Debris Flow,2004,4
+Debris Flow,2005,1
+Debris Flow,2006,3
+Debris Flow,2007,3
+Debris Flow,2011,1
+Debris Flow,2012,1
+Debris Flow,2013,1
+Debris Flow,2014,46
+Debris Flow,2015,4
+Debris Flow,2018,24
+Debris Flow,2019,2
+Debris Flow,2020,2
+Debris Flow,2021,2
+Debris Flow,2022,3
+Debris Flow,2023,6
+Debris Flow,2024,16
+Debris Flow,2025,3
+Dense Fog,1996,2
+Dense Fog,1997,10
+Dense Fog,1998,6
+Dense Fog,1999,3
+Dense Fog,2000,10
+Dense Fog,2001,7
+Dense Fog,2002,17
+Dense Fog,2003,5
+Dense Fog,2004,1
+Dense Fog,2006,6
+Dense Fog,2007,13
+Dense Fog,2008,19
+Dense Fog,2009,4
+Dense Fog,2010,6
+Dense Fog,2011,10
+Dense Fog,2012,8
+Dense Fog,2013,12
+Dense Fog,2014,6
+Dense Fog,2015,19
+Dense Fog,2016,8
+Dense Fog,2017,5
+Dense Fog,2018,8
+Dense Fog,2019,9
+Dense Fog,2020,10
+Dense Fog,2021,13
+Dense Fog,2022,21
+Dense Fog,2023,16
+Dense Fog,2024,18
+Dense Fog,2025,8
+Dense Fog,2026,7
+Dense Smoke,2012,1
+Dense Smoke,2015,1
+Dust Devil,1996,1
+Dust Devil,2003,1
+Dust Devil,2008,1
+Dust Devil,2014,1
+Dust Devil,2024,2
+Dust Storm,2000,1
+Dust Storm,2002,2
+Dust Storm,2003,2
+Dust Storm,2006,2
+Dust Storm,2007,2
+Dust Storm,2009,12
+Dust Storm,2010,1
+Dust Storm,2011,2
+Dust Storm,2012,1
+Dust Storm,2013,6
+Dust Storm,2014,3
+Dust Storm,2015,3
+Dust Storm,2016,4
+Dust Storm,2017,3
+Dust Storm,2018,3
+Dust Storm,2020,3
+Dust Storm,2021,10
+Dust Storm,2022,1
+Dust Storm,2023,11
+Dust Storm,2024,1
+Dust Storm,2025,17
+Dust Storm,2026,1
+Excessive Heat,2007,58
+Excessive Heat,2008,48
+Excessive Heat,2009,17
+Excessive Heat,2010,74
+Excessive Heat,2011,131
+Excessive Heat,2012,97
+Excessive Heat,2013,61
+Excessive Heat,2014,7
+Excessive Heat,2015,17
+Excessive Heat,2016,82
+Excessive Heat,2017,74
+Excessive Heat,2018,200
+Excessive Heat,2019,103
+Excessive Heat,2020,230
+Excessive Heat,2021,294
+Excessive Heat,2022,200
+Excessive Heat,2023,664
+Excessive Heat,2024,253
+Excessive Heat,2025,90
+Excessive Heat,2026,9
+Extreme Cold/Wind Chill,2000,18
+Extreme Cold/Wind Chill,2001,4
+Extreme Cold/Wind Chill,2002,6
+Extreme Cold/Wind Chill,2003,6
+Extreme Cold/Wind Chill,2006,7
+Extreme Cold/Wind Chill,2007,38
+Extreme Cold/Wind Chill,2008,13
+Extreme Cold/Wind Chill,2009,19
+Extreme Cold/Wind Chill,2010,2
+Extreme Cold/Wind Chill,2011,5
+Extreme Cold/Wind Chill,2013,2
+Extreme Cold/Wind Chill,2014,12
+Extreme Cold/Wind Chill,2015,5
+Extreme Cold/Wind Chill,2016,4
+Extreme Cold/Wind Chill,2017,8
+Extreme Cold/Wind Chill,2018,15
+Extreme Cold/Wind Chill,2019,15
+Extreme Cold/Wind Chill,2020,2
+Extreme Cold/Wind Chill,2021,60
+Extreme Cold/Wind Chill,2022,13
+Extreme Cold/Wind Chill,2024,9
+Extreme Cold/Wind Chill,2025,5
+Extreme Cold/Wind Chill,2026,19
+Flash Flood,1996,94
+Flash Flood,1997,86
+Flash Flood,1998,118
+Flash Flood,1999,60
+Flash Flood,2000,30
+Flash Flood,2001,35
+Flash Flood,2002,34
+Flash Flood,2003,62
+Flash Flood,2004,54
+Flash Flood,2005,38
+Flash Flood,2006,58
+Flash Flood,2007,72
+Flash Flood,2008,65
+Flash Flood,2009,39
+Flash Flood,2010,75
+Flash Flood,2011,71
+Flash Flood,2012,19
+Flash Flood,2013,61
+Flash Flood,2014,34
+Flash Flood,2015,151
+Flash Flood,2016,94
+Flash Flood,2017,131
+Flash Flood,2018,56
+Flash Flood,2019,42
+Flash Flood,2020,40
+Flash Flood,2021,140
+Flash Flood,2022,74
+Flash Flood,2023,37
+Flash Flood,2024,117
+Flash Flood,2025,209
+Flash Flood,2026,8
+Flood,1996,37
+Flood,1997,31
+Flood,1998,18
+Flood,1999,8
+Flood,2000,9
+Flood,2001,13
+Flood,2002,12
+Flood,2003,18
+Flood,2004,28
+Flood,2005,15
+Flood,2006,20
+Flood,2007,22
+Flood,2008,30
+Flood,2009,28
+Flood,2010,41
+Flood,2011,57
+Flood,2012,15
+Flood,2013,23
+Flood,2014,9
+Flood,2015,50
+Flood,2016,44
+Flood,2017,18
+Flood,2018,28
+Flood,2019,51
+Flood,2020,21
+Flood,2021,12
+Flood,2022,21
+Flood,2023,39
+Flood,2024,35
+Flood,2025,17
+Flood,2026,14
+Freezing Fog,1996,1
+Freezing Fog,2006,1
+Freezing Fog,2007,1
+Freezing Fog,2009,1
+Freezing Fog,2010,1
+Freezing Fog,2011,7
+Freezing Fog,2012,1
+Freezing Fog,2013,3
+Freezing Fog,2014,2
+Freezing Fog,2017,1
+Freezing Fog,2020,1
+Freezing Fog,2022,1
+Freezing Fog,2023,5
+Freezing Fog,2024,2
+Frost/Freeze,1997,1
+Frost/Freeze,2009,1
+Frost/Freeze,2013,1
+Frost/Freeze,2014,1
+Frost/Freeze,2021,2
+Funnel Cloud,2005,1
+Hail,1992,1
+Hail,1995,1
+Hail,1996,1
+Hail,1998,1
+Hail,2000,2
+Hail,2001,3
+Hail,2003,8
+Hail,2005,5
+Hail,2006,4
+Hail,2008,2
+Hail,2011,2
+Hail,2014,3
+Hail,2017,2
+Hail,2019,1
+Hail,2020,1
+Hail,2021,1
+Hail,2022,2
+Hail,2023,2
+Heat,1996,35
+Heat,1997,81
+Heat,1998,174
+Heat,1999,502
+Heat,2000,157
+Heat,2001,165
+Heat,2002,167
+Heat,2003,36
+Heat,2004,6
+Heat,2005,158
+Heat,2006,251
+Heat,2007,54
+Heat,2008,38
+Heat,2009,32
+Heat,2010,73
+Heat,2011,88
+Heat,2012,71
+Heat,2013,46
+Heat,2014,16
+Heat,2015,45
+Heat,2016,61
+Heat,2017,87
+Heat,2018,213
+Heat,2019,140
+Heat,2020,125
+Heat,2021,193
+Heat,2022,381
+Heat,2023,215
+Heat,2024,219
+Heat,2025,163
+Heat,2026,54
+Heavy Rain,1996,9
+Heavy Rain,1997,29
+Heavy Rain,1998,11
+Heavy Rain,1999,8
+Heavy Rain,2000,4
+Heavy Rain,2001,2
+Heavy Rain,2002,1
+Heavy Rain,2003,9
+Heavy Rain,2004,4
+Heavy Rain,2005,9
+Heavy Rain,2006,1
+Heavy Rain,2007,8
+Heavy Rain,2008,7
+Heavy Rain,2009,15
+Heavy Rain,2010,10
+Heavy Rain,2011,10
+Heavy Rain,2012,9
+Heavy Rain,2013,15
+Heavy Rain,2014,15
+Heavy Rain,2015,15
+Heavy Rain,2016,8
+Heavy Rain,2017,5
+Heavy Rain,2018,11
+Heavy Rain,2019,6
+Heavy Rain,2020,2
+Heavy Rain,2021,9
+Heavy Rain,2022,3
+Heavy Rain,2023,3
+Heavy Rain,2024,3
+Heavy Rain,2025,6
+Heavy Rain,2026,5
+Heavy Snow,1996,26
+Heavy Snow,1997,20
+Heavy Snow,1998,18
+Heavy Snow,1999,12
+Heavy Snow,2000,9
+Heavy Snow,2001,2
+Heavy Snow,2002,2
+Heavy Snow,2003,1
+Heavy Snow,2004,3
+Heavy Snow,2005,7
+Heavy Snow,2007,13
+Heavy Snow,2008,13
+Heavy Snow,2009,13
+Heavy Snow,2010,22
+Heavy Snow,2011,22
+Heavy Snow,2012,5
+Heavy Snow,2013,9
+Heavy Snow,2014,6
+Heavy Snow,2015,10
+Heavy Snow,2016,5
+Heavy Snow,2017,5
+Heavy Snow,2018,6
+Heavy Snow,2019,10
+Heavy Snow,2020,4
+Heavy Snow,2021,9
+Heavy Snow,2022,5
+Heavy Snow,2023,5
+Heavy Snow,2024,12
+Heavy Snow,2025,11
+Heavy Snow,2026,5
+High Surf,1996,8
+High Surf,1997,10
+High Surf,1998,1
+High Surf,1999,6
+High Surf,2000,2
+High Surf,2001,6
+High Surf,2002,11
+High Surf,2003,13
+High Surf,2004,24
+High Surf,2005,5
+High Surf,2006,13
+High Surf,2007,13
+High Surf,2008,11
+High Surf,2009,16
+High Surf,2010,17
+High Surf,2011,11
+High Surf,2012,6
+High Surf,2013,10
+High Surf,2014,10
+High Surf,2015,9
+High Surf,2016,15
+High Surf,2017,8
+High Surf,2018,13
+High Surf,2019,19
+High Surf,2020,8
+High Surf,2021,14
+High Surf,2022,6
+High Surf,2023,8
+High Surf,2024,8
+High Surf,2025,17
+High Surf,2026,8
+High Wind,1996,24
+High Wind,1997,33
+High Wind,1998,20
+High Wind,1999,27
+High Wind,2000,23
+High Wind,2001,13
+High Wind,2002,20
+High Wind,2003,15
+High Wind,2004,13
+High Wind,2005,2
+High Wind,2006,31
+High Wind,2007,6
+High Wind,2008,18
+High Wind,2009,13
+High Wind,2010,8
+High Wind,2011,12
+High Wind,2012,87
+High Wind,2013,4
+High Wind,2014,9
+High Wind,2015,8
+High Wind,2016,7
+High Wind,2017,11
+High Wind,2018,26
+High Wind,2019,1
+High Wind,2020,8
+High Wind,2021,11
+High Wind,2022,10
+High Wind,2023,16
+High Wind,2024,13
+High Wind,2025,7
+High Wind,2026,2
+Hurricane,2026,9
+Hurricane (Typhoon),1996,17
+Hurricane (Typhoon),1997,1
+Hurricane (Typhoon),1998,4
+Hurricane (Typhoon),1999,16
+Hurricane (Typhoon),2001,1
+Hurricane (Typhoon),2002,1
+Hurricane (Typhoon),2003,6
+Hurricane (Typhoon),2004,23
+Hurricane (Typhoon),2005,1016
+Hurricane (Typhoon),2007,1
+Hurricane (Typhoon),2008,29
+Hurricane (Typhoon),2011,1
+Hurricane (Typhoon),2015,5
+Hurricane (Typhoon),2016,6
+Hurricane (Typhoon),2017,28
+Hurricane (Typhoon),2018,51
+Hurricane (Typhoon),2020,36
+Hurricane (Typhoon),2021,28
+Hurricane (Typhoon),2022,93
+Hurricane (Typhoon),2023,3
+Hurricane (Typhoon),2024,17
+Ice Storm,1996,11
+Ice Storm,1997,10
+Ice Storm,1998,21
+Ice Storm,1999,10
+Ice Storm,2000,2
+Ice Storm,2001,6
+Ice Storm,2002,3
+Ice Storm,2003,6
+Ice Storm,2005,2
+Ice Storm,2006,12
+Ice Storm,2007,27
+Ice Storm,2008,3
+Ice Storm,2009,22
+Ice Storm,2010,1
+Ice Storm,2011,15
+Ice Storm,2012,1
+Ice Storm,2013,1
+Ice Storm,2014,6
+Ice Storm,2015,11
+Ice Storm,2016,1
+Ice Storm,2017,2
+Ice Storm,2020,4
+Ice Storm,2021,4
+Ice Storm,2022,2
+Ice Storm,2023,1
+Ice Storm,2024,7
+Ice Storm,2025,1
+Ice Storm,2026,6
+Lake-Effect Snow,2006,2
+Lake-Effect Snow,2012,1
+Lake-Effect Snow,2014,13
+Lake-Effect Snow,2017,6
+Lake-Effect Snow,2019,1
+Lake-Effect Snow,2022,3
+Lakeshore Flood,2017,2
+Lightning,1996,53
+Lightning,1997,42
+Lightning,1998,44
+Lightning,1999,46
+Lightning,2000,52
+Lightning,2001,42
+Lightning,2002,50
+Lightning,2003,43
+Lightning,2004,29
+Lightning,2005,35
+Lightning,2006,44
+Lightning,2007,53
+Lightning,2008,30
+Lightning,2009,38
+Lightning,2010,33
+Lightning,2011,31
+Lightning,2012,37
+Lightning,2013,25
+Lightning,2014,27
+Lightning,2015,28
+Lightning,2016,43
+Lightning,2017,24
+Lightning,2018,22
+Lightning,2019,21
+Lightning,2020,24
+Lightning,2021,16
+Lightning,2022,21
+Lightning,2023,16
+Lightning,2024,18
+Lightning,2025,26
+Lightning,2026,3
+Marine Dense Fog,2015,4
+Marine Dense Fog,2020,5
+Marine Dense Fog,2021,2
+Marine Dense Fog,2022,2
+Marine High Wind,1996,1
+Marine High Wind,2008,1
+Marine High Wind,2009,3
+Marine High Wind,2013,1
+Marine High Wind,2014,1
+Marine High Wind,2015,1
+Marine Lightning,2023,1
+Marine Strong Wind,2006,2
+Marine Strong Wind,2007,3
+Marine Strong Wind,2008,5
+Marine Strong Wind,2009,2
+Marine Strong Wind,2010,2
+Marine Strong Wind,2011,2
+Marine Strong Wind,2012,4
+Marine Strong Wind,2013,4
+Marine Strong Wind,2014,8
+Marine Strong Wind,2015,6
+Marine Strong Wind,2016,13
+Marine Strong Wind,2017,1
+Marine Strong Wind,2018,8
+Marine Strong Wind,2019,1
+Marine Strong Wind,2021,1
+Marine Strong Wind,2022,7
+Marine Strong Wind,2024,6
+Marine Strong Wind,2025,3
+Marine Strong Wind,2026,1
+Marine Thunderstorm Wind,2003,2
+Marine Thunderstorm Wind,2004,6
+Marine Thunderstorm Wind,2005,1
+Marine Thunderstorm Wind,2006,1
+Marine Thunderstorm Wind,2007,2
+Marine Thunderstorm Wind,2008,2
+Marine Thunderstorm Wind,2009,2
+Marine Thunderstorm Wind,2011,3
+Marine Thunderstorm Wind,2012,1
+Marine Thunderstorm Wind,2014,2
+Marine Thunderstorm Wind,2015,9
+Marine Thunderstorm Wind,2016,1
+Marine Thunderstorm Wind,2017,1
+Marine Thunderstorm Wind,2018,1
+Marine Thunderstorm Wind,2019,3
+Marine Thunderstorm Wind,2020,1
+Marine Thunderstorm Wind,2021,15
+Marine Thunderstorm Wind,2023,2
+Marine Tropical Storm,2021,9
+Marine Tropical Storm,2022,20
+Rip Current,1996,25
+Rip Current,1997,10
+Rip Current,1998,22
+Rip Current,1999,23
+Rip Current,2000,29
+Rip Current,2001,48
+Rip Current,2002,43
+Rip Current,2003,41
+Rip Current,2004,32
+Rip Current,2005,35
+Rip Current,2006,26
+Rip Current,2007,51
+Rip Current,2008,57
+Rip Current,2009,39
+Rip Current,2010,48
+Rip Current,2011,30
+Rip Current,2012,38
+Rip Current,2013,53
+Rip Current,2014,47
+Rip Current,2015,46
+Rip Current,2016,51
+Rip Current,2017,63
+Rip Current,2018,62
+Rip Current,2019,60
+Rip Current,2020,75
+Rip Current,2021,98
+Rip Current,2022,63
+Rip Current,2023,82
+Rip Current,2024,65
+Rip Current,2025,39
+Rip Current,2026,18
+Sleet,2008,2
+Sleet,2018,1
+Sleet,2022,1
+Sneakerwave,2012,2
+Sneakerwave,2013,3
+Sneakerwave,2014,5
+Sneakerwave,2015,1
+Sneakerwave,2016,1
+Sneakerwave,2017,3
+Sneakerwave,2018,3
+Sneakerwave,2019,2
+Sneakerwave,2021,2
+Sneakerwave,2022,1
+Sneakerwave,2024,3
+Sneakerwave,2025,4
+Storm Surge/Tide,1999,2
+Storm Surge/Tide,2008,13
+Storm Surge/Tide,2011,3
+Storm Surge/Tide,2012,3
+Storm Surge/Tide,2017,1
+Storm Surge/Tide,2018,6
+Storm Surge/Tide,2020,6
+Storm Surge/Tide,2021,1
+Storm Surge/Tide,2022,9
+Storm Surge/Tide,2026,1
+Strong Wind,1996,7
+Strong Wind,1997,5
+Strong Wind,1998,4
+Strong Wind,1999,6
+Strong Wind,2000,3
+Strong Wind,2001,1
+Strong Wind,2002,2
+Strong Wind,2003,9
+Strong Wind,2004,13
+Strong Wind,2005,5
+Strong Wind,2006,17
+Strong Wind,2007,15
+Strong Wind,2008,30
+Strong Wind,2009,17
+Strong Wind,2010,16
+Strong Wind,2011,13
+Strong Wind,2012,18
+Strong Wind,2013,13
+Strong Wind,2014,13
+Strong Wind,2015,15
+Strong Wind,2016,15
+Strong Wind,2017,15
+Strong Wind,2018,14
+Strong Wind,2019,18
+Strong Wind,2020,13
+Strong Wind,2021,10
+Strong Wind,2022,13
+Strong Wind,2023,24
+Strong Wind,2024,22
+Strong Wind,2025,11
+Strong Wind,2026,5
+Thunderstorm Wind,1983,3
+Thunderstorm Wind,1984,21
+Thunderstorm Wind,1985,10
+Thunderstorm Wind,1986,17
+Thunderstorm Wind,1987,19
+Thunderstorm Wind,1988,15
+Thunderstorm Wind,1989,22
+Thunderstorm Wind,1990,21
+Thunderstorm Wind,1991,21
+Thunderstorm Wind,1992,8
+Thunderstorm Wind,1993,11
+Thunderstorm Wind,1994,15
+Thunderstorm Wind,1995,24
+Thunderstorm Wind,1996,23
+Thunderstorm Wind,1997,37
+Thunderstorm Wind,1998,39
+Thunderstorm Wind,1999,29
+Thunderstorm Wind,2000,25
+Thunderstorm Wind,2001,31
+Thunderstorm Wind,2002,16
+Thunderstorm Wind,2003,17
+Thunderstorm Wind,2004,19
+Thunderstorm Wind,2005,15
+Thunderstorm Wind,2006,14
+Thunderstorm Wind,2007,20
+Thunderstorm Wind,2008,32
+Thunderstorm Wind,2009,30
+Thunderstorm Wind,2010,22
+Thunderstorm Wind,2011,63
+Thunderstorm Wind,2012,59
+Thunderstorm Wind,2013,21
+Thunderstorm Wind,2014,34
+Thunderstorm Wind,2015,39
+Thunderstorm Wind,2016,24
+Thunderstorm Wind,2017,37
+Thunderstorm Wind,2018,43
+Thunderstorm Wind,2019,39
+Thunderstorm Wind,2020,40
+Thunderstorm Wind,2021,30
+Thunderstorm Wind,2022,37
+Thunderstorm Wind,2023,37
+Thunderstorm Wind,2024,53
+Thunderstorm Wind,2025,41
+Thunderstorm Wind,2026,14
+Tornado,1950,11
+Tornado,1951,11
+Tornado,1952,10
+Tornado,1953,21
+Tornado,1954,14
+Tornado,1955,13
+Tornado,1956,8
+Tornado,1957,21
+Tornado,1958,13
+Tornado,1959,10
+Tornado,1960,8
+Tornado,1961,14
+Tornado,1962,7
+Tornado,1963,9
+Tornado,1964,7
+Tornado,1965,17
+Tornado,1966,6
+Tornado,1967,14
+Tornado,1968,12
+Tornado,1969,5
+Tornado,1970,15
+Tornado,1971,15
+Tornado,1972,14
+Tornado,1973,22
+Tornado,1974,45
+Tornado,1975,15
+Tornado,1976,20
+Tornado,1977,11
+Tornado,1978,9
+Tornado,1979,11
+Tornado,1980,16
+Tornado,1981,10
+Tornado,1982,23
+Tornado,1983,21
+Tornado,1984,21
+Tornado,1985,6
+Tornado,1986,8
+Tornado,1987,8
+Tornado,1988,12
+Tornado,1989,5
+Tornado,1990,14
+Tornado,1991,11
+Tornado,1992,11
+Tornado,1993,7
+Tornado,1994,10
+Tornado,1995,9
+Tornado,1996,26
+Tornado,1997,68
+Tornado,1998,130
+Tornado,1999,94
+Tornado,2000,41
+Tornado,2001,28
+Tornado,2002,55
+Tornado,2003,51
+Tornado,2004,36
+Tornado,2005,35
+Tornado,2006,66
+Tornado,2007,81
+Tornado,2008,133
+Tornado,2009,25
+Tornado,2010,47
+Tornado,2011,567
+Tornado,2012,71
+Tornado,2013,55
+Tornado,2014,49
+Tornado,2015,36
+Tornado,2016,18
+Tornado,2017,37
+Tornado,2018,12
+Tornado,2019,46
+Tornado,2020,77
+Tornado,2021,107
+Tornado,2022,25
+Tornado,2023,92
+Tornado,2024,54
+Tornado,2025,64
+Tornado,2026,13
+Tropical Depression,2008,1
+Tropical Depression,2016,2
+Tropical Depression,2017,1
+Tropical Depression,2019,4
+Tropical Storm,1996,1
+Tropical Storm,1998,5
+Tropical Storm,1999,1
+Tropical Storm,2001,23
+Tropical Storm,2002,1
+Tropical Storm,2003,8
+Tropical Storm,2004,10
+Tropical Storm,2008,17
+Tropical Storm,2009,2
+Tropical Storm,2011,13
+Tropical Storm,2012,4
+Tropical Storm,2013,1
+Tropical Storm,2015,9
+Tropical Storm,2016,15
+Tropical Storm,2017,103
+Tropical Storm,2018,11
+Tropical Storm,2019,1
+Tropical Storm,2020,21
+Tropical Storm,2022,19
+Tropical Storm,2023,4
+Tropical Storm,2024,79
+Tropical Storm,2026,2
+Tsunami,2009,32
+Tsunami,2011,1
+Waterspout,2000,2
+Waterspout,2017,3
+Wildfire,1997,1
+Wildfire,1999,2
+Wildfire,2000,3
+Wildfire,2001,5
+Wildfire,2002,1
+Wildfire,2003,24
+Wildfire,2005,6
+Wildfire,2006,20
+Wildfire,2007,19
+Wildfire,2008,8
+Wildfire,2009,4
+Wildfire,2010,2
+Wildfire,2011,12
+Wildfire,2012,23
+Wildfire,2013,21
+Wildfire,2014,5
+Wildfire,2015,10
+Wildfire,2016,6
+Wildfire,2017,25
+Wildfire,2018,116
+Wildfire,2019,6
+Wildfire,2020,48
+Wildfire,2021,10
+Wildfire,2022,18
+Wildfire,2023,107
+Wildfire,2024,10
+Wildfire,2025,63
+Wildfire,2026,3
+Winter Storm,1996,24
+Winter Storm,1997,25
+Winter Storm,1998,21
+Winter Storm,1999,17
+Winter Storm,2000,28
+Winter Storm,2001,7
+Winter Storm,2002,5
+Winter Storm,2003,17
+Winter Storm,2004,9
+Winter Storm,2005,15
+Winter Storm,2006,15
+Winter Storm,2007,46
+Winter Storm,2008,29
+Winter Storm,2009,37
+Winter Storm,2010,30
+Winter Storm,2011,22
+Winter Storm,2012,11
+Winter Storm,2013,21
+Winter Storm,2014,30
+Winter Storm,2015,25
+Winter Storm,2016,34
+Winter Storm,2017,7
+Winter Storm,2018,11
+Winter Storm,2019,20
+Winter Storm,2020,13
+Winter Storm,2021,17
+Winter Storm,2022,19
+Winter Storm,2023,5
+Winter Storm,2024,23
+Winter Storm,2025,23
+Winter Storm,2026,30
+Winter Weather,1996,1
+Winter Weather,1997,28
+Winter Weather,1998,6
+Winter Weather,1999,2
+Winter Weather,2000,1
+Winter Weather,2002,1
+Winter Weather,2003,4
+Winter Weather,2004,15
+Winter Weather,2005,9
+Winter Weather,2006,23
+Winter Weather,2007,58
+Winter Weather,2008,105
+Winter Weather,2009,64
+Winter Weather,2010,79
+Winter Weather,2011,59
+Winter Weather,2012,30
+Winter Weather,2013,55
+Winter Weather,2014,74
+Winter Weather,2015,54
+Winter Weather,2016,50
+Winter Weather,2017,31
+Winter Weather,2018,66
+Winter Weather,2019,58
+Winter Weather,2020,42
+Winter Weather,2021,33
+Winter Weather,2022,39
+Winter Weather,2023,33
+Winter Weather,2024,25
+Winter Weather,2025,31
+Winter Weather,2026,19
