@@ -57,18 +57,18 @@ write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
 ```{r}
 #code for mapping fatalities
 data_geo_start <- storm_fatal_format |>
-  drop_na(BEGIN_LON, BEGIN_LAT) |>
-  mutate(fatality_date = as.Date(FATALITY_DATE, format = "%m/%d/%Y"), 
+  drop_na(BEGIN_LON, BEGIN_LAT) |> #eliminate storms that don't have a starting position 
+  mutate(fatality_date = as.Date(FATALITY_DATE, format = "%m/%d/%Y"), #make date clean
     deaths = n(),
     deaths_direct = sum(FATALITY_TYPE == "D"), 
     deaths_indirect = sum(FATALITY_TYPE == "I"),
     deaths_female = sum(FATALITY_SEX == "F", na.rm = TRUE),
     deaths_male = sum(FATALITY_SEX == "M", na.rm = TRUE),
     median_age = median(FATALITY_AGE, na.rm = TRUE), 
-    .by = EVENT_ID) |>
+    .by = EVENT_ID) |> #make each storm event its own row 
   distinct(EVENT_ID, .keep_all = TRUE) |> select(-starts_with("fatality_")) |>
-  mutate(ID = str_to_lower(STATE),
-         country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50)) 
+  mutate(ID = str_to_lower(STATE), 
+         country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50)) #add a binary variable for 48 state map later 
 
 #use this dataset for making maps
 write_csv(data_geo_start, "../data/FINAL_wrangled_storm.csv")
