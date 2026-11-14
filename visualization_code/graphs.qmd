@@ -9,6 +9,7 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(tidyr)
+library(ggplot2)
 ```
 
 Resources I used: https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
@@ -110,5 +111,58 @@ states_df <- us_states |>
 storm_fatal_states <- storm_fatal_format |>
   mutate(STATE = str_to_lower(STATE)) |>
   left_join(states_df, by = "STATE")
+```
+
+```{r}
+#filter based on geographic area
+northeast <- damages |>
+  filter(STATE %in% c("CONNETICUT", "MAINE", "MASSACHUSETTS", "NEW HAMPSHIRE", "RHODE ISLAND", "VERMONT", "NEW JERSEY", "NEW YORK", "PENNSYLVANIA"))
+
+midwest <- damages |>
+  filter(STATE %in% c("ILLINOIS", "INDIANA", "MINNESOTA", "OHIO", "WISCONSIN", "IDAHO", "KANSAS", "MICHIGAN", "MISSOURI", "NORTH DAKOTA", "SOUTH DAKOTA"))
+
+south <- damages |>
+  filter(STATE %in% c())
+
+```
+
+Trying out graphs below!
+
+```{r}
+storms_after_1995 <- storm_type_per_year |>
+  filter(YEAR >= 1995) |>
+  filter_out(EVENT_TYPE %in% c("Waterspout", "Dust Devil" ))
+
+#storm type
+storm_year_graph <- storms_after_1995 |>
+  ggplot(aes(x = YEAR, y = N, color = EVENT_TYPE)) +
+  geom_line() +
+  labs(
+    x = "Year",
+    y = "Count",
+    title = "Storm Type per Year",
+    color = "Storm Type"
+  )
+
+#possibly add labels
+storm_year_graph
+
+```
+
+
+
+```{r}
+#damages
+
+property_graph <- northeast |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_line() +
+  labs(
+    x = "Year", 
+    y = "Total Cost (US Dollars)", 
+    title = "Property Damage Due to Storms"
+  )
+property_graph
+
 ```
 
