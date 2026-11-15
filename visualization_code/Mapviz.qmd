@@ -32,19 +32,12 @@ library(fivethirtyeight)
 library(usmap)
 ```
 
-```{r}
-storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", "Lightning", "Thunderstorm Wind", "Flash Flood")) |>
-  st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326) |>
-  arrange(desc(deaths))
 
-us_states1 <- us_map()
-
-ggplot() +
-  geom_sf(data = us_states1) + 
-  geom_sf(data = storms, aes(size = deaths, color = EVENT_TYPE)) 
-```
 ```{r}
-storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> filter(contiguous_us) |> filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", "Lightning", "Thunderstorm Wind", "Flash Flood")) |> 
+storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> 
+  filter(contiguous_us) |> 
+  filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", 
+                           "Lightning", "Thunderstorm Wind", "Flash Flood")) |> 
   st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326) |>
   arrange(desc(deaths))
 
@@ -53,6 +46,8 @@ us_states2 <- maps::map("state",
 
 ggplot() +
   geom_sf(data = us_states2) + 
-  geom_sf(data = storms, aes(size = deaths, color = EVENT_TYPE)) + theme_void()
+  geom_sf(data = storms, aes(size = deaths, 
+                             color = EVENT_TYPE)) + 
+  theme_void()
 ```
 
