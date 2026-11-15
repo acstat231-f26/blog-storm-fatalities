@@ -68,7 +68,12 @@ data_geo_start <- storm_fatal_format |>
     .by = EVENT_ID) |> #make each storm event its own row 
   distinct(EVENT_ID, .keep_all = TRUE) |> select(-starts_with("fatality_")) |>
   mutate(ID = str_to_lower(STATE), 
-         country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50)) #add a binary variable for 48 state map later 
+         #add a binary variable for 48 state map later
+         country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50),
+         EVENT_TYPE2 = fct_collapse(EVENT_TYPE,
+                                  Floods = c("Flood", "Flash Flood"),
+                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
+                                  Lightning = c("Lightning", "Marine Lightning")))  
 
 #use this dataset for making maps
 write_csv(data_geo_start, "../data/FINAL_wrangled_storm.csv")
