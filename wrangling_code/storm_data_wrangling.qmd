@@ -70,6 +70,7 @@ data_geo_start <- storm_fatal_format |>
   mutate(ID = str_to_lower(STATE), 
          #add a binary variable for 48 state map later
          country_zone = str_to_title(CZ_NAME), contiguous_us = between(BEGIN_LON, -125, -66) & between(BEGIN_LAT, 24, 50),
+         #second event type column with condensed event categories
          EVENT_TYPE2 = fct_collapse(EVENT_TYPE,
                                   Floods = c("Flood", "Flash Flood"),
                                   Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
