@@ -57,8 +57,10 @@ storm_time <- read_csv("../data/FINAL_wrangled_storm.csv") |>
   arrange(fatality_date) |> 
   mutate(
     popup_text = paste0(
-      "<b>", EVENT_TYPE, "</b><br>", "<br>",
-      country_zone, ", ", STATE, "<br>",
+      "<b>", EVENT_TYPE, "</b><br>",
+      YEAR, "<br>",
+      country_zone, ", ", 
+      STATE, "<br>",
       "Deaths: ", deaths)) |>                                
   st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326)      
 
