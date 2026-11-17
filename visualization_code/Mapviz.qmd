@@ -22,6 +22,7 @@ library(ggplot2)
 library(viridis)
 library(sf)
 library(leaflet)
+library(leaflet.extras2)
 library(ggspatial)
 library(readr)
 library(tidyr)
@@ -36,8 +37,6 @@ library(usmap)
 ```{r}
 storms <- read_csv("../data/FINAL_wrangled_storm.csv") |> 
   filter(contiguous_us) |> 
-  filter(EVENT_TYPE %in% c("Flood", "Tornado", "Debris Flow", 
-                           "Lightning", "Thunderstorm Wind", "Flash Flood")) |> 
   st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326) |>
   arrange(desc(deaths))
 
@@ -47,7 +46,41 @@ us_states2 <- maps::map("state",
 ggplot() +
   geom_sf(data = us_states2) + 
   geom_sf(data = storms, aes(size = deaths, 
-                             color = EVENT_TYPE)) + 
+                             color = EVENT_TYPE2)) + labs(title = "Fatal Storms from 1950-2026")
   theme_void()
+```
+
+
+```{r}
+storm_time <- read_csv("../data/FINAL_wrangled_storm.csv") |>
+  filter(contiguous_us) |>
+  arrange(fatality_date) |> 
+  mutate(
+    popup_text = paste0(
+      "<b>", EVENT_TYPE, "</b><br>", "<br>",
+      country_zone, ", ", STATE, "<br>",
+      "Deaths: ", deaths)) |>                                
+  st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326)      
+
+storm_color <- colorFactor("viridis", domain = storm_time$EVENT_TYPE)
+
+leaflet() |>
+   addTiles() |>
+  addTimeslider(
+    data = storm_time,
+    radius = ~ 3 + sqrt(deaths) * 2,              
+    color = ~ storm_color(EVENT_TYPE),
+    fillColor = ~ storm_color(EVENT_TYPE),
+    weight = 1,
+    opacity = 0.8,
+    fillOpacity = 0.5,
+    popup = ~ popup_text,
+    options = timesliderOptions(
+      position = "topright",
+      timeAttribute = "fatality_date",                         
+      range = TRUE                            
+    )
+  ) |>
+  setView(lng = -96, lat = 38, zoom = 4)
 ```
 
