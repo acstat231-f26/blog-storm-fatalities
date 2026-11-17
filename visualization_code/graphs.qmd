@@ -10,12 +10,25 @@ library(dplyr)
 library(stringr)
 library(tidyr)
 library(ggplot2)
+library(tidyverse)
+library(plotly)
+library(gapminder)
+library(ggiraph)
 ```
 
 Resources I used: https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
 
 ```{r}
 storms <- read_csv("../data/FINAL_wrangled_storm.csv")
+
+#collapsing some storm events
+storms <- storms |>
+   mutate(
+     EVENT_TYPE2 = fct_collapse(EVENT_TYPE,
+                                  Floods = c("Flood", "Flash Flood"),
+                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", 
+                                            "Marine Strong Wind", "Marine High Wind"),
+                                  Lightning = c("Lightning", "Marine Lightning"))) 
 ```
 
 ```{r}
@@ -38,31 +51,108 @@ damages_numeric <- storms |>
          result_crops= as.numeric(value) * modifier)
 
 
-
+#dataset with total damages and damages per month for both crops and property per year and per state
+#I don't think I actually need per month...
 damages <- damages_numeric |>
-  group_by(EVENT_TYPE, STATE, YEAR) |>
+  group_by(EVENT_TYPE2, STATE, YEAR) |>
   summarize(
     total_property = sum(result_property),
-    total_crops = sum(result_crops),
-    per_month_property = total_property/12,
-    per_month_crops = total_crops/12
-  )
+    total_crops = sum(result_crops)
+    #per_month_property = total_property/12,
+    #per_month_crops = total_crops/12
+  ) 
 
 write_csv(damages, "../data/damages.csv")
 
+#total damages for property and crops per year, so combining all the states
+total_damages_year <- damages_numeric |>
+  group_by(EVENT_TYPE2, YEAR) |>
+  summarize(
+    total_property = sum(result_property),
+    total_crops = sum(result_crops)
+  )
+  
+
+
 ```
+
+```{r}
+#damages visualizations
+#graphing for each storm type
+
+debris_flow_graph <- damages |>
+  filter(EVENT_TYPE2 =="Debris Flow") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(debris_flow_graph)
+
+floods_graph <- damages |>
+  filter(EVENT_TYPE2 =="Floods") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(floods_graph)
+
+rain_graph <- damages |>
+  filter(EVENT_TYPE2 =="Heavy Rain") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(rain_graph)
+
+lightning_graph <- damages |>
+  filter(EVENT_TYPE2 =="Lightning") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(lightning_graph)
+
+tornado_graph <- damages |>
+  filter(EVENT_TYPE2 =="Tornado") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(tornado_graph)
+
+
+winds_graph <- damages |>
+  filter(EVENT_TYPE2 =="Winds") |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point()
+
+ggplotly(winds_graph)
+
+
+```
+
+```{r}
+#trying a two chart combined damages visualization
+#just looking at the 21st century
+
+
+
+```
+
+
 
 ```{r}
 #wrangling for storm type
 
 storm_type_state <- storms |>
-  group_by(EVENT_TYPE, STATE, YEAR) |>
+  group_by(EVENT_TYPE2, STATE, YEAR) |>
   summarize(
     N = n()
   )
 
 storm_type_per_year <- storms |>
-  group_by(EVENT_TYPE, YEAR) |>
+  group_by(EVENT_TYPE2, YEAR) |>
   summarize(
     N = n()
   )
@@ -77,7 +167,7 @@ write_csv(storm_type_per_year, "../data/storm_type_year.csv")
 #tornado info
 
 tornado_state <- storms |>
-  filter(EVENT_TYPE == "Tornado") |>
+  filter(EVENT_TYPE2 == "Tornado") |>
   group_by(STATE, YEAR) |>
   summarize(
     length = mean(TOR_LENGTH), 
@@ -85,7 +175,7 @@ tornado_state <- storms |>
   )
 
 tornado_year <- storms |>
-  filter(EVENT_TYPE == "Tornado") |>
+  filter(EVENT_TYPE2 == "Tornado") |>
   group_by(YEAR) |>
   summarize(
     length = mean(TOR_LENGTH),
@@ -130,8 +220,7 @@ Trying out graphs below!
 
 ```{r}
 storms_after_1995 <- storm_type_per_year |>
-  filter(YEAR >= 1995) |>
-  filter_out(EVENT_TYPE %in% c("Waterspout", "Dust Devil" ))
+  filter(YEAR >= 1995)
 
 #storm type
 storm_year_graph <- storms_after_1995 |>
@@ -149,8 +238,6 @@ storm_year_graph
 
 ```
 
-
-
 ```{r}
 #damages
 
@@ -165,4 +252,3 @@ property_graph <- northeast |>
 property_graph
 
 ```
-
