@@ -85,7 +85,8 @@ stormidk <- stormgif |>
   mutate(lesstypes = fct_collapse(EVENT_TYPE,
                                   Floods = c("Flood", "Flash Flood"),
                                   Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
-                                  Lightning = c("Lightning", "Marine Lightning")))
+                                  Lightning = c("Lightning", "Marine Lightning"),
+                                  Other = c("Waterspout", "Dust Devil", "Debris Flow")))
   
 
 g3 <- ggplot(stormidk, aes(x = YEAR, y = n, fill = lesstypes)) +

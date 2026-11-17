@@ -52,6 +52,13 @@ storm_fatal_format <- storm_fatal_data |>
 
 #use this code for making graphs and other non spatial visualizations
 write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
+
+#same kinda but for just all details
+#(selecting only a few columns so the file is small enough)
+storm_details_format <- details_data |>
+  select(c(EVENT_ID, STATE, YEAR, MONTH_NAME, EVENT_TYPE, DEATHS_DIRECT, DEATHS_INDIRECT))
+
+write_csv(storm_details_format, "../data/storm_details.csv")
 ```
 
 ```{r}
