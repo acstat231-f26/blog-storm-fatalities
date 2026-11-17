@@ -56,7 +56,14 @@ write_csv(storm_fatal_format, "../data/storm_fatal_combined.csv")
 #same kinda but for just all details
 #(selecting only a few columns so the file is small enough)
 storm_details_format <- details_data |>
-  select(c(EVENT_ID, STATE, YEAR, MONTH_NAME, EVENT_TYPE, DEATHS_DIRECT, DEATHS_INDIRECT))
+  select(c(EVENT_ID, STATE, YEAR, EVENT_TYPE, DEATHS_DIRECT, DEATHS_INDIRECT)) |>
+  mutate(EVENT_TYPE2 = fct_collapse(EVENT_TYPE,
+                                  Floods = c("Flood", "Flash Flood"),
+                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", 
+                                            "Marine Strong Wind", "Marine High Wind", 
+                                            "High Wind", "Strong Wind"),
+                                  Lightning = c("Lightning", "Marine Lightning"),
+                                  Hurricane = c("Hurricane", "Hurricane (Typhoon)", "Marine Hurricane/Typhoon")))
 
 write_csv(storm_details_format, "../data/storm_details.csv")
 ```
