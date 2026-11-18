@@ -136,6 +136,20 @@ ggplotly(winds_graph)
 #trying a two chart combined damages visualization
 #just looking at the 21st century
 
+debris_flow_graph <- damages |>
+  filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, 
+             tooltip = total_property, data_id = total_property,
+             color = STATE)) +
+  geom_point_interactive(
+    size = 3, hover_nearest = 3) +
+  labs(
+    x = "Year",
+    y = "Total Property Damage",
+    title = "Property Damage Due to Debris Flow"
+  )
+debris_flow_graph
 
 
 ```
