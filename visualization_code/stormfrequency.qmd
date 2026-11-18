@@ -36,12 +36,23 @@ fatalstormdata <- read.csv("../data/FINAL_wrangled_storm.csv")
 
 stormcount <- read.csv("../data/stormcount.csv")
 
+stormdetails <- read.csv("../data/storm_details.csv")
+
 ```
 
 ```{r}
 
 
 stormsimple <- fatalstormdata |>
+  mutate(EVENT_TYPE = fct_collapse(EVENT_TYPE,
+                                  Floods = c("Flood", "Flash Flood"),
+                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
+                                  Lightning = c("Lightning", "Marine Lightning"),
+                                  Other = c("Waterspout", "Dust Devil", "Debris Flow", "Funnel Cloud"))) |>
+  count(EVENT_TYPE, sort = TRUE)
+  
+
+stormsimple2 <- stormdetails |>
   count(EVENT_TYPE, sort = TRUE)
 
 g <- ggplot(data = stormsimple, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
@@ -55,14 +66,20 @@ g
 
 ```{r}
 
-stormcount <- fatalstormdata |>
+fatalstormcount <- fatalstormdata |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
   separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
 
-stormgif <- stormcount |>
-  mutate(YEAR = as.integer(stormcount$YEAR))
+allstormcount <- stormdetails |>
+  select(YEAR, EVENT_TYPE) |>
+  unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
+  count(storm) |>
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
+
+stormgif <- fatalstormcount |>
+  mutate(YEAR = as.integer(fatalstormcount$YEAR))
 
 g2 <- ggplot(stormgif, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
   geom_bar(stat = "identity") +
@@ -86,7 +103,7 @@ stormidk <- stormgif |>
                                   Floods = c("Flood", "Flash Flood"),
                                   Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
                                   Lightning = c("Lightning", "Marine Lightning"),
-                                  Other = c("Waterspout", "Dust Devil", "Debris Flow")))
+                                  Other = c("Waterspout", "Dust Devil", "Debris Flow", "Funnel Cloud")))
   
 
 g3 <- ggplot(stormidk, aes(x = YEAR, y = n, fill = lesstypes)) +
