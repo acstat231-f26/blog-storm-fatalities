@@ -81,51 +81,87 @@ total_damages_year <- damages_numeric |>
 #graphing for each storm type
 
 debris_flow_graph <- damages |>
-  filter(EVENT_TYPE2 =="Debris Flow") |>
+  filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Debris Flow"
+  ) +
+  theme_bw()
 
 ggplotly(debris_flow_graph)
 
 floods_graph <- damages |>
-  filter(EVENT_TYPE2 =="Floods") |>
+  filter(EVENT_TYPE2 =="Floods", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point()+
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Floods"
+  ) +
+  theme_bw()
 
 ggplotly(floods_graph)
 
 rain_graph <- damages |>
-  filter(EVENT_TYPE2 =="Heavy Rain") |>
+  filter(EVENT_TYPE2 =="Heavy Rain", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Rain"
+  ) +
+  theme_bw()
 
 ggplotly(rain_graph)
 
 lightning_graph <- damages |>
-  filter(EVENT_TYPE2 =="Lightning") |>
+  filter(EVENT_TYPE2 =="Lightning", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Lightning"
+  ) +
+  theme_bw()
 
 ggplotly(lightning_graph)
 
 tornado_graph <- damages |>
-  filter(EVENT_TYPE2 =="Tornado") |>
+  filter(EVENT_TYPE2 =="Tornado", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Tornado"
+  ) +
+  theme_bw()
 
 ggplotly(tornado_graph)
 
 
 winds_graph <- damages |>
-  filter(EVENT_TYPE2 =="Winds") |>
+  filter(EVENT_TYPE2 =="Winds", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Winds"
+  ) +
+  theme_bw()
 
 ggplotly(winds_graph)
 
@@ -135,6 +171,8 @@ ggplotly(winds_graph)
 ```{r}
 #trying a two chart combined damages visualization
 #just looking at the 21st century
+
+#STILL WORKING ON
 
 debris_flow_graph <- damages |>
   filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
@@ -154,6 +192,21 @@ debris_flow_graph
 
 ```
 
+```{r}
+#damages for storms per year
+
+damage_year_graph <- total_damages_year |>
+  filter(YEAR >= 2000) |>
+  ggplot(aes(x = YEAR, y = total_property, fill = EVENT_TYPE2)) +
+  geom_col(position = "stack") +
+  scale_fill_viridis_d() +
+  labs(
+    x = "Year",
+    y = "Total Property Damage",
+    fill = "Storm Type"
+  )
+ggplotly(damage_year_graph)
+```
 
 
 ```{r}
