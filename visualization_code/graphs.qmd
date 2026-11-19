@@ -75,12 +75,19 @@ total_damages_year <- damages_numeric |>
   )
   
 
-
+#damages per state
+damages_state <- damages_numeric |>
+  group_by(STATE, EVENT_TYPE2) |>
+  summarize(
+    total_property = sum(result_property),
+    total_crops = sum(result_crops)
+  )
 ```
 
 ```{r}
 #damages visualizations
 #graphing for each storm type
+#added sub graphs for when there are high outliers so the lower values are more distinct
 
 debris_flow_low_graph <- damages |>
   filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
@@ -273,6 +280,28 @@ damage_year_graph <- total_damages_year |>
   )
 ggplotly(damage_year_graph)
 ```
+
+
+```{r}
+#total property damage per state, showing which storms are causing this
+
+damages_state_graph <- damages_state |>
+  filter(!is.na(total_property)) |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = STATE, y = total_property, fill = EVENT_TYPE2)) +
+  geom_col(position = "stack") +
+  scale_fill_viridis_d() +
+  theme(axis.text.x = element_text(angle = 45)) +
+  labs(
+    x = "State",
+    y = "Total Property Damage",
+    fill = "Storm Type"
+  )
+ggplotly(damages_state_graph)
+```
+
+```
+
 
 ```{r}
 #wrangling for storm type
