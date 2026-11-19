@@ -14,6 +14,8 @@ library(tidyverse)
 library(plotly)
 library(gapminder)
 library(ggiraph)
+library(ggbreak)
+library(ggforce)
 ```
 
 Resources I used: https://stackoverflow.com/questions/61987917/how-do-i-replace-k-and-m-with-thousands-and-millions
@@ -80,9 +82,26 @@ total_damages_year <- damages_numeric |>
 #damages visualizations
 #graphing for each storm type
 
-debris_flow_graph <- damages |>
+debris_flow_low_graph <- damages |>
   filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
+ # filter_out(STATE == "CALIFORNIA") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point() +
+  ylim(0, 80000000) +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Debris Flow"
+  ) +
+  theme_bw()
+
+ggplotly(debris_flow_low_graph)
+
+debris_flow_high_graph <- damages |>
+  filter(EVENT_TYPE2 =="Debris Flow", YEAR >= 2000) |>
+  filter_out(total_property == "0") |>
+ # filter_out(STATE == "CALIFORNIA") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
   geom_point() +
   labs(
@@ -92,13 +111,15 @@ debris_flow_graph <- damages |>
   ) +
   theme_bw()
 
-ggplotly(debris_flow_graph)
+ggplotly(debris_flow_high_graph)
 
-floods_graph <- damages |>
+
+floods_low_graph <- damages |>
   filter(EVENT_TYPE2 =="Floods", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
   geom_point()+
+  ylim(0, 600000000) +
   labs(
     x = "Year",
     y = "Total Cost of Property Damage",
@@ -106,9 +127,39 @@ floods_graph <- damages |>
   ) +
   theme_bw()
 
-ggplotly(floods_graph)
+ggplotly(floods_low_graph)
 
-rain_graph <- damages |>
+
+floods_high_graph <- damages |>
+  filter(EVENT_TYPE2 =="Floods", YEAR >= 2000) |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point() +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Floods"
+  ) +
+  theme_bw()
+
+ggplotly(floods_high_graph)
+
+rain_low_graph <- damages |>
+  filter(EVENT_TYPE2 =="Heavy Rain", YEAR >= 2000) |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point() +
+  ylim(0, 200000) +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Rain"
+  ) +
+  theme_bw()
+
+ggplotly(rain_low_graph)
+
+rain_high_graph <- damages |>
   filter(EVENT_TYPE2 =="Heavy Rain", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
@@ -120,7 +171,7 @@ rain_graph <- damages |>
   ) +
   theme_bw()
 
-ggplotly(rain_graph)
+ggplotly(rain_high_graph)
 
 lightning_graph <- damages |>
   filter(EVENT_TYPE2 =="Lightning", YEAR >= 2000) |>
@@ -151,7 +202,22 @@ tornado_graph <- damages |>
 ggplotly(tornado_graph)
 
 
-winds_graph <- damages |>
+winds_low_graph <- damages |>
+  filter(EVENT_TYPE2 =="Winds", YEAR >= 2000) |>
+  filter_out(total_property == "0") |>
+  ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
+  geom_point() +
+  ylim(0, 25000000) +
+  labs(
+    x = "Year",
+    y = "Total Cost of Property Damage",
+    title = "Property Damage Caused by Winds"
+  ) +
+  theme_bw()
+
+ggplotly(winds_low_graph)
+
+winds_high_graph <- damages |>
   filter(EVENT_TYPE2 =="Winds", YEAR >= 2000) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = YEAR, y = total_property, color = STATE)) +
@@ -163,7 +229,7 @@ winds_graph <- damages |>
   ) +
   theme_bw()
 
-ggplotly(winds_graph)
+ggplotly(winds_high_graph)
 
 
 ```
@@ -207,7 +273,6 @@ damage_year_graph <- total_damages_year |>
   )
 ggplotly(damage_year_graph)
 ```
-
 
 ```{r}
 #wrangling for storm type
