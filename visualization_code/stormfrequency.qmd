@@ -124,15 +124,24 @@ stormbar <- fatalstormcount |>
 
 g3 <- ggplot(stormbar, aes(x = YEAR, y = n, fill = lesstypes)) +
   geom_bar(stat = "identity", position = "stack") +
-  scale_fill_viridis(discrete = TRUE, begin = 0.2, end = 1, option = "A") +
+  scale_fill_viridis(discrete = TRUE, begin = 0.1, end = 0.9, option = "A") +
   labs(
+    title = "Storms causing fatalities",
     x = "",
-    y = "Number of storms with fatalities",
-    fill = "Type of storm" 
+    y = "# of storms",
+    fill = "Type of storm",
+    caption = "Note the difference in scale between total storms and fatal storms."
   ) +
-   theme(legend.key.size = unit(1, "cm"),
-         legend.text = element_text(size = 14),
-         legend.title = element_text(size = 16))
+  theme_classic() +
+  theme(legend.key.size = unit(1, "cm"),
+        legend.text = element_text(size = 14),
+        legend.title = element_text(size = 16),
+        plot.caption = element_text(size = 12)) +
+  annotate("text", x = 1990, y = 200,
+           label = "In 2011, there were 79,091 storm/weather events.\n269 (or ~0.34%) of those caused fatalities.",
+           size = 4.5) +
+  annotate("segment", x = 2003, y = 210, xend = 2010.5, yend = 250)
+  
 
 yearlystormtotal <- allstormcount |>
   group_by(YEAR) |>
@@ -147,22 +156,32 @@ propfatal <- yearlystormtotal |>
   mutate(prop = n.y/n.x)
 
 G <- ggplot(propfatal, aes(x = YEAR , y = prop)) +
-  geom_bar(stat = "identity", fill = "#440154") +
+  geom_bar(stat = "identity", fill = "black") +
   labs(
+    title = "Proportion of storms with fatalities",
     x = "Year",
-    y = "% of total storms with fatalities") +
-  scale_y_continuous(labels = scales::label_percent())
+    y = "%") +
+  scale_y_continuous(labels = scales::label_percent()) +
+  theme_classic()
 
 G2 <- ggplot(yearlystormtotal, aes(x = YEAR, y = n)) +
-  geom_bar(stat = "identity", fill = "#440154") +
+  geom_bar(stat = "identity", fill = "black") +
   labs(
+    title = "Total number of storms",
     x = "",
-    y = "Total number of storms"
-  )
-
+    y = "# of storms"
+  ) +
+  theme_classic()
+  
 
 G2 / g3 / G +
-  plot_layout(heights = c(2, 4, 2))
+  plot_layout(heights = c(2, 4, 2)) +
+  plot_annotation(
+    title = "Storms in the United States",
+    subtitle = "1950-2026, NOAA\n",
+    theme = theme(plot.title = element_text(size = 20, face = "bold"), 
+                  plot.subtitle = element_text(size = 15))
+  ) 
 
 
 ```
