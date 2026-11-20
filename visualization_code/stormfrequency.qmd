@@ -1,6 +1,6 @@
 ---
 title: "Storm Frequency visualization"
-author: ""
+author: "Max Sugarman"
 date: "2026-10-25"
 format: pdf
 ---
@@ -27,6 +27,7 @@ library(sf)
 library(viridis)
 library(gganimate)
 library(gifski)
+library(patchwork)
 ```
 
 
@@ -42,7 +43,21 @@ stormdetails <- read.csv("../data/storm_details.csv")
 
 ```{r}
 
+stormsimple2 <- stormdetails |>
+  count(EVENT_TYPE, sort = TRUE)
 
+g0 <- ggplot(data = stormsimple2, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
+  geom_bar(stat = "identity", aes(color = EVENT_TYPE, fill = EVENT_TYPE)) +
+  coord_flip() +
+  guides(color = "none", 
+         fill = "none")
+
+g0
+
+```
+
+
+```{r}
 stormsimple <- fatalstormdata |>
   mutate(EVENT_TYPE = fct_collapse(EVENT_TYPE,
                                   Floods = c("Flood", "Flash Flood"),
@@ -52,8 +67,6 @@ stormsimple <- fatalstormdata |>
   count(EVENT_TYPE, sort = TRUE)
   
 
-stormsimple2 <- stormdetails |>
-  count(EVENT_TYPE, sort = TRUE)
 
 g <- ggplot(data = stormsimple, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
   geom_bar(stat = "identity", aes(color = EVENT_TYPE, fill = EVENT_TYPE)) +
@@ -70,18 +83,17 @@ fatalstormcount <- fatalstormdata |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
-  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") |>
+  mutate(YEAR = as.integer(fatalstormcount$YEAR))
 
 allstormcount <- stormdetails |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
-  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",")
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") |>
+  mutate(YEAR = as.integer(allstormcount$YEAR))
 
-stormgif <- fatalstormcount |>
-  mutate(YEAR = as.integer(fatalstormcount$YEAR))
-
-g2 <- ggplot(stormgif, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
+g2 <- ggplot(fatalstormcount, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
   geom_bar(stat = "identity") +
   coord_flip() +
   guides(fill = "none", color = "none") +
@@ -92,13 +104,17 @@ g2 <- ggplot(stormgif, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVE
        y = "Number of events") +
   ease_aes("linear")
 
-animate(g2)
+animate(g2, fps = 10)
 
 ```
 
-```{r}
 
-stormidk <- stormgif |>
+
+```{r}
+#| fig.height = 10
+
+
+stormbar <- fatalstormcount |>
   mutate(lesstypes = fct_collapse(EVENT_TYPE,
                                   Floods = c("Flood", "Flash Flood"),
                                   Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
@@ -106,11 +122,47 @@ stormidk <- stormgif |>
                                   Other = c("Waterspout", "Dust Devil", "Debris Flow", "Funnel Cloud")))
   
 
-g3 <- ggplot(stormidk, aes(x = YEAR, y = n, fill = lesstypes)) +
+g3 <- ggplot(stormbar, aes(x = YEAR, y = n, fill = lesstypes)) +
   geom_bar(stat = "identity", position = "stack") +
-  scale_fill_viridis(discrete = TRUE, begin = 0.2, end = 1, option = "A")
+  scale_fill_viridis(discrete = TRUE, begin = 0.2, end = 1, option = "A") +
+  labs(
+    x = "",
+    y = "Number of storms with fatalities",
+    fill = "Type of storm" 
+  ) +
+   theme(legend.key.size = unit(1, "cm"),
+         legend.text = element_text(size = 14),
+         legend.title = element_text(size = 16))
 
-g3
+yearlystormtotal <- allstormcount |>
+  group_by(YEAR) |>
+  summarise(n = sum(n))
+
+yearlyfataltotal <- fatalstormcount |>
+  group_by(YEAR) |>
+  summarise(n = sum(n))
+
+propfatal <- yearlystormtotal |>
+  inner_join(yearlyfataltotal, by = join_by(YEAR == YEAR)) |>
+  mutate(prop = n.y/n.x)
+
+G <- ggplot(propfatal, aes(x = YEAR , y = prop)) +
+  geom_bar(stat = "identity", fill = "#440154") +
+  labs(
+    x = "Year",
+    y = "% of total storms with fatalities") +
+  scale_y_continuous(labels = scales::label_percent())
+
+G2 <- ggplot(yearlystormtotal, aes(x = YEAR, y = n)) +
+  geom_bar(stat = "identity", fill = "#440154") +
+  labs(
+    x = "",
+    y = "Total number of storms"
+  )
+
+
+G2 / g3 / G +
+  plot_layout(heights = c(2, 4, 2))
 
 
 ```
