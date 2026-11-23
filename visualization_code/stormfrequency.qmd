@@ -23,7 +23,6 @@ library(dplyr)
 library(hms)
 library(readr)
 library(sf)
-#library(tmap)
 library(viridis)
 library(gganimate)
 library(gifski)
@@ -35,76 +34,23 @@ library(patchwork)
 
 fatalstormdata <- read.csv("../data/FINAL_wrangled_storm.csv")
 
-stormcount <- read.csv("../data/stormcount.csv")
+fatalstormcount <- read.csv("../data/stormcount.csv")
 
 stormdetails <- read.csv("../data/storm_details.csv")
 
 ```
 
-```{r}
-
-stormsimple2 <- stormdetails |>
-  count(EVENT_TYPE, sort = TRUE)
-
-g0 <- ggplot(data = stormsimple2, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
-  geom_bar(stat = "identity", aes(color = EVENT_TYPE, fill = EVENT_TYPE)) +
-  coord_flip() +
-  guides(color = "none", 
-         fill = "none")
-
-g0
-
-```
-
-
-```{r}
-stormsimple <- fatalstormdata |>
-  mutate(EVENT_TYPE = fct_collapse(EVENT_TYPE,
-                                  Floods = c("Flood", "Flash Flood"),
-                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
-                                  Lightning = c("Lightning", "Marine Lightning"),
-                                  Other = c("Waterspout", "Dust Devil", "Debris Flow", "Funnel Cloud"))) |>
-  count(EVENT_TYPE, sort = TRUE)
-  
-
-
-g <- ggplot(data = stormsimple, aes(x = fct_reorder(EVENT_TYPE, n), y = n)) +
-  geom_bar(stat = "identity", aes(color = EVENT_TYPE, fill = EVENT_TYPE)) +
-  coord_flip() +
-  guides(color = "none", 
-         fill = "none")
-
-g
-```
 
 ```{r}
 
-fatalstormcount <- fatalstormdata |>
+#put this into wrangling file and then i can delete the storm_details thing
+allstormcount0 <- stormdetails |>
   select(YEAR, EVENT_TYPE) |>
   unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
   count(storm) |>
-  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") |>
-  mutate(YEAR = as.integer(fatalstormcount$YEAR))
-
-allstormcount <- stormdetails |>
-  select(YEAR, EVENT_TYPE) |>
-  unite(storm, YEAR, EVENT_TYPE, sep = ",") |>
-  count(storm) |>
-  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") |>
-  mutate(YEAR = as.integer(allstormcount$YEAR))
-
-g2 <- ggplot(fatalstormcount, aes(x = EVENT_TYPE, y = n, fill = EVENT_TYPE, color = EVENT_TYPE)) +
-  geom_bar(stat = "identity") +
-  coord_flip() +
-  guides(fill = "none", color = "none") +
-  transition_time(YEAR) +
-  labs(title = "Number of fatal storms by type from 1950-2026",
-       subtitle = "Year: {frame_time}",
-       x = " ",
-       y = "Number of events") +
-  ease_aes("linear")
-
-animate(g2, fps = 10)
+  separate(storm, into = c("YEAR", "EVENT_TYPE"), sep = ",") 
+allstormcount <- allstormcount0 |>
+  mutate(YEAR = as.integer(allstormcount0$YEAR))
 
 ```
 
@@ -113,36 +59,20 @@ animate(g2, fps = 10)
 ```{r}
 #| fig.height = 10
 
-
+#limiting event type categories
 stormbar <- fatalstormcount |>
   mutate(lesstypes = fct_collapse(EVENT_TYPE,
                                   Floods = c("Flood", "Flash Flood"),
-                                  Winds = c("Thunderstorm Wind", "Marine Thunderstorm Wind", "Marine Strong Wind", "Marine High Wind"),
+                                  Winds = c("Thunderstorm Wind", 
+                                            "Marine Thunderstorm Wind", 
+                                            "Marine Strong Wind", 
+                                            "Marine High Wind"),
                                   Lightning = c("Lightning", "Marine Lightning"),
                                   Other = c("Waterspout", "Dust Devil", "Debris Flow", "Funnel Cloud")))
   
 
-g3 <- ggplot(stormbar, aes(x = YEAR, y = n, fill = lesstypes)) +
-  geom_bar(stat = "identity", position = "stack") +
-  scale_fill_viridis(discrete = TRUE, begin = 0.1, end = 0.9, option = "A") +
-  labs(
-    title = "Storms causing fatalities",
-    x = "",
-    y = "# of storms",
-    fill = "Type of storm",
-    caption = "Note the difference in scale between total storms and fatal storms."
-  ) +
-  theme_classic() +
-  theme(legend.key.size = unit(1, "cm"),
-        legend.text = element_text(size = 14),
-        legend.title = element_text(size = 16),
-        plot.caption = element_text(size = 12)) +
-  annotate("text", x = 1990, y = 200,
-           label = "In 2011, there were 79,091 storm/weather events.\n269 (or ~0.34%) of those caused fatalities.",
-           size = 4.5) +
-  annotate("segment", x = 2003, y = 210, xend = 2010.5, yend = 250)
-  
-
+#counting up the total number of storms/fatal storms per
+#year for both datasets 
 yearlystormtotal <- allstormcount |>
   group_by(YEAR) |>
   summarise(n = sum(n))
@@ -151,20 +81,48 @@ yearlyfataltotal <- fatalstormcount |>
   group_by(YEAR) |>
   summarise(n = sum(n))
 
+#proportion of total storms that caused fatalities
 propfatal <- yearlystormtotal |>
   inner_join(yearlyfataltotal, by = join_by(YEAR == YEAR)) |>
+  #n.y is number of fatal storms in a year
+  #n.x is number of total storms in a year
   mutate(prop = n.y/n.x)
 
-G <- ggplot(propfatal, aes(x = YEAR , y = prop)) +
+
+gfatal <- ggplot(stormbar, aes(x = YEAR, y = n, fill = lesstypes)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_viridis(discrete = TRUE, begin = 0.1, end = 0.9, option = "A") +
+  labs(
+    title = "Amount of storms causing fatalities",
+    x = "",
+    y = "# of storms",
+    fill = "Type of storm",
+    caption = "Note the difference in scale between total storms and fatal storms."
+  ) +
+  theme_classic() +
+  #resizing legend and caption
+  theme(legend.key.size = unit(1, "cm"),
+        legend.text = element_text(size = 14),
+        legend.title = element_text(size = 16),
+        plot.caption = element_text(size = 12)) +
+  #adding annotation to clarify relationship btwn graphs
+  annotate("text", x = 1990, y = 200,
+           label = "In 2011, there were 79,091 storm/weather events.\n269 (or ~0.34%) of those caused fatalities.",
+           size = 4.5) +
+  annotate("segment", x = 2003, y = 210, xend = 2010.5, yend = 250)
+  
+
+gprop <- ggplot(propfatal, aes(x = YEAR , y = prop)) +
   geom_bar(stat = "identity", fill = "black") +
   labs(
-    title = "Proportion of storms with fatalities",
+    title = "Proportion of storms causing fatalities",
     x = "Year",
     y = "%") +
+  #changing y axis to show as percentages
   scale_y_continuous(labels = scales::label_percent()) +
   theme_classic()
 
-G2 <- ggplot(yearlystormtotal, aes(x = YEAR, y = n)) +
+gtotal <- ggplot(yearlystormtotal, aes(x = YEAR, y = n)) +
   geom_bar(stat = "identity", fill = "black") +
   labs(
     title = "Total number of storms",
@@ -173,8 +131,8 @@ G2 <- ggplot(yearlystormtotal, aes(x = YEAR, y = n)) +
   ) +
   theme_classic()
   
-
-G2 / g3 / G +
+#using patchwork package to lay out all 3 plots as one 
+gtotal / gfatal / gprop +
   plot_layout(heights = c(2, 4, 2)) +
   plot_annotation(
     title = "Storms in the United States",
