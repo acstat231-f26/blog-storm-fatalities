@@ -285,7 +285,32 @@ ggplotly(damage_year_graph)
 ```{r}
 #total property damage per state, showing which storms are causing this
 
-damages_state_graph <- damages_state |>
+#determining states with highest property damage
+state_damage <- damages_state |>
+  filter(!is.na(total_property)) |>
+  filter_out(total_property == "0") |>
+  group_by(STATE) |>
+  summarize(
+    sum = sum(total_property)
+  )|>
+  arrange(desc(sum))
+  
+damages_state_graph_1 <- damages_state |>
+  filter(!is.na(total_property)) |>
+  filter_out(total_property == "0") |>
+  select()
+  ggplot(aes(x = STATE, y = total_property, fill = EVENT_TYPE2)) +
+  geom_col(position = "stack") +
+  scale_fill_viridis_d() +
+  theme(axis.text.x = element_text(angle = 45)) +
+  labs(
+    x = "State",
+    y = "Total Property Damage",
+    fill = "Storm Type"
+  )
+ggplotly(damages_state_graph_1)
+
+damages_state_graph_2 <- damages_state |>
   filter(!is.na(total_property)) |>
   filter_out(total_property == "0") |>
   ggplot(aes(x = STATE, y = total_property, fill = EVENT_TYPE2)) +
@@ -297,7 +322,7 @@ damages_state_graph <- damages_state |>
     y = "Total Property Damage",
     fill = "Storm Type"
   )
-ggplotly(damages_state_graph)
+ggplotly(damages_state_graph_2)
 ```
 
 ```
