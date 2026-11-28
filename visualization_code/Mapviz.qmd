@@ -64,13 +64,13 @@ storm_time <- read_csv("../data/FINAL_wrangled_storm.csv") |>
       "Deaths: ", deaths)) |>                                
   st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326)      
 
-storm_color <- colorFactor("viridis", domain = storm_time$EVENT_TYPE)
+storm_color <- colorFactor("magma", domain = storm_time$EVENT_TYPE)
 
 leaflet() |>
    addTiles() |>
   addTimeslider(
     data = storm_time,
-    radius = ~ 3 + sqrt(deaths) * 2,              
+    radius = ~ sqrt(deaths) * 2,              
     color = ~ storm_color(EVENT_TYPE),
     fillColor = ~ storm_color(EVENT_TYPE),
     weight = 1,
