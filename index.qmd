@@ -182,9 +182,42 @@ The syntax "[ [1], [1,1] ]" indicates that we have three pieces of content that 
 
 ::: {layout="[ [1], [1,1] ]"}
 
-### Row 1 with only one output
+### Row 1 Spatial Storm Map
 
-Some content
+```{r}
+storm_time <- read_csv("../data/FINAL_wrangled_storm.csv") |>
+  filter(contiguous_us) |>
+  arrange(fatality_date) |> 
+  mutate(
+    popup_text = paste0(
+      "<b>", EVENT_TYPE, "</b><br>",
+      YEAR, "<br>",
+      country_zone, ", ", 
+      STATE, "<br>",
+      "Deaths: ", deaths)) |>                                
+  st_as_sf(coords = c("BEGIN_LON", "BEGIN_LAT"), crs = 4326)      
+
+storm_color <- colorFactor("magma", domain = storm_time$EVENT_TYPE)
+
+leaflet() |>
+   addTiles() |>
+  addTimeslider(
+    data = storm_time,
+    radius = ~ sqrt(deaths) * 2,              
+    color = ~ storm_color(EVENT_TYPE),
+    fillColor = ~ storm_color(EVENT_TYPE),
+    weight = 1,
+    opacity = 0.8,
+    fillOpacity = 0.5,
+    popup = ~ popup_text,
+    options = timesliderOptions(
+      position = "topright",
+      timeAttribute = "fatality_date",                         
+      range = TRUE                            
+    )
+  ) |>
+  setView(lng = -96, lat = 38, zoom = 4)
+```
 
 
 ### First column of row 2
